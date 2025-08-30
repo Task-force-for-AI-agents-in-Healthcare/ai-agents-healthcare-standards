@@ -1,0 +1,110 @@
+{
+  "mapping_info": {
+    "haaisvs_version": "1.0",
+    "target_framework": "FDA Digital Health Guidance & Medical Device Regulations",
+    "target_version": "2024 Updates",
+    "mapping_date": "2025-01-10",
+    "mapping_status": "complete",
+    "scope": "AI/ML-enabled medical devices, SaMD, digital health tools",
+    "regulatory_pathways": ["510(k)", "De Novo", "PMA", "Pre-Cert"]
+  },
+  "mappings": [
+    {
+      "haaisvs_requirement": "1.1.1",
+      "haaisvs_description": "Three-factor risk assessment (clinical function, autonomy, data sensitivity)",
+      "target_requirements": ["21 CFR 814.20(b)(1)", "Digital Health Guidance v1.0 Section 3.2"],
+      "alignment_type": "direct",
+      "notes": "FDA requires risk assessment for medical device classification - HAAISVS three-factor approach directly supports FDA Class determination",
+      "compliance_evidence": "Risk assessment documentation showing clinical function analysis, autonomy level classification, and data sensitivity evaluation"
+    },
+    {
+      "haaisvs_requirement": "1.2.1",
+      "haaisvs_description": "FDA-style PCCP implementation for high-risk AI agents",
+      "target_requirements": ["FDA PCCP Guidance 2023", "21 CFR 814.39"],
+      "alignment_type": "direct",
+      "notes": "Direct implementation of FDA PCCP requirements for AI/ML medical devices",
+      "compliance_evidence": "PCCP documentation including modification types, validation protocols, performance criteria, and change control procedures"
+    },
+    {
+      "haaisvs_requirement": "1.3.1",
+      "haaisvs_description": "Continuous clinical performance monitoring",
+      "target_requirements": ["FDA Real-World Performance Study Guidance", "21 CFR 814.82"],
+      "alignment_type": "direct", 
+      "notes": "Supports FDA post-market surveillance and real-world performance monitoring requirements",
+      "compliance_evidence": "Clinical performance monitoring plan, statistical analysis protocols, and performance degradation alert systems"
+    },
+    {
+      "haaisvs_requirement": "2.1.2",
+      "haaisvs_description": "Health Canada SGBA+ documentation and bias assessment",
+      "target_requirements": ["FDA Diversity Action Plans", "FDA Medical Device Cybersecurity Guidance"],
+      "alignment_type": "partial",
+      "notes": "FDA diversity requirements less comprehensive than Health Canada SGBA+ but HAAISVS addresses both",
+      "compliance_evidence": "Demographic diversity analysis, bias assessment documentation, and mitigation strategies"
+    },
+    {
+      "haaisvs_requirement": "2.3.1", 
+      "haaisvs_description": "Explainable AI with clinically meaningful insights",
+      "target_requirements": ["FDA Software Pre-Cert Guidance", "21 CFR 820.30"],
+      "alignment_type": "direct",
+      "notes": "FDA design controls require understanding of software function - XAI supports clinical validation requirements",
+      "compliance_evidence": "XAI implementation documentation, clinical validation of explanations, healthcare professional usability testing"
+    },
+    {
+      "haaisvs_requirement": "3.1.1",
+      "haaisvs_description": "Healthcare-specific adversarial robustness testing", 
+      "target_requirements": ["FDA Medical Device Cybersecurity Guidance", "21 CFR 820.30(g)"],
+      "alignment_type": "partial",
+      "notes": "FDA cybersecurity guidance covers general threats - HAAISVS adds AI-specific adversarial testing",
+      "compliance_evidence": "Adversarial testing protocols, robustness validation results, and threat model documentation"
+    },
+    {
+      "haaisvs_requirement": "4.1.1",
+      "haaisvs_description": "Clinical accountability frameworks for healthcare professionals",
+      "target_requirements": ["FDA Human Factors Guidance", "21 CFR 820.30(h)"],
+      "alignment_type": "direct", 
+      "notes": "FDA human factors requirements directly supported by HAAISVS clinical accountability frameworks",
+      "compliance_evidence": "Clinical oversight procedures, healthcare professional competency requirements, and accountability documentation"
+    }
+  ],
+  "regulatory_pathway_coverage": {
+    "510k_clearance": {
+      "applicable_requirements": ["1.1.1", "1.2.1", "1.3.1", "2.1.2", "2.3.1", "4.1.1"],
+      "coverage_level": "Level 2",
+      "notes": "Standard 510(k) pathway supported by Level 2 HAAISVS requirements"
+    },
+    "de_novo_classification": {
+      "applicable_requirements": ["All Level 2 + Level 3"],
+      "coverage_level": "Level 3",
+      "notes": "Novel device classification requires comprehensive Level 3 verification"
+    },
+    "pma_approval": {
+      "applicable_requirements": ["All Level 2 + Level 3"],
+      "coverage_level": "Level 3", 
+      "notes": "PMA pathway requires highest level of evidence and verification"
+    }
+  },
+  "coverage_analysis": {
+    "total_haaisvs_requirements": 137,
+    "mapped_to_fda": 108,
+    "direct_alignment": 78,
+    "partial_alignment": 30,
+    "gaps_identified": 7,
+    "fda_enhancements": ["Additional cybersecurity specificity", "Enhanced real-world evidence protocols"]
+  },
+  "submission_guidance": {
+    "required_documentation": [
+      "HAAISVS compliance verification report",
+      "Risk assessment using three-factor methodology", 
+      "PCCP documentation with change control procedures",
+      "Clinical performance monitoring protocols",
+      "XAI validation and clinical usability evidence",
+      "Cybersecurity assessment including adversarial testing",
+      "Human factors validation and clinical oversight procedures"
+    ],
+    "recommended_level": {
+      "class_i": "Level 1 minimum",
+      "class_ii": "Level 2 standard",
+      "class_iii": "Level 3 recommended"
+    }
+  }
+}

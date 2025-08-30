@@ -1,0 +1,72 @@
+---
+standard_name: "Healthcare AI Agents Security Verification Standard"
+acronym: "HAAISVS"
+version: "1.0"
+release_date: "2025-01-10"
+status: "First Public Release"
+
+organization:
+  name: "Task Force for AI Agents in Healthcare"
+  website: "https://aiagents-healthcare-standards.org"
+  github: "https://github.com/Task-force-for-AI-agents-in-Healthcare/ai-agents-healthcare-standards"
+
+license:
+  type: "Creative Commons Attribution-ShareAlike 4.0 International License"
+  url: "https://creativecommons.org/licenses/by-sa/4.0/"
+
+scope:
+  focus: "Autonomous AI agents in healthcare environments"
+  audience: 
+    - "Healthcare organizations"
+    - "AI developers and MLOps engineers"  
+    - "Regulatory affairs professionals"
+    - "Healthcare security professionals"
+    - "Clinical safety officers"
+    - "Medical device manufacturers"
+
+regulatory_alignment:
+  - "FDA Total Product Lifecycle & PCCP"
+  - "EU AI Act High-Risk Classification"
+  - "Health Canada SGBA+ Framework"
+  - "UK MHRA AI Airlock"
+  - "NIST AI RMF"
+  - "WHO GI-AI4H"
+  - "ISO/IEC 42001"
+  - "OWASP AISVS"
+
+verification_levels:
+  - level: 1
+    description: "Foundation - Critical healthcare AI agent security requirements"
+    target: "All healthcare AI agents in clinical environments"
+  - level: 2
+    description: "Advanced - Enhanced security for high-risk clinical applications"
+    target: "AI agents handling critical patient decisions"
+  - level: 3
+    description: "Expert - Comprehensive security for complex autonomous systems"
+    target: "Multi-agent systems and research-grade AI applications"
+
+core_categories:
+  - id: "C1"
+    name: "Unified Risk & Lifecycle Assessment"
+    description: "FDA PCCP compliance, EU AI Act alignment, continuous monitoring"
+    regulatory_focus: "FDA, EU AI Act, Health Canada"
+  - id: "C2"
+    name: "AI Model Passport & Traceability"
+    description: "Complete lifecycle documentation, XAI, audit compliance"
+    regulatory_focus: "All jurisdictions - traceability requirement"
+  - id: "C3"
+    name: "Proactive Cybersecurity Framework"
+    description: "AISVS-aligned security, adversarial robustness, threat monitoring"
+    regulatory_focus: "NIST, OWASP, healthcare cybersecurity"
+  - id: "C4"
+    name: "Human-in-the-Loop Oversight"
+    description: "Clinical integration, human factors, accountability"
+    regulatory_focus: "WHO, clinical workflow standards"
+
+healthcare_specializations:
+  - "Patient safety and clinical decision support"
+  - "Medical device regulatory compliance"
+  - "Healthcare data privacy (HIPAA, GDPR)"
+  - "Clinical human factors and usability"
+  - "Medical AI supply chain security"
+---
