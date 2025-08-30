@@ -203,10 +203,9 @@ We welcome contributions from healthcare professionals, AI developers, regulator
 
 ## 📞 Support & Contact
 
-- **Technical Support**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
-- **Regulatory Guidance**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
-- **Security Issues**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
-- **Partnership Inquiries**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
+**All Inquiries**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
+
+*Technical support, regulatory guidance, security issues, and partnership inquiries*
 
 ## ⚖️ License
 
