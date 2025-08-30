@@ -28,43 +28,46 @@ AI agents are **autonomous, goal-directed systems** that:
 **Traditional AI**: Input → Prediction → Human Decision  
 **AI Agents**: Input → Autonomous Planning → Direct Action → Continuous Learning
 
-## 🏛️ The Unified Framework: Seven Comprehensive Categories
+## 🏛️ The Enhanced Framework: Eight Comprehensive Categories
 
-Based on comprehensive analysis of global regulatory approaches and insights from our Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders, our framework establishes **seven comprehensive verification categories** for AI agent governance in healthcare:
+Based on comprehensive analysis of global regulatory approaches and insights from our Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders, our framework establishes **eight comprehensive verification categories** for AI agent governance in healthcare, with recent FDA priority enhancements addressing tool-enabled agent regulatory pathways:
 
-### 🔐 **Standard 1: Unified Risk & Lifecycle Assessment**
-**Hybrid EU-FDA Model for Continuous Governance**
+### 🔐 **C1: Unified Risk & Lifecycle Assessment**
+**Enhanced FDA-EU Model with SaMD Classification & 510(k) Pathway**
 
-- **High-Risk Classification**: All clinical AI agents automatically classified as "High-Risk" under EU AI Act framework
-- **Mandatory PCCP**: FDA-style Predetermined Change Control Plans required for all agents
+- **SaMD Risk Mapping**: Four-tier classification system (Class I-IV) based on healthcare decision state and situation severity
+- **FDA 510(k) Predicate Analysis**: Comprehensive substantial equivalence determination for clearance pathway
+- **Enhanced PCCP**: FDA-style Predetermined Change Control Plans with clinical evidence requirements
+- **Clinical Evidence Scaling**: Risk-based evidence requirements from analytical validation to randomized controlled trials
 - **Continuous Monitoring**: Real-time surveillance for model drift and performance degradation
 - **Regulatory Sandboxes**: UK MHRA-style testing environments for real-world evidence generation
 
-### 📋 **Standard 2: Mandatory AI Model Passport**
-**Complete Lifecycle Traceability & Accountability**
+### 📋 **C2: Model Passport & Traceability**
+**Complete Lifecycle Documentation & Accountability**
 
 - **Data Lineage**: Full provenance tracking with Health Canada SGBA+ diversity analysis
 - **Model Lineage**: Comprehensive documentation of algorithms, training, and updates
 - **Decision Lineage**: Explainable AI audit trails for every agent output
 - **Machine-Interpretable**: Automated compliance verification and regulatory reporting
 
-### 🛡️ **Standard 3: Proactive Cybersecurity Framework**
-**AI-Specific Threat Protection**
+### 🛡️ **C3: Proactive Cybersecurity Framework**
+**OWASP AISVS-Aligned AI-Specific Threat Protection**
 
+- **AISVS Primary Reference**: Organizations align with OWASP Artificial Intelligence Security Verification Standard
 - **Adversarial Robustness**: Mandatory testing against prompt injection and evasion attacks
 - **Supply Chain Integrity**: Full vetting of pre-trained models and dependencies
 - **Real-Time Threat Monitoring**: Continuous anomaly detection for agent behavior
-- **OWASP AISVS Compliance**: Industry-standard security verification for agentic systems
+- **Healthcare-Specific Adaptations**: AISVS requirements adapted for clinical environments
 
-### 👤 **Standard 4: Human-in-the-Loop Principle**
-**Augmentation, Not Replacement**
+### 👤 **C4: Human Oversight & Integration**
+**Clinical Augmentation with Accountability**
 
 - **Clear Accountability**: Defined human responsibility chains throughout agent lifecycle
 - **Clinical Oversight**: Human validation required for all critical healthcare decisions
 - **Human Factors Engineering**: Mandatory usability testing to prevent automation bias
 - **Transparency Requirements**: Agent capabilities and limitations clearly communicated to users
 
-### 🆔 **Category 5: Agent Registration & Identity Management**
+### 🆔 **C5: Agent Registration & Identity**
 **Comprehensive Agent Visibility & Control**
 
 - **Healthcare Agent Cataloging**: Centralized registries for all AI agents in clinical environments
@@ -72,7 +75,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Lifecycle Management**: Complete tracking from deployment to decommissioning
 - **Behavioral Monitoring**: Anomaly detection and security event correlation
 
-### 🎛️ **Category 6: Agent Autonomy Levels & Governance**
+### 🎛️ **C6: Autonomy Governance & Control**
 **Progressive Autonomy with Safety Boundaries**
 
 - **Autonomy Classification**: Standardized levels from co-pilot to full autonomous operation
@@ -80,7 +83,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Human-Agent Authority**: Clear decision boundaries and emergency override capabilities
 - **Multi-Agent Coordination**: Governance for coordinated autonomous agent systems
 
-### ⚖️ **Category 7: Bias Mitigation & Population Equity**
+### ⚖️ **C7: Bias Mitigation & Population Equity**
 **Fairness Across All Patient Populations**
 
 - **Demographic Representativeness**: Comprehensive training data diversity requirements
@@ -88,53 +91,72 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Vulnerable Population Protection**: Enhanced safeguards for at-risk patient groups
 - **Global Health Equity**: Considerations for resource-limited and diverse healthcare settings
 
+### 🔧 **C8: Tool Use & Integration Security** ⭐ *FDA Priority Enhancement*
+**Regulatory Compliance for Tool-Enabled Agents**
+
+- **Tool Authorization Controls**: Role-based access with clinical appropriateness validation
+- **Medical Device Integration**: FDA-compliant integration without altering device classification
+- **Clinical Tool Selection**: Evidence-based tool selection with contraindication checking
+- **Cascading Failure Prevention**: Circuit breakers and isolation mechanisms
+- **Regulatory Pathway Analysis**: Tool combination impact on FDA submission requirements
+- **Quality System Integration**: Manufacturing controls for tool-enabled agent development
+
 ## 🚀 Implementation Status
 
 ### ✅ **Phase 1: Foundation (Completed)**
 - [x] **Global Regulatory Analysis** - Comprehensive review of FDA, EU, Health Canada, UK MHRA frameworks
-- [x] **Risk Classification Methodology** - Three-factor assessment (function, autonomy, data sensitivity)
+- [x] **Risk Classification Methodology** - Three-factor assessment with SaMD mapping (function, autonomy, data sensitivity)
 - [x] **Standards Harmonization** - Integration of NIST AI RMF, ISO/IEC 42001, IMDRF GMLP
 - [x] **Stakeholder Engagement** - 40+ healthcare professionals, regulators, and AI developers
+- [x] **FDA Priority Enhancements** - Tool Use framework, 510(k) predicate analysis, clinical evidence scaling
 
-### 🔄 **Phase 2: Standards Development (In Progress)**
-- [ ] **AI Model Passport Specification** - Technical requirements for automated traceability
-- [ ] **PCCP Templates** - Standardized change control plan frameworks  
-- [ ] **Cybersecurity Protocols** - AISVS-aligned security testing procedures
-- [ ] **Human Oversight Guidelines** - Clinical workflow integration standards
+### 🔄 **Phase 2: Enhanced Standards Development (Accelerated)**
+- [x] **C1 Risk & Lifecycle Enhancement** - SaMD classification, FDA 510(k) pathway, clinical evidence requirements
+- [x] **C8 Tool Use Framework** - Complete regulatory compliance for tool-enabled agents
+- [x] **C3 AISVS Alignment** - OWASP security standard integration as primary reference
+- [x] **PCCP Templates** - FDA-style Predetermined Change Control Plan frameworks with tool considerations
+- [ ] **AI Model Passport Specification** - Technical requirements for automated traceability (75% complete)
+- [ ] **Cybersecurity Implementation Tools** - AISVS-aligned security testing automation (60% complete)
+- [ ] **Human Oversight Guidelines** - Clinical workflow integration standards with tool supervision
 - [ ] **Regulatory Sandbox Framework** - Real-world testing environment specifications
 
-### 📋 **Phase 3: Validation & Adoption (Planned)**
-- [ ] **Pilot Implementation Programs** - Partnership with healthcare organizations
-- [ ] **Compliance Assessment Tools** - Automated verification and reporting systems
-- [ ] **Certification Framework** - Industry-recognized AI agent safety credentials
-- [ ] **Global Regulatory Alignment** - WHO GI-AI4H integration and international adoption
+### 🎯 **Phase 2.5: FDA Compliance Integration (New - In Progress)**
+- [x] **Breakthrough Device Pathway** - Guidance for novel tool-enabled agent applications
+- [x] **Quality System Integration** - Manufacturing controls for tool-enabled agents
+- [ ] **Labeling Requirements** - Comprehensive tool capability communication standards
+- [ ] **International Harmonization** - EU MDR and global framework alignment with tool considerations
+- [ ] **AI/ML Change Control** - Continuous learning system governance for tool-enabled agents
 
-## 📁 Standards-Based Repository Structure
+### 📋 **Phase 3: Validation & Adoption (Enhanced Scope)**
+- [ ] **Tool-Enabled Agent Pilot Programs** - Partnership with healthcare organizations for multi-tool agent testing
+- [ ] **FDA Submission Templates** - Regulatory documentation for tool-enabled agents
+- [ ] **Compliance Assessment Tools** - Automated verification and reporting systems with tool usage monitoring
+- [ ] **Certification Framework** - Industry-recognized AI agent safety credentials with tool specialization
+- [ ] **Global Regulatory Alignment** - WHO GI-AI4H integration with tool governance principles
 
-Our repository is organized around the **four core standards** and the **NIST AI RMF governance model** (Govern, Map, Measure, Manage):
+## 📁 HAAISVS-Based Repository Structure
+
+Our repository is organized around the **HAAISVS (Healthcare AI Agents Security Verification Standard)** framework with **eight comprehensive categories** and the **NIST AI RMF governance model** (Govern, Map, Measure, Manage):
 
 ```
-├── standards/                    # Four Core Standards Implementation
-│   ├── 01-risk-lifecycle/        # Standard 1: Unified Risk & Lifecycle Assessment
-│   │   ├── risk-classification/  # Three-factor risk assessment methodology
-│   │   ├── pccp-templates/       # FDA-style Predetermined Change Control Plans
-│   │   ├── monitoring/           # Continuous surveillance frameworks
-│   │   └── sandboxes/            # Regulatory testing environment specs
-│   ├── 02-model-passport/        # Standard 2: AI Model Passport
-│   │   ├── data-lineage/         # SGBA+ provenance tracking
-│   │   ├── model-lineage/        # Algorithm and training documentation
-│   │   ├── decision-lineage/     # Explainable AI audit trails
-│   │   └── automation/           # Machine-interpretable specifications
-│   ├── 03-cybersecurity/         # Standard 3: Proactive Cybersecurity
-│   │   ├── adversarial-testing/  # Robustness against AI-specific attacks
-│   │   ├── supply-chain/         # Pre-trained model integrity verification
-│   │   ├── threat-monitoring/    # Real-time anomaly detection
-│   │   └── aisvs-compliance/     # OWASP AISVS implementation guides
-│   └── 04-human-oversight/       # Standard 4: Human-in-the-Loop
-│       ├── accountability/       # Responsibility chain definitions
-│       ├── clinical-oversight/   # Healthcare decision validation
-│       ├── human-factors/        # Usability and bias prevention
-│       └── transparency/         # Agent capability communication
+├── HAAISVS/                      # Healthcare AI Agents Security Verification Standard
+│   └── 1.0/                     # Version 1.0 Complete Framework
+│       ├── en/                  # English Language Version
+│       │   ├── 0x10-C01-Risk-Lifecycle-Assessment.md         # Enhanced with SaMD & 510(k)
+│       │   ├── 0x10-C02-Model-Passport-Traceability.md       # Complete lineage tracking
+│       │   ├── 0x10-C03-Cybersecurity-Framework.md           # OWASP AISVS aligned
+│       │   ├── 0x10-C04-Human-Oversight.md                   # Clinical integration
+│       │   ├── 0x10-C05-Agent-Registration-Identity.md       # Agent lifecycle management
+│       │   ├── 0x10-C06-Autonomy-Governance.md               # Progressive autonomy
+│       │   ├── 0x10-C07-Bias-Equity-Population.md            # Population fairness
+│       │   ├── 0x10-C08-Tool-Use-Integration.md              # FDA priority enhancement ⭐
+│       │   ├── 0x90-Appendix-A_Glossary.md                   # Complete terminology
+│       │   └── Categories.md                                  # Framework overview
+│       ├── mappings/             # Regulatory Alignment
+│       │   ├── fda-mapping.json  # FDA compliance mapping
+│       │   └── README.md         # Cross-regulatory analysis
+│       ├── templates/            # Implementation Templates
+│       └── tools/                # Automated Assessment Tools
 ├── regulatory-analysis/          # Global Framework Comparative Analysis
 │   ├── fda-pccp/                # FDA Total Product Lifecycle model
 │   ├── eu-ai-act/               # EU tiered risk classification
@@ -147,17 +169,18 @@ Our repository is organized around the **four core standards** and the **NIST AI
 ├── implementation/               # Practical Deployment Guidance
 │   ├── healthcare-organizations/ # Hospital and clinic implementation
 │   ├── ai-developers/           # Development team guidelines
-│   ├── regulatory-affairs/      # Compliance and submission guidance
+│   ├── regulatory-affairs/      # FDA submission guidance
 │   ├── case-studies/            # Real-world implementation examples
 │   └── pilot-programs/          # Testing and validation frameworks
 ├── tools/                       # Compliance and Assessment Utilities
+│   ├── haaisvs-assessor/        # Complete HAAISVS compliance checker
 │   ├── passport-generator/      # AI Model Passport automation
 │   ├── pccp-validator/          # Change control plan verification
-│   ├── risk-assessor/           # Three-factor risk calculation
-│   ├── security-scanner/        # AISVS compliance checker
+│   ├── risk-assessor/           # SaMD and three-factor risk calculation
+│   ├── tool-use-validator/      # C8 tool integration compliance ⭐
 │   └── audit-reporter/          # Regulatory reporting automation
 ├── governance/                  # Task Force Organization & Process
-│   ├── working-groups/          # Specialized domain task forces
+│   ├── working-groups/          # Eight category-specific working groups
 │   ├── decision-process/        # Consensus and approval workflows
 │   ├── stakeholder-engagement/  # Community and regulatory liaison
 │   └── meeting-records/         # Transparent governance documentation
@@ -168,39 +191,68 @@ Our repository is organized around the **four core standards** and the **NIST AI
     └── public-communications/    # Website content and outreach materials
 ```
 
-## 🤝 Standards-Based Contribution Framework
+## 🤝 HAAISVS-Based Contribution Framework
 
-Our contribution model aligns with the **NIST AI RMF governance structure** and the **four core standards**. Contributors can engage across multiple dimensions based on their expertise and the framework's needs.
+Our contribution model aligns with the **NIST AI RMF governance structure** and the **HAAISVS eight categories**. Contributors can engage across multiple dimensions based on their expertise and the framework's needs.
 
 ### 🌟 **Getting Started: Choose Your Impact Area**
 
-#### 🔐 **Standard 1 Contributors: Risk & Lifecycle Assessment**
-**Focus**: FDA PCCP development, EU AI Act compliance, continuous monitoring
-- **Risk Assessment Specialists**: Develop three-factor classification methodologies
-- **Regulatory Affairs Experts**: Create PCCP templates and validation frameworks  
-- **Clinical Safety Officers**: Define continuous monitoring requirements
-- **Sandbox Architects**: Design real-world testing environments
+#### 🔐 **C1: Risk & Lifecycle Assessment Contributors**
+**Focus**: Enhanced FDA compliance, SaMD classification, 510(k) pathway guidance
+- **Risk Assessment Specialists**: Develop SaMD classification and three-factor risk methodologies
+- **Regulatory Affairs Experts**: Create FDA 510(k) predicate analysis and PCCP templates
+- **Clinical Evidence Specialists**: Design risk-scaled evidence generation protocols
+- **Clinical Safety Officers**: Define continuous monitoring requirements with tool considerations
 
-#### 📋 **Standard 2 Contributors: AI Model Passport**
+#### 📋 **C2: Model Passport & Traceability Contributors**
 **Focus**: Traceability automation, explainable AI, audit compliance
-- **Data Scientists**: Build automated lineage tracking systems
+- **Data Scientists**: Build automated lineage tracking systems with SGBA+ integration
 - **MLOps Engineers**: Develop model versioning and documentation frameworks
 - **Compliance Engineers**: Create machine-interpretable audit trails
 - **XAI Researchers**: Implement decision transparency mechanisms
 
-#### 🛡️ **Standard 3 Contributors: Cybersecurity**
-**Focus**: OWASP AISVS compliance, adversarial testing, threat monitoring
-- **AI Security Researchers**: Design adversarial robustness testing protocols
-- **Cybersecurity Analysts**: Develop supply chain integrity verification
-- **Threat Intelligence**: Build real-time anomaly detection systems
-- **AISVS Specialists**: Create security verification standards implementation
+#### 🛡️ **C3: Cybersecurity Framework Contributors**
+**Focus**: OWASP AISVS compliance, healthcare-specific security adaptations
+- **AI Security Researchers**: Design adversarial robustness testing protocols for healthcare
+- **Cybersecurity Analysts**: Develop supply chain integrity verification for medical AI
+- **Threat Intelligence**: Build real-time anomaly detection systems for clinical environments
+- **AISVS Specialists**: Create healthcare-adapted security verification implementations
 
-#### 👤 **Standard 4 Contributors: Human Oversight**
+#### 👤 **C4: Human Oversight Contributors**
 **Focus**: Clinical workflow integration, human factors, accountability
 - **Clinical Workflow Experts**: Define human-AI collaboration protocols
 - **Human Factors Engineers**: Design bias prevention and usability testing
 - **Healthcare Ethicists**: Develop accountability and transparency frameworks
 - **Medical Device UX**: Create clinical interface design standards
+
+#### 🆔 **C5: Agent Registration & Identity Contributors**
+**Focus**: Healthcare agent cataloging, identity management, lifecycle tracking
+- **Healthcare IAM Specialists**: Design agent authentication and authorization systems
+- **Registry Architects**: Build centralized agent cataloging systems
+- **Lifecycle Management Experts**: Create deployment-to-decommissioning tracking
+- **Security Monitoring Engineers**: Develop behavioral anomaly detection systems
+
+#### 🎛️ **C6: Autonomy Governance Contributors**
+**Focus**: Progressive autonomy frameworks, multi-agent coordination
+- **Autonomy Classification Experts**: Define standardized autonomy levels for healthcare
+- **Progressive Implementation Specialists**: Design safety gates for autonomy advancement
+- **Multi-Agent Systems Engineers**: Create coordination governance frameworks
+- **Human-Agent Interface Designers**: Build emergency override and decision boundary systems
+
+#### ⚖️ **C7: Bias Mitigation & Population Equity Contributors**
+**Focus**: Fairness across patient populations, vulnerable group protection
+- **Algorithmic Fairness Researchers**: Develop multi-metric bias detection and mitigation
+- **Healthcare Equity Advocates**: Ensure vulnerable population protection
+- **Demographics Specialists**: Create comprehensive training data diversity requirements
+- **Global Health Experts**: Design resource-limited setting considerations
+
+#### 🔧 **C8: Tool Use & Integration Security Contributors** ⭐ *New FDA Priority*
+**Focus**: Tool-enabled agent regulatory compliance, medical device integration
+- **Medical Device Integration Specialists**: Ensure FDA-compliant tool integration without classification changes
+- **Tool Authorization Architects**: Design role-based tool access with clinical appropriateness
+- **Regulatory Pathway Analysts**: Assess tool combination impact on FDA submissions
+- **Quality System Engineers**: Create manufacturing controls for tool-enabled agents
+- **Cascading Failure Prevention Experts**: Build circuit breakers and isolation mechanisms
 
 ### 📋 **Contribution Pathways by Expertise**
 
