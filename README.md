@@ -51,9 +51,9 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Machine-Interpretable**: Automated compliance verification and regulatory reporting
 
 ### 🛡️ **C3: Proactive Cybersecurity Framework**
-**OWASP AISVS-Aligned AI-Specific Threat Protection**
+**[OWASP AISVS](https://github.com/OWASP/AISVS)-Aligned AI-Specific Threat Protection**
 
-- **AISVS Primary Reference**: Organizations align with OWASP Artificial Intelligence Security Verification Standard
+- **AISVS Primary Reference**: Organizations align with [OWASP Artificial Intelligence Security Verification Standard (AISVS)](https://github.com/OWASP/AISVS)
 - **Adversarial Robustness**: Mandatory testing against prompt injection and evasion attacks
 - **Supply Chain Integrity**: Full vetting of pre-trained models and dependencies
 - **Real-Time Threat Monitoring**: Continuous anomaly detection for agent behavior
@@ -110,7 +110,7 @@ HAAISVS provides **comprehensive mappings** to major regulatory frameworks:
 | **Health Canada SGBA+** | 67% | Comprehensive equity analysis, vulnerable populations |
 | **UK MHRA** | 60% | AI Airlock integration, real-world evidence |
 | **NIST AI RMF** | 88% | Complete 4-function mapping (Govern/Map/Measure/Manage) |
-| **OWASP AISVS** | 56% | Primary cybersecurity reference with healthcare adaptations |
+| **[OWASP AISVS](https://github.com/OWASP/AISVS)** | 56% | Primary cybersecurity reference with healthcare adaptations |
 | **WHO GI-AI4H** | 48% | Global health equity, ethics alignment |
 | **ISO/IEC 42001** | 71% | AI management system certification |
 | **IMDRF GMLP** | 72% | International harmonization foundation |
@@ -218,7 +218,7 @@ HAAISVS is designed for regulatory submissions and compliance across multiple ju
 
 ## 🌟 Recognition
 
-HAAISVS represents unprecedented collaboration between **40+ international experts** from FDA, EMA, Health Canada, UK MHRA, WHO GI-AI4H, NIST AI RMF, OWASP AISVS, and ISO/IEC 42001 communities.
+HAAISVS represents unprecedented collaboration between **40+ international experts** from FDA, EMA, Health Canada, UK MHRA, WHO GI-AI4H, NIST AI RMF, [OWASP AISVS](https://github.com/OWASP/AISVS), and ISO/IEC 42001 communities.
 
 **⭐ Star this repository to support the world's first comprehensive healthcare AI agent security verification standard!**
 
