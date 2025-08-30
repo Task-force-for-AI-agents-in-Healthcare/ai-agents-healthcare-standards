@@ -1,21 +1,21 @@
-# Healthcare AI Agents Security Verification Standard (HAARF)
+# Healthcare AI Agents Regulatory Framework (HAARF)
 
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![Apache 2.0][apache-shield]][apache]
 
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+This work is licensed under the
+[Apache 2.0 License][apache].
 
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+[![Apache 2.0][apache-image]][apache]
 
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg
+[apache]: http://www.apache.org/licenses/LICENSE-2.0
+[apache-image]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+[apache-shield]: https://img.shields.io/badge/License-Apache%202.0-lightgrey
 
 ## Introduction
 
-The **Healthcare AI Agents Security Verification Standard (HAARF)** provides healthcare organizations, AI developers, regulators, and security professionals with a structured compliance framework to evaluate and verify the safety, security, and effectiveness of autonomous AI agents in healthcare settings. 
+The **Healthcare AI Agents Regulatory Framework (HAARF)** provides healthcare organizations, AI developers, regulators, and security professionals with a structured compliance framework to evaluate and verify the safety, security, and regulatory compliance of autonomous AI agents in healthcare settings. 
 
-Built on the foundation of OWASP AISVS methodology and aligned with global regulatory frameworks (FDA, EU AI Act, Health Canada, UK MHRA, NIST AI RMF, WHO GI-AI4H), HAARF defines verification requirements across **seven comprehensive categories** developed through collaboration with the FDA industry committee working group:
+Built on the foundation of OWASP AISVS methodology and aligned with global regulatory frameworks (FDA, EU AI Act, Health Canada, UK MHRA, NIST AI RMF, WHO GI-AI4H), HAARF defines verification requirements across **eight comprehensive categories** developed through collaboration with the FDA industry committee working group:
 
 ## Core Verification Categories
 
@@ -26,6 +26,7 @@ Built on the foundation of OWASP AISVS methodology and aligned with global regul
 5. [**C5: Agent Registration & Identity Management**](1.0/en/0x10-C05-Agent-Registration-Identity.md) - Agent cataloging, authentication, lifecycle tracking
 6. [**C6: Agent Autonomy Levels & Governance**](1.0/en/0x10-C06-Autonomy-Governance.md) - Progressive autonomy, safety boundaries, emergency controls
 7. [**C7: Bias Mitigation & Population Equity**](1.0/en/0x10-C07-Bias-Equity-Population.md) - Fairness across populations, vulnerable patient protection
+8. [**C8: Tool Use & Integration Security**](1.0/en/0x10-C08-Tool-Use-Integration.md) - Tool-enabled agent regulatory compliance, medical device integration **⭐ FDA Priority**
 
 ## Healthcare-Specific Focus Areas
 
@@ -61,14 +62,14 @@ The HAARF project is led by the **Task Force for AI Agents in Healthcare** with 
 
 ## Version History
 
-- **v1.0 (2025)**: Initial release with four core verification categories
+- **v1.0 (2025)**: Initial release with eight comprehensive verification categories including FDA priority C8 Tool Use & Integration Security
 - **v1.1 (Planned)**: Domain-specific healthcare verification requirements (radiology, pathology, clinical decision support)
 - **v2.0 (Planned)**: Integration with emerging healthcare AI technologies and international regulatory updates
 
 ## License
 
-The entire project content is under the **[Creative Commons Attribution-Share Alike v4.0](https://creativecommons.org/licenses/by-sa/4.0/)** license.
+The entire project content is under the **[Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)** license.
 
 ---
 
-**HAARF is the first healthcare-specific AI agent security verification standard, designed to ensure that autonomous AI systems in healthcare environments are safe, secure, transparent, and compliant with global regulatory requirements.**
+**HAARF is the first healthcare-specific AI agent regulatory framework, designed to ensure that autonomous AI systems in healthcare environments are safe, secure, transparent, and compliant with global regulatory requirements.**
