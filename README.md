@@ -266,8 +266,8 @@ For security-related concerns, please email [jim@quome.com] directly rather than
 
 ## 📞 Contact & Support
 
-- **General Questions:** [jim@quome.com]
-- **Technical Issues:** [GitHub Issues]([https://github.com/[org]/ai-agents-healthcare-standards/](https://github.com/Task-force-for-AI-agents-in-Healthcare/ai-agents-healthcare-standards/issues)
+- **General Questions:** jim@quome.com
+- **Technical Issues:** [GitHub Issues](https://github.com/Task-force-for-AI-agents-in-Healthcare/ai-agents-healthcare-standards/issues)
 
 ---
 
