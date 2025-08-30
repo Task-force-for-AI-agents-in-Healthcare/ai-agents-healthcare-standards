@@ -105,15 +105,15 @@ HAAISVS provides **comprehensive mappings** to major regulatory frameworks:
 
 | Framework | Coverage | Key Benefits |
 |-----------|----------|--------------|
-| **FDA Digital Health** | 84% | 510(k) pathway, PCCP templates, breakthrough device guidance |
-| **EU AI Act** | 71% | High-risk classification, human oversight, transparency |
-| **Health Canada SGBA+** | 67% | Comprehensive equity analysis, vulnerable populations |
-| **UK MHRA** | 60% | AI Airlock integration, real-world evidence |
-| **NIST AI RMF** | 88% | Complete 4-function mapping (Govern/Map/Measure/Manage) |
+| **[FDA Digital Health](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence)** | 84% | 510(k) pathway, PCCP templates, breakthrough device guidance |
+| **[EU AI Act](https://artificialintelligenceact.eu/)** | 71% | High-risk classification, human oversight, transparency |
+| **[Health Canada SGBA+](https://cihr-irsc.gc.ca/e/50968.html)** | 67% | Comprehensive equity analysis, vulnerable populations |
+| **[UK MHRA](https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency)** | 60% | AI Airlock integration, real-world evidence |
+| **[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework)** | 88% | Complete 4-function mapping (Govern/Map/Measure/Manage) |
 | **[OWASP AISVS](https://github.com/OWASP/AISVS)** | 56% | Primary cybersecurity reference with healthcare adaptations |
-| **WHO GI-AI4H** | 48% | Global health equity, ethics alignment |
-| **ISO/IEC 42001** | 71% | AI management system certification |
-| **IMDRF GMLP** | 72% | International harmonization foundation |
+| **[WHO GI-AI4H](https://www.who.int/initiatives/global-initiative-on-ai-for-health)** | 48% | Global health equity, ethics alignment |
+| **[ISO/IEC 42001](https://www.iso.org/standard/42001)** | 71% | AI management system certification |
+| **[IMDRF GMLP](https://www.imdrf.org/documents/good-machine-learning-practice-medical-device-development-guiding-principles)** | 72% | International harmonization foundation |
 
 **Multi-Jurisdictional Value**: Single HAAISVS compliance supports regulatory submissions across multiple jurisdictions, reducing regulatory burden and enabling global deployment.
 
