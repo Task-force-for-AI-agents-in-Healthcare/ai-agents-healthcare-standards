@@ -4,7 +4,7 @@
 
 [![Contributors](https://img.shields.io/badge/contributors-40%2B-blue.svg)]()
 [![Status](https://img.shields.io/badge/status-v1.0%20development-yellow.svg)]()
-[![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue)]()
+[![License](https://img.shields.io/badge/license-Apache%20License%202.0-green)]()
 
 ## 🎯 Mission
 
