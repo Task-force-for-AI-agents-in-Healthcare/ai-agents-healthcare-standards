@@ -92,6 +92,6 @@ Each mapping includes:
 
 ---
 
-**Support**: [regulatory@aiagents-healthcare-standards.org](mailto:regulatory@aiagents-healthcare-standards.org)
+**Support**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
 
 **The HAAISVS mappings enable confident deployment of healthcare AI agents across global markets while maintaining highest standards of safety, effectiveness, and regulatory compliance.**
