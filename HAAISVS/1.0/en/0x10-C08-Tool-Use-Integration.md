@@ -112,3 +112,4 @@ Ensure tool-enabled AI agents meet FDA medical device regulatory requirements in
 ---
 
 **Control Category C8 addresses the fundamental capability that differentiates AI agents from traditional AI/ML medical devices: the ability to autonomously select, access, and use multiple healthcare tools and systems while maintaining clinical safety, regulatory compliance, and security throughout the healthcare environment.**
+
