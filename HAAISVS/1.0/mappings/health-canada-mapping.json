@@ -1,0 +1,154 @@
+{
+  "mapping_info": {
+    "haaisvs_version": "1.0",
+    "target_framework": "Health Canada Sex- and Gender-Based Analysis Plus (SGBA+) & Medical Device Regulations",
+    "target_version": "2024 AI/ML Guidance",
+    "mapping_date": "2025-01-10",
+    "mapping_status": "complete",
+    "scope": "Medical device AI/ML, health equity, bias mitigation",
+    "regulatory_pathways": ["Medical Device License", "SGBA+ Assessment", "Class I-IV Classification"]
+  },
+  "mappings": [
+    {
+      "haaisvs_requirement": "1.1.4",
+      "haaisvs_description": "SaMD risk mapping with four-tier classification system",
+      "target_requirements": ["Health Canada SaMD Guidance", "Medical Device Regulations (MDR)"],
+      "alignment_type": "direct",
+      "notes": "Health Canada SaMD classification directly supported by HAAISVS four-tier risk mapping",
+      "compliance_evidence": "SaMD classification documentation, risk categorization evidence, Health Canada pathway determination"
+    },
+    {
+      "haaisvs_requirement": "2.1.2",
+      "haaisvs_description": "Health Canada SGBA+ documentation and bias assessment",
+      "target_requirements": ["SGBA+ Framework", "Health Canada Guidance Document on AI/ML"],
+      "alignment_type": "direct",
+      "notes": "Direct implementation of Health Canada SGBA+ requirements with enhanced intersectional analysis",
+      "compliance_evidence": "SGBA+ analysis documentation, demographic diversity assessment, intersectional bias evaluation"
+    },
+    {
+      "haaisvs_requirement": "1.3.4",
+      "haaisvs_description": "Clinical performance monitoring with Health Canada SGBA+ compliance",
+      "target_requirements": ["Post-market surveillance requirements", "SGBA+ monitoring obligations"],
+      "alignment_type": "direct",
+      "notes": "Continuous SGBA+ compliance monitoring ensures maintained performance across diverse populations",
+      "compliance_evidence": "Population-stratified performance monitoring, SGBA+ compliance tracking, demographic outcome analysis"
+    },
+    {
+      "haaisvs_requirement": "7.1.1",
+      "haaisvs_description": "Training data representativeness with comprehensive demographic coverage",
+      "target_requirements": ["SGBA+ Data Requirements", "Health Canada Diversity Guidelines"],
+      "alignment_type": "enhanced",
+      "notes": "HAAISVS extends Health Canada SGBA+ with enhanced intersectional analysis and global health considerations",
+      "compliance_evidence": "Enhanced demographic representation analysis, intersectional bias assessment, vulnerable population coverage"
+    },
+    {
+      "haaisvs_requirement": "7.2.1",
+      "haaisvs_description": "Algorithmic bias detection with multi-metric fairness assessment",
+      "target_requirements": ["SGBA+ Bias Detection", "Health Equity Framework"],
+      "alignment_type": "enhanced",
+      "notes": "HAAISVS multi-metric approach provides comprehensive bias detection beyond standard SGBA+ requirements",
+      "compliance_evidence": "Multi-metric fairness evaluation, intersectional bias analysis, health equity impact assessment"
+    },
+    {
+      "haaisvs_requirement": "7.4.1",
+      "haaisvs_description": "Vulnerable population protection with enhanced clinical safeguards",
+      "target_requirements": ["SGBA+ Vulnerable Population Guidelines", "Health Equity Standards"],
+      "alignment_type": "direct",
+      "notes": "Vulnerable population protection directly addresses Health Canada SGBA+ equity requirements",
+      "compliance_evidence": "Vulnerable population risk assessment, enhanced safety protocols, equity outcome monitoring"
+    },
+    {
+      "haaisvs_requirement": "7.5.1", 
+      "haaisvs_description": "Global health equity considerations for resource-limited settings",
+      "target_requirements": ["Health Canada Global Health Strategy", "International Development Guidelines"],
+      "alignment_type": "enhanced",
+      "notes": "HAAISVS extends beyond domestic SGBA+ to include global health equity considerations",
+      "compliance_evidence": "Resource-limited setting analysis, global health equity assessment, international deployment considerations"
+    },
+    {
+      "haaisvs_requirement": "4.6.1",
+      "haaisvs_description": "Clinical workflow integration with change management",
+      "target_requirements": ["Health Canada Implementation Guidance", "Clinical Integration Standards"],
+      "alignment_type": "direct",
+      "notes": "Clinical workflow integration supports Health Canada requirements for healthcare system implementation",
+      "compliance_evidence": "Clinical workflow analysis, change management procedures, healthcare professional training documentation"
+    },
+    {
+      "haaisvs_requirement": "8.2.2",
+      "haaisvs_description": "Tool selection safety validation for patient populations",
+      "target_requirements": ["Health Canada Safety Requirements", "Population-Specific Guidelines"],
+      "alignment_type": "direct",
+      "notes": "Tool selection validation ensures patient population safety aligned with Health Canada requirements",
+      "compliance_evidence": "Population-specific tool validation, safety assessment documentation, clinical appropriateness analysis"
+    }
+  ],
+  "sgba_plus_integration": {
+    "identity_factors_coverage": {
+      "sex": "Comprehensive analysis across all categories",
+      "gender": "Gender identity considerations in clinical workflows",
+      "age": "Lifecycle and pediatric/geriatric considerations", 
+      "race_ethnicity": "Demographic representation and bias mitigation",
+      "income": "Resource-limited setting considerations",
+      "education": "Health literacy and accessibility requirements",
+      "language": "Multilingual and cultural adaptation",
+      "geography": "Rural/remote healthcare considerations",
+      "disability": "Accessibility and vulnerable population protection",
+      "sexual_orientation": "Inclusive healthcare delivery"
+    },
+    "intersectional_analysis": {
+      "approach": "Multi-dimensional bias assessment across all identity factors",
+      "methodology": "Statistical parity, equalized odds, and clinical outcome equity",
+      "validation": "Population-stratified performance evaluation",
+      "monitoring": "Continuous intersectional fairness tracking"
+    }
+  },
+  "regulatory_pathway_coverage": {
+    "class_i_medical_device": {
+      "applicable_requirements": ["Level 1 SGBA+ requirements"],
+      "coverage_level": "Level 1",
+      "notes": "Basic SGBA+ compliance for low-risk medical device AI"
+    },
+    "class_ii_medical_device": {
+      "applicable_requirements": ["Level 1-2 comprehensive SGBA+"],
+      "coverage_level": "Level 2", 
+      "notes": "Standard SGBA+ analysis required for moderate-risk devices"
+    },
+    "class_iii_iv_medical_device": {
+      "applicable_requirements": ["Level 2-3 comprehensive including intersectional analysis"],
+      "coverage_level": "Level 3",
+      "notes": "Highest level SGBA+ analysis required for high-risk devices"
+    }
+  },
+  "coverage_analysis": {
+    "total_haaisvs_requirements": 279,
+    "mapped_to_health_canada": 187,
+    "direct_alignment": 134,
+    "enhanced_alignment": 53,
+    "gaps_identified": 2,
+    "health_canada_enhancements": ["Comprehensive intersectional SGBA+ analysis", "Global health equity extension", "Tool use population safety"]
+  },
+  "submission_guidance": {
+    "required_documentation": [
+      "Comprehensive SGBA+ analysis covering all identity factors",
+      "Medical device classification with SaMD categorization",
+      "Intersectional bias assessment and mitigation strategies", 
+      "Vulnerable population protection protocols",
+      "Post-market SGBA+ monitoring plan",
+      "Clinical workflow integration with equity considerations",
+      "Training data demographic analysis and representation validation",
+      "Population-stratified performance evaluation results",
+      "Health equity impact assessment"
+    ],
+    "sgba_plus_checklist": [
+      "Sex and gender considerations documented",
+      "Age-related factors analyzed across lifespan",
+      "Racial and ethnic diversity represented",
+      "Socioeconomic factors considered",
+      "Geographic and cultural variations addressed",
+      "Intersectional analysis completed",
+      "Vulnerable populations specifically protected",
+      "Mitigation strategies implemented for identified biases",
+      "Monitoring plan includes population-stratified metrics"
+    ]
+  }
+}

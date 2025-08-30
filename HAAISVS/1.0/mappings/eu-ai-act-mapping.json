@@ -1,0 +1,128 @@
+{
+  "mapping_info": {
+    "haaisvs_version": "1.0",
+    "target_framework": "EU Artificial Intelligence Act",
+    "target_version": "2024 Implementation",
+    "mapping_date": "2025-01-10",
+    "mapping_status": "complete",
+    "scope": "High-risk AI systems in healthcare, conformity assessments",
+    "regulatory_pathways": ["Conformity Assessment", "CE Marking", "Notified Body Assessment"]
+  },
+  "mappings": [
+    {
+      "haaisvs_requirement": "1.1.1",
+      "haaisvs_description": "Three-factor risk assessment (clinical function, autonomy, data sensitivity)",
+      "target_requirements": ["Article 6 - High-Risk AI Systems", "Annex III - Healthcare Applications"],
+      "alignment_type": "direct",
+      "notes": "EU AI Act requires risk classification - HAAISVS three-factor approach directly supports high-risk determination",
+      "compliance_evidence": "Risk classification documentation demonstrating healthcare AI agent meets high-risk criteria under Annex III"
+    },
+    {
+      "haaisvs_requirement": "1.3.1",
+      "haaisvs_description": "Continuous clinical performance monitoring",
+      "target_requirements": ["Article 61 - Post-market monitoring", "Article 72 - Reporting obligations"],
+      "alignment_type": "direct",
+      "notes": "Direct implementation of EU AI Act post-market monitoring requirements for healthcare AI",
+      "compliance_evidence": "Post-market monitoring system, incident reporting procedures, and performance tracking documentation"
+    },
+    {
+      "haaisvs_requirement": "2.1.1",
+      "haaisvs_description": "Complete data lineage and provenance tracking",
+      "target_requirements": ["Article 10 - Data and data governance", "Article 15 - Accuracy requirements"],
+      "alignment_type": "direct",
+      "notes": "EU AI Act data governance requirements fully addressed by HAAISVS data lineage tracking",
+      "compliance_evidence": "Data governance documentation, training data quality assurance, and bias monitoring systems"
+    },
+    {
+      "haaisvs_requirement": "2.3.1",
+      "haaisvs_description": "Explainable AI with clinically meaningful insights",
+      "target_requirements": ["Article 13 - Transparency obligations", "Article 86 - AI literacy"],
+      "alignment_type": "direct",
+      "notes": "EU transparency requirements for high-risk AI systems directly supported by HAAISVS XAI",
+      "compliance_evidence": "AI system transparency documentation, user information provisions, and explainability validation"
+    },
+    {
+      "haaisvs_requirement": "3.1.1",
+      "haaisvs_description": "Healthcare-specific adversarial robustness testing",
+      "target_requirements": ["Article 15 - Accuracy, robustness and cybersecurity", "Article 43 - Conformity assessment"],
+      "alignment_type": "direct",
+      "notes": "EU robustness requirements enhanced by HAAISVS healthcare-specific adversarial testing",
+      "compliance_evidence": "Robustness testing protocols, adversarial attack resistance validation, cybersecurity assessment"
+    },
+    {
+      "haaisvs_requirement": "4.1.1",
+      "haaisvs_description": "Clinical accountability frameworks for healthcare professionals",
+      "target_requirements": ["Article 14 - Human oversight", "Article 26 - User obligations"],
+      "alignment_type": "direct",
+      "notes": "EU human oversight requirements directly implemented through HAAISVS clinical accountability",
+      "compliance_evidence": "Human oversight procedures, clinical professional competency requirements, override capabilities"
+    },
+    {
+      "haaisvs_requirement": "7.1.1",
+      "haaisvs_description": "Training data representativeness and demographic parity",
+      "target_requirements": ["Article 10 - Data governance", "Article 7 - Amendments to Annex III"],
+      "alignment_type": "direct",
+      "notes": "EU data quality and bias prevention requirements enhanced by HAAISVS population equity measures",
+      "compliance_evidence": "Training data diversity analysis, demographic representation validation, bias mitigation strategies"
+    },
+    {
+      "haaisvs_requirement": "8.1.1",
+      "haaisvs_description": "Role-based tool access controls for healthcare AI agents",
+      "target_requirements": ["Article 16 - Risk management system", "Article 43 - Conformity assessment"],
+      "alignment_type": "partial",
+      "notes": "EU risk management covers general system risks - HAAISVS C8 adds specific tool integration controls",
+      "compliance_evidence": "Tool access control matrix, integration risk assessment, clinical appropriateness validation"
+    },
+    {
+      "haaisvs_requirement": "8.3.1",
+      "haaisvs_description": "Medical device integration maintaining classification integrity",
+      "target_requirements": ["Medical Device Regulation (MDR) 2017/745", "Article 43 - Conformity assessment"],
+      "alignment_type": "direct",
+      "notes": "Tool integration with EU MDR devices requires careful classification management under both AI Act and MDR",
+      "compliance_evidence": "MDR compliance for integrated devices, classification impact analysis, CE marking validation"
+    }
+  ],
+  "regulatory_pathway_coverage": {
+    "conformity_assessment_module_a": {
+      "applicable_requirements": ["Level 1 + Level 2 requirements"],
+      "coverage_level": "Level 2",
+      "notes": "Internal conformity assessment supported by comprehensive HAAISVS verification"
+    },
+    "conformity_assessment_module_b": {
+      "applicable_requirements": ["All Level 2 + Level 3"],
+      "coverage_level": "Level 3",
+      "notes": "Third-party assessment requires highest level of HAAISVS verification evidence"
+    },
+    "ce_marking": {
+      "applicable_requirements": ["All applicable categories"],
+      "coverage_level": "Level 2-3",
+      "notes": "CE marking requires demonstrated compliance across all relevant HAAISVS categories"
+    }
+  },
+  "coverage_analysis": {
+    "total_haaisvs_requirements": 279,
+    "mapped_to_eu_ai_act": 198,
+    "direct_alignment": 156,
+    "partial_alignment": 42,
+    "gaps_identified": 3,
+    "eu_enhancements": ["Enhanced healthcare-specific requirements", "Tool integration governance", "Clinical workflow integration"]
+  },
+  "submission_guidance": {
+    "required_documentation": [
+      "EU AI Act conformity assessment documentation",
+      "High-risk AI system classification evidence",
+      "Post-market monitoring system description",
+      "Data governance and quality assurance procedures",
+      "Human oversight implementation documentation", 
+      "Transparency and explainability validation",
+      "Risk management system including tool integration risks",
+      "Technical documentation per Annex IV",
+      "Instructions for use and user information"
+    ],
+    "recommended_level": {
+      "high_risk_healthcare": "Level 2-3 comprehensive",
+      "limited_risk": "Level 1-2 focused",
+      "minimal_risk": "Level 1 basic"
+    }
+  }
+}

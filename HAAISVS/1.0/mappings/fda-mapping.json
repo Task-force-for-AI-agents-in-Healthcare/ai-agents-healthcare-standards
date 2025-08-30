@@ -64,42 +64,74 @@
       "alignment_type": "direct", 
       "notes": "FDA human factors requirements directly supported by HAAISVS clinical accountability frameworks",
       "compliance_evidence": "Clinical oversight procedures, healthcare professional competency requirements, and accountability documentation"
+    },
+    {
+      "haaisvs_requirement": "8.1.1",
+      "haaisvs_description": "Role-based tool access controls for healthcare AI agents",
+      "target_requirements": ["FDA Medical Device Interoperability Guidance", "21 CFR 820.30"],
+      "alignment_type": "direct",
+      "notes": "Critical FDA priority - tool access controls essential for medical device integration safety",
+      "compliance_evidence": "Tool authorization matrix, clinical appropriateness validation, and access control audit trails"
+    },
+    {
+      "haaisvs_requirement": "8.3.1",
+      "haaisvs_description": "FDA-regulated medical device integration maintaining classification integrity", 
+      "target_requirements": ["FDA Medical Device Interoperability Guidance", "21 CFR 807"],
+      "alignment_type": "direct",
+      "notes": "Directly addresses FDA's highest priority concern - tool integration without altering device classification",
+      "compliance_evidence": "Device classification impact analysis, interoperability validation, safety function verification"
+    },
+    {
+      "haaisvs_requirement": "8.7.1",
+      "haaisvs_description": "Regulatory classification analysis for tool combinations",
+      "target_requirements": ["FDA Device Classification", "510(k) Guidance", "Combination Product Guidance"],
+      "alignment_type": "direct",
+      "notes": "Essential for determining correct FDA submission pathway for tool-enabled agents",
+      "compliance_evidence": "Tool combination regulatory analysis, submission pathway determination, predicate device comparison"
     }
   ],
   "regulatory_pathway_coverage": {
     "510k_clearance": {
-      "applicable_requirements": ["1.1.1", "1.2.1", "1.3.1", "2.1.2", "2.3.1", "4.1.1"],
+      "applicable_requirements": ["1.1.1", "1.2.1", "1.3.1", "2.1.2", "2.3.1", "4.1.1", "8.1.1", "8.3.1", "8.7.1"],
       "coverage_level": "Level 2",
-      "notes": "Standard 510(k) pathway supported by Level 2 HAAISVS requirements"
+      "notes": "Standard 510(k) pathway supported by Level 2 HAAISVS requirements including C8 tool integration"
     },
     "de_novo_classification": {
-      "applicable_requirements": ["All Level 2 + Level 3"],
+      "applicable_requirements": ["All Level 2 + Level 3 including C8"],
       "coverage_level": "Level 3",
-      "notes": "Novel device classification requires comprehensive Level 3 verification"
+      "notes": "Novel device classification requires comprehensive Level 3 verification especially for tool-enabled agents"
     },
     "pma_approval": {
-      "applicable_requirements": ["All Level 2 + Level 3"],
+      "applicable_requirements": ["All Level 2 + Level 3 including C8"],
       "coverage_level": "Level 3", 
-      "notes": "PMA pathway requires highest level of evidence and verification"
+      "notes": "PMA pathway requires highest level of evidence and verification, C8 critical for tool combinations"
+    },
+    "breakthrough_device": {
+      "applicable_requirements": ["All categories with focus on C8.7.7"],
+      "coverage_level": "Level 3",
+      "notes": "Breakthrough pathway specifically addresses novel tool-enabled agent capabilities under C8"
     }
   },
   "coverage_analysis": {
-    "total_haaisvs_requirements": 137,
-    "mapped_to_fda": 108,
-    "direct_alignment": 78,
-    "partial_alignment": 30,
-    "gaps_identified": 7,
-    "fda_enhancements": ["Additional cybersecurity specificity", "Enhanced real-world evidence protocols"]
+    "total_haaisvs_requirements": 279,
+    "mapped_to_fda": 234,
+    "direct_alignment": 185,
+    "partial_alignment": 49,
+    "gaps_identified": 5,
+    "fda_enhancements": ["C8 Tool Use Integration addresses FDA's highest priority regulatory gap", "Enhanced SaMD classification", "510(k) predicate device analysis"]
   },
   "submission_guidance": {
     "required_documentation": [
       "HAAISVS compliance verification report",
-      "Risk assessment using three-factor methodology", 
+      "Risk assessment using three-factor methodology with SaMD classification", 
       "PCCP documentation with change control procedures",
       "Clinical performance monitoring protocols",
       "XAI validation and clinical usability evidence",
       "Cybersecurity assessment including adversarial testing",
-      "Human factors validation and clinical oversight procedures"
+      "Human factors validation and clinical oversight procedures",
+      "Tool integration safety analysis and device classification impact assessment (C8)",
+      "Tool authorization matrix and clinical appropriateness validation (C8)",
+      "Regulatory pathway analysis for tool combinations (C8)"
     ],
     "recommended_level": {
       "class_i": "Level 1 minimum",

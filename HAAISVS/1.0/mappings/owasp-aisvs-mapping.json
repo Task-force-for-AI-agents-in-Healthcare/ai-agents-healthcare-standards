@@ -1,0 +1,178 @@
+{
+  "mapping_info": {
+    "haaisvs_version": "1.0", 
+    "target_framework": "OWASP AI Security Verification Standard (AISVS)",
+    "target_version": "v1.0 (2024)",
+    "mapping_date": "2025-01-10",
+    "mapping_status": "complete",
+    "scope": "AI/ML security verification, healthcare-specific adaptations",
+    "primary_relationship": "C3 Cybersecurity Framework - AISVS as primary reference guide"
+  },
+  "direct_integration": {
+    "c3_aisvs_alignment": {
+      "haaisvs_requirement": "3.4.1",
+      "haaisvs_description": "Organizations align with OWASP AISVS as primary cybersecurity reference guide",
+      "target_requirements": ["All AISVS categories with healthcare adaptations"],
+      "alignment_type": "primary_reference",
+      "notes": "C3 explicitly references AISVS as the primary cybersecurity framework for healthcare AI agents",
+      "implementation": "Healthcare organizations implement AISVS requirements adapted for clinical environments"
+    }
+  },
+  "category_mappings": [
+    {
+      "aisvs_category": "AI-01: Training Data Security",
+      "haaisvs_requirements": ["2.1.1", "2.1.2", "3.2.1", "7.1.1"],
+      "alignment_type": "enhanced",
+      "notes": "HAAISVS enhances AISVS training data security with SGBA+ requirements and healthcare data protection",
+      "healthcare_adaptations": ["PHI protection in training data", "HIPAA/GDPR compliance", "Clinical data lineage tracking"]
+    },
+    {
+      "aisvs_category": "AI-02: Model Supply Chain Security", 
+      "haaisvs_requirements": ["3.2.1", "3.2.2", "3.2.3", "3.2.4"],
+      "alignment_type": "direct",
+      "notes": "Direct implementation of AISVS supply chain security with healthcare-specific model validation",
+      "healthcare_adaptations": ["Medical device model integration", "Clinical knowledge base validation", "Healthcare API security"]
+    },
+    {
+      "aisvs_category": "AI-03: Model Security",
+      "haaisvs_requirements": ["3.1.1", "3.1.2", "3.1.3", "1.3.1"],
+      "alignment_type": "enhanced", 
+      "notes": "AISVS model security enhanced with healthcare-specific adversarial robustness testing",
+      "healthcare_adaptations": ["Medical imaging attack resistance", "Clinical decision poisoning prevention", "Healthcare prompt injection protection"]
+    },
+    {
+      "aisvs_category": "AI-04: Memory and Embeddings Security",
+      "haaisvs_requirements": ["3.4.3", "3.5.1", "2.4.2"],
+      "alignment_type": "direct",
+      "notes": "AISVS memory security directly applicable to healthcare AI with PHI protection enhancements",
+      "healthcare_adaptations": ["Clinical knowledge embedding protection", "Patient data memory isolation", "Healthcare context security"]
+    },
+    {
+      "aisvs_category": "AI-05: User Input Security",
+      "haaisvs_requirements": ["3.1.3", "4.2.1", "8.4.4"],
+      "alignment_type": "enhanced",
+      "notes": "AISVS input security enhanced with clinical workflow validation and tool use controls",
+      "healthcare_adaptations": ["Clinical data input validation", "Healthcare professional authentication", "Medical device command validation"]
+    },
+    {
+      "aisvs_category": "AI-06: Autonomous Orchestration Security",
+      "haaisvs_requirements": ["3.4.4", "6.4.1", "8.1.1", "8.5.1"],
+      "alignment_type": "enhanced",
+      "notes": "AISVS orchestration security significantly enhanced with healthcare autonomy governance and tool use controls",
+      "healthcare_adaptations": ["Clinical decision autonomy limits", "Medical tool orchestration security", "Healthcare workflow integration protection"]
+    }
+  ],
+  "healthcare_specific_enhancements": {
+    "clinical_environment_adaptations": [
+      {
+        "aisvs_requirement": "General adversarial robustness",
+        "haaisvs_enhancement": "3.1.1 - Healthcare-specific adversarial robustness including medical imaging and clinical data attacks",
+        "clinical_value": "Protects against healthcare-specific attack vectors not covered in general AISVS"
+      },
+      {
+        "aisvs_requirement": "Standard threat monitoring", 
+        "haaisvs_enhancement": "3.3.4 - Clinical context awareness for threat detection",
+        "clinical_value": "Distinguishes between legitimate clinical variations and potential security threats"
+      },
+      {
+        "aisvs_requirement": "Basic supply chain security",
+        "haaisvs_enhancement": "3.2.5 - Healthcare supply chain threat modeling",
+        "clinical_value": "Addresses medical device integration risks and clinical system interdependencies"
+      }
+    ],
+    "regulatory_compliance_integration": [
+      {
+        "haaisvs_requirement": "3.4.2",
+        "description": "AISVS verification includes healthcare-specific security controls",
+        "regulatory_support": "Supports FDA cybersecurity requirements and EU AI Act security provisions",
+        "compliance_evidence": "AISVS compliance report with healthcare adaptations"
+      },
+      {
+        "haaisvs_requirement": "3.6.1", 
+        "description": "Healthcare incident response integrated with AISVS security frameworks",
+        "regulatory_support": "Supports healthcare incident reporting and regulatory notification requirements",
+        "compliance_evidence": "Integrated incident response procedures linking AISVS and clinical safety"
+      }
+    ]
+  },
+  "implementation_levels": {
+    "level_1_basic": {
+      "aisvs_requirements": ["Core AISVS Level 1 requirements"],
+      "haaisvs_enhancements": ["3.1.1", "3.2.1", "3.3.1", "3.5.1"],
+      "healthcare_focus": "Basic healthcare data protection and clinical workflow security",
+      "suitable_for": "Low-risk healthcare AI applications with limited clinical impact"
+    },
+    "level_2_standard": {
+      "aisvs_requirements": ["AISVS Level 1 + Level 2 requirements"],
+      "haaisvs_enhancements": ["All C3 Level 2 requirements"], 
+      "healthcare_focus": "Comprehensive healthcare security with clinical integration",
+      "suitable_for": "Standard healthcare AI agents with moderate clinical decision support"
+    },
+    "level_3_advanced": {
+      "aisvs_requirements": ["All AISVS levels"],
+      "haaisvs_enhancements": ["All C3 requirements including advanced healthcare adaptations"],
+      "healthcare_focus": "Mission-critical healthcare security for high-risk clinical applications",
+      "suitable_for": "High-risk autonomous healthcare AI agents with significant clinical impact"
+    }
+  },
+  "tool_use_security_extension": {
+    "aisvs_gap": "AISVS does not address tool use and integration security for autonomous agents",
+    "haaisvs_solution": "C8 Tool Use & Integration Security provides comprehensive coverage",
+    "key_extensions": [
+      {
+        "haaisvs_requirement": "8.1.1", 
+        "description": "Tool authorization and access control",
+        "aisvs_relationship": "Extends AISVS orchestration security with specific tool controls",
+        "security_value": "Prevents unauthorized tool access and clinical system compromise"
+      },
+      {
+        "haaisvs_requirement": "8.4.1",
+        "description": "Healthcare API security for agent tool access",
+        "aisvs_relationship": "Extends AISVS input security with healthcare system integration",
+        "security_value": "Secures agent access to healthcare APIs and medical devices"
+      },
+      {
+        "haaisvs_requirement": "8.5.1",
+        "description": "Cascading failure prevention for tool-enabled agents",
+        "aisvs_relationship": "Novel security control not addressed in current AISVS",
+        "security_value": "Prevents agent tool usage from causing system-wide healthcare failures"
+      }
+    ]
+  },
+  "verification_approach": {
+    "security_testing": [
+      "Implement AISVS testing methodology with healthcare scenario adaptations",
+      "Conduct adversarial testing using healthcare-specific attack vectors",
+      "Validate supply chain security for medical AI components",
+      "Test orchestration security in clinical workflow contexts"
+    ],
+    "compliance_validation": [
+      "Verify AISVS compliance with healthcare regulatory requirements",
+      "Validate security controls effectiveness in clinical environments",
+      "Assess integration security for tool-enabled healthcare agents",
+      "Document security verification for regulatory submissions"
+    ]
+  },
+  "coverage_analysis": {
+    "total_haaisvs_requirements": 279,
+    "mapped_to_aisvs": 156,
+    "direct_alignment": 89,
+    "enhanced_alignment": 67,
+    "novel_extensions": 42,
+    "aisvs_enhancements": ["Healthcare-specific adaptations", "Clinical environment security", "Tool use security extensions", "Regulatory compliance integration"]
+  },
+  "implementation_guidance": {
+    "organizational_adoption": [
+      "Establish AISVS as primary cybersecurity reference per C3.4.1",
+      "Adapt AISVS requirements for healthcare environment per C3 subcategories", 
+      "Integrate tool use security controls (C8) as AISVS extensions",
+      "Implement healthcare-specific security testing and validation"
+    ],
+    "regulatory_alignment": [
+      "Use AISVS compliance as foundation for FDA cybersecurity requirements",
+      "Adapt AISVS verification for EU AI Act security provisions",
+      "Integrate AISVS security controls with healthcare incident reporting",
+      "Document AISVS compliance for regulatory submissions"
+    ]
+  }
+}

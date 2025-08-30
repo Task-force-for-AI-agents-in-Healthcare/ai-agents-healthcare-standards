@@ -1,0 +1,254 @@
+{
+  "mapping_info": {
+    "haaisvs_version": "1.0",
+    "target_framework": "IMDRF Good Machine Learning Practice (GMLP)",
+    "target_version": "N12 GMLP for Medical Device Development (2021)",
+    "mapping_date": "2025-01-10",
+    "mapping_status": "complete",
+    "scope": "ML/AI medical device development, international harmonization, good practice principles",
+    "regulatory_harmonization": ["FDA", "Health Canada", "UK MHRA", "Australia TGA", "Japan PMDA", "Brazil ANVISA"]
+  },
+  "gmlp_principles_mapping": {
+    "principle_1_quality_management": {
+      "imdrf_description": "Quality management system approach to ML development",
+      "haaisvs_alignment": [
+        {
+          "requirement": "1.6.1", 
+          "description": "AI agent risk management integration with organizational healthcare systems",
+          "alignment_type": "direct",
+          "notes": "Healthcare risk management integration supports GMLP quality management principles",
+          "compliance_evidence": "Quality management documentation, organizational integration procedures"
+        },
+        {
+          "requirement": "8.7.6",
+          "description": "Quality system integration for manufacturing controls of tool-enabled agents",
+          "alignment_type": "enhanced",
+          "notes": "Tool-enabled agent quality controls extend GMLP with novel capabilities governance",
+          "compliance_evidence": "Manufacturing controls, tool compatibility validation, change control procedures"
+        }
+      ]
+    },
+    "principle_2_risk_management": {
+      "imdrf_description": "Risk-based approach throughout ML device lifecycle",
+      "haaisvs_alignment": [
+        {
+          "requirement": "1.1.1",
+          "description": "Three-factor risk assessment (clinical function, autonomy, data sensitivity)",
+          "alignment_type": "enhanced", 
+          "notes": "HAAISVS three-factor approach extends GMLP risk management with healthcare-specific factors",
+          "compliance_evidence": "Comprehensive risk assessment documentation, three-factor analysis, clinical impact evaluation"
+        },
+        {
+          "requirement": "1.1.4",
+          "description": "SaMD risk mapping with four-tier classification system",
+          "alignment_type": "direct",
+          "notes": "SaMD classification directly supports GMLP risk-based medical device development",
+          "compliance_evidence": "SaMD classification documentation, risk categorization evidence, regulatory pathway determination"
+        }
+      ]
+    },
+    "principle_3_clinical_evaluation": {
+      "imdrf_description": "Clinical evaluation throughout ML device development and lifecycle",
+      "haaisvs_alignment": [
+        {
+          "requirement": "1.7.1",
+          "description": "Clinical evidence generation scaled to risk classification levels",
+          "alignment_type": "enhanced",
+          "notes": "Risk-scaled evidence requirements extend GMLP with systematic clinical evaluation approach",
+          "compliance_evidence": "Clinical evidence generation protocols, risk-appropriate study designs, validation documentation"
+        },
+        {
+          "requirement": "1.7.2",
+          "description": "Tool combination effectiveness evaluation with clinical outcome studies",
+          "alignment_type": "novel",
+          "notes": "Tool combination evaluation addresses capabilities not covered in traditional GMLP",
+          "compliance_evidence": "Tool effectiveness studies, clinical outcome analysis, combination therapy validation"
+        }
+      ]
+    },
+    "principle_4_data_management": {
+      "imdrf_description": "Data quality and management throughout ML development",
+      "haaisvs_alignment": [
+        {
+          "requirement": "2.1.1",
+          "description": "Complete data lineage and provenance tracking", 
+          "alignment_type": "direct",
+          "notes": "Data lineage tracking directly supports GMLP data management requirements",
+          "compliance_evidence": "Data provenance documentation, lineage tracking systems, quality assurance procedures"
+        },
+        {
+          "requirement": "2.1.2", 
+          "description": "Health Canada SGBA+ documentation and diversity analysis",
+          "alignment_type": "enhanced",
+          "notes": "SGBA+ requirements extend GMLP data management with comprehensive demographic analysis",
+          "compliance_evidence": "SGBA+ documentation, demographic diversity analysis, bias assessment protocols"
+        }
+      ]
+    },
+    "principle_5_human_factors": {
+      "imdrf_description": "Human factors engineering for ML medical devices",
+      "haaisvs_alignment": [
+        {
+          "requirement": "4.3.1",
+          "description": "Healthcare human factors engineering and usability testing",
+          "alignment_type": "direct",
+          "notes": "Healthcare-specific human factors directly implement GMLP human engineering principles",
+          "compliance_evidence": "Human factors validation, usability testing results, clinical workflow integration studies"
+        },
+        {
+          "requirement": "4.2.1",
+          "description": "Clinical decision validation and override capabilities", 
+          "alignment_type": "enhanced",
+          "notes": "Clinical override capabilities extend GMLP with healthcare professional authority preservation",
+          "compliance_evidence": "Override mechanism validation, clinical authority documentation, decision boundary testing"
+        }
+      ]
+    },
+    "principle_6_cybersecurity": {
+      "imdrf_description": "Cybersecurity considerations for ML medical devices",
+      "haaisvs_alignment": [
+        {
+          "requirement": "3.4.1",
+          "description": "OWASP AISVS alignment as primary cybersecurity reference",
+          "alignment_type": "enhanced",
+          "notes": "AISVS integration provides comprehensive cybersecurity framework extending GMLP",
+          "compliance_evidence": "AISVS compliance documentation, healthcare-specific security adaptations, threat modeling"
+        },
+        {
+          "requirement": "8.4.1",
+          "description": "Secure API authentication and authorization for healthcare systems",
+          "alignment_type": "novel",
+          "notes": "Tool use cybersecurity addresses novel attack vectors not covered in traditional GMLP",
+          "compliance_evidence": "API security validation, healthcare system integration security, tool access controls"
+        }
+      ]
+    }
+  },
+  "development_lifecycle_mapping": {
+    "planning_phase": {
+      "imdrf_activities": ["Intended use definition", "Risk management planning", "Clinical evaluation planning"],
+      "haaisvs_requirements": ["1.1.1", "1.7.1", "1.2.1"],
+      "enhancement": "Three-factor risk assessment and clinical evidence scaling provide systematic planning approach",
+      "deliverables": ["Risk classification documentation", "Clinical evidence plan", "PCCP framework"]
+    },
+    "data_collection": {
+      "imdrf_activities": ["Training data collection", "Data quality assessment", "Data management"],
+      "haaisvs_requirements": ["2.1.1", "2.1.2", "7.1.1"],
+      "enhancement": "SGBA+ requirements and population equity ensure comprehensive data collection",
+      "deliverables": ["Data lineage documentation", "SGBA+ analysis", "Population representation validation"]
+    },
+    "model_development": {
+      "imdrf_activities": ["Algorithm development", "Training and validation", "Performance assessment"],
+      "haaisvs_requirements": ["2.2.1", "7.2.1", "1.3.1"],
+      "enhancement": "Bias detection and continuous monitoring extend model development practices",
+      "deliverables": ["Model versioning documentation", "Bias assessment results", "Performance monitoring plan"]
+    },
+    "verification_validation": {
+      "imdrf_activities": ["Analytical validation", "Clinical validation", "Usability validation"],
+      "haaisvs_requirements": ["1.7.1", "4.3.1", "8.7.2"],
+      "enhancement": "Risk-scaled validation and tool integration testing extend verification scope",
+      "deliverables": ["Clinical validation evidence", "Usability testing results", "Tool integration validation"]
+    },
+    "deployment": {
+      "imdrf_activities": ["Clinical integration", "Performance monitoring", "Post-market surveillance"],
+      "haaisvs_requirements": ["4.6.1", "1.3.1", "1.4.2"],
+      "enhancement": "Clinical workflow integration and real-world evidence collection enhance deployment",
+      "deliverables": ["Workflow integration documentation", "Monitoring system deployment", "Real-world evidence protocols"]
+    }
+  },
+  "international_harmonization": {
+    "regulatory_alignment": {
+      "fda_alignment": {
+        "haaisvs_support": "C1 enhanced with FDA-specific requirements including SaMD and 510(k) pathways",
+        "gmlp_enhancement": "PCCP integration provides FDA-specific change control aligned with GMLP principles",
+        "evidence": "FDA compliance documentation, 510(k) pathway analysis, PCCP implementation"
+      },
+      "health_canada_alignment": {
+        "haaisvs_support": "C7 comprehensive SGBA+ integration addresses Health Canada diversity requirements",
+        "gmlp_enhancement": "Population equity extends GMLP with systematic bias mitigation",
+        "evidence": "SGBA+ compliance documentation, intersectional analysis, equity monitoring"
+      },
+      "mhra_alignment": {
+        "haaisvs_support": "C1 regulatory sandbox integration supports UK MHRA AI Airlock pathway",
+        "gmlp_enhancement": "Real-world evidence collection extends GMLP with innovation-friendly testing",
+        "evidence": "AI Airlock participation, real-world evidence protocols, innovation pathway documentation"
+      }
+    },
+    "mutual_recognition": {
+      "approach": "HAAISVS compliance supports multiple regulatory submissions through harmonized requirements",
+      "benefits": [
+        "Reduced regulatory burden through common evidence requirements",
+        "Streamlined approval processes across multiple jurisdictions", 
+        "Consistent safety and effectiveness standards globally",
+        "Enhanced regulatory predictability for international deployment"
+      ],
+      "implementation": [
+        "Use HAAISVS as common foundation for GMLP implementation across jurisdictions",
+        "Adapt jurisdiction-specific requirements while maintaining core GMLP principles",
+        "Document compliance evidence supporting multiple regulatory pathways",
+        "Establish ongoing harmonization through international working groups"
+      ]
+    }
+  },
+  "novel_capabilities_extension": {
+    "tool_enabled_agents": {
+      "gmlp_gap": "Traditional GMLP does not address autonomous agents that use multiple tools",
+      "haaisvs_solution": "C8 provides comprehensive tool use governance extending GMLP principles",
+      "key_extensions": [
+        {
+          "capability": "Tool authorization and access control",
+          "gmlp_principle": "Extends risk management with tool-specific controls",
+          "regulatory_impact": "Enables systematic risk management for novel autonomous capabilities"
+        },
+        {
+          "capability": "Medical device integration safety",
+          "gmlp_principle": "Extends quality management with integration validation",
+          "regulatory_impact": "Addresses regulatory classification for tool combinations"
+        },
+        {
+          "capability": "Clinical tool selection appropriateness",
+          "gmlp_principle": "Extends clinical evaluation with tool usage validation",
+          "regulatory_impact": "Provides evidence framework for tool combination effectiveness"
+        }
+      ]
+    },
+    "progressive_autonomy": {
+      "gmlp_gap": "Traditional GMLP assumes static device capabilities",
+      "haaisvs_solution": "C6 provides governance for progressive autonomy implementation",
+      "regulatory_innovation": "Enables controlled advancement of agent autonomy with safety gates and validation requirements"
+    },
+    "population_equity": {
+      "gmlp_gap": "Limited focus on comprehensive population equity and bias mitigation",
+      "haaisvs_solution": "C7 provides systematic approach to bias detection and vulnerable population protection",
+      "regulatory_innovation": "Extends GMLP with comprehensive equity framework supporting global health goals"
+    }
+  },
+  "coverage_analysis": {
+    "total_haaisvs_requirements": 279,
+    "mapped_to_imdrf_gmlp": 201,
+    "direct_alignment": 156,
+    "enhanced_alignment": 45,
+    "novel_extensions": 33,
+    "gmlp_enhancements": ["Three-factor risk assessment", "Tool use governance", "Population equity", "Progressive autonomy", "International harmonization"]
+  },
+  "implementation_guidance": {
+    "medical_device_manufacturers": [
+      "Integrate HAAISVS requirements into existing GMLP compliance programs",
+      "Implement three-factor risk assessment extending traditional medical device risk management",
+      "Deploy tool use governance for agents with autonomous capabilities",
+      "Establish population equity monitoring extending GMLP data management principles"
+    ],
+    "regulatory_bodies": [
+      "Adopt HAAISVS as enhancement to existing GMLP guidance",
+      "Recognize HAAISVS compliance as evidence of GMLP adherence with healthcare-specific extensions",
+      "Use HAAISVS framework for international harmonization discussions",
+      "Develop jurisdiction-specific guidance building on HAAISVS foundation"
+    ],
+    "international_harmonization": [
+      "Establish HAAISVS as common foundation for GMLP implementation globally",
+      "Use HAAISVS requirements for mutual recognition agreements",
+      "Develop shared evidence standards supporting multiple regulatory submissions",
+      "Create international working groups for ongoing harmonization and enhancement"
+    ]
+  }
+}

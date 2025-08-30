@@ -1,0 +1,196 @@
+{
+  "mapping_info": {
+    "haaisvs_version": "1.0",
+    "target_framework": "WHO Global Initiative on AI for Health (GI-AI4H)",
+    "target_version": "Ethics and Governance Guidance (2024)",
+    "mapping_date": "2025-01-10",
+    "mapping_status": "complete",
+    "scope": "Global health equity, ethics, accessibility, sustainable development",
+    "focus_areas": ["Health equity", "Global accessibility", "Ethical AI", "Sustainable development"]
+  },
+  "ethical_principles_mapping": {
+    "autonomy": {
+      "description": "Preserving human agency and decision-making in healthcare",
+      "haaisvs_support": ["C4 - Human Oversight", "C6 - Autonomy Governance"],
+      "key_requirements": ["4.1.1", "4.2.1", "6.3.1", "6.7.1"],
+      "implementation": "Clinical accountability frameworks and human override capabilities ensure healthcare professional autonomy is preserved",
+      "global_adaptation": "Culturally appropriate human oversight models for diverse healthcare systems"
+    },
+    "beneficence": {
+      "description": "Maximizing benefits and minimizing harms for patients and communities",
+      "haaisvs_support": ["C1 - Risk Assessment", "C7 - Population Equity", "C8 - Tool Use Safety"],
+      "key_requirements": ["1.1.1", "7.4.1", "8.2.2", "1.7.2"],
+      "implementation": "Risk-based safety controls and vulnerable population protection maximize healthcare benefits",
+      "global_adaptation": "Resource-appropriate benefit-risk assessments for different economic contexts"
+    },
+    "non_maleficence": {
+      "description": "Do no harm - preventing AI systems from causing patient harm",
+      "haaisvs_support": ["C1 - Clinical Safety", "C3 - Security", "C8 - Tool Safety"],
+      "key_requirements": ["1.6.3", "3.1.1", "8.2.2", "8.5.1"],
+      "implementation": "Clinical safety integration, security controls, and tool safety validation prevent patient harm",
+      "global_adaptation": "Context-appropriate safety measures for varying healthcare infrastructure"
+    },
+    "justice": {
+      "description": "Fair distribution of benefits and risks across populations",
+      "haaisvs_support": ["C7 - Bias Mitigation & Population Equity"],
+      "key_requirements": ["7.1.1", "7.2.1", "7.4.1", "7.5.1"],
+      "implementation": "Comprehensive bias mitigation and global health equity considerations ensure fair AI distribution",
+      "global_adaptation": "Equity frameworks adapted for global health disparities and resource limitations"
+    },
+    "explicability": {
+      "description": "Transparency and explainability appropriate for healthcare contexts",
+      "haaisvs_support": ["C2 - Model Passport & Traceability", "C4 - Clinical Decision Validation"],
+      "key_requirements": ["2.3.1", "2.4.1", "4.2.2", "4.5.1"],
+      "implementation": "Clinical XAI and decision audit trails provide appropriate transparency for healthcare decisions",
+      "global_adaptation": "Culturally appropriate explanation methods and health literacy considerations"
+    }
+  },
+  "global_health_priorities": {
+    "health_equity": {
+      "who_focus": "Ensuring AI benefits reach underserved populations and reduces health disparities",
+      "haaisvs_implementation": [
+        {
+          "requirement": "7.5.1",
+          "description": "Global health equity considerations for resource-limited settings",
+          "impact": "Directly addresses WHO priority for equitable AI access in low-resource environments",
+          "evidence": "Resource-limited setting analysis, global deployment considerations, accessibility validation"
+        },
+        {
+          "requirement": "7.4.1", 
+          "description": "Vulnerable population protection with enhanced clinical safeguards",
+          "impact": "Protects populations disproportionately affected by health disparities",
+          "evidence": "Vulnerable population risk assessment, enhanced safety protocols, equity outcome monitoring"
+        }
+      ]
+    },
+    "accessibility_and_affordability": {
+      "who_focus": "Making AI technologies accessible and affordable for global health applications",
+      "haaisvs_implementation": [
+        {
+          "requirement": "1.5.4",
+          "description": "WHO GI-AI4H principles for global health equity and accessible deployment",
+          "impact": "Ensures framework supports affordable, accessible AI development globally", 
+          "evidence": "Global accessibility assessment, affordability analysis, sustainable deployment planning"
+        },
+        {
+          "requirement": "7.5.2",
+          "description": "Resource-limited setting adaptations for healthcare AI deployment",
+          "impact": "Enables AI deployment in settings with limited technological infrastructure",
+          "evidence": "Infrastructure requirement analysis, low-resource adaptation strategies, sustainable implementation"
+        }
+      ]
+    },
+    "capacity_building": {
+      "who_focus": "Building healthcare workforce capacity for AI integration globally",
+      "haaisvs_implementation": [
+        {
+          "requirement": "4.4.1",
+          "description": "Clinical competency and training requirements for healthcare professionals", 
+          "impact": "Supports global capacity building through structured competency development",
+          "evidence": "Healthcare professional training programs, competency assessments, capacity building documentation"
+        },
+        {
+          "requirement": "4.6.1",
+          "description": "Clinical workflow integration with change management",
+          "impact": "Enables sustainable AI integration through systematic change management",
+          "evidence": "Change management procedures, workflow integration training, sustainability planning"
+        }
+      ]
+    }
+  },
+  "sustainable_development_goals": {
+    "sdg_3_good_health": {
+      "alignment": "Ensure healthy lives and promote well-being for all at all ages",
+      "haaisvs_contribution": ["All categories support healthcare improvement and patient safety"],
+      "key_requirements": ["1.1.1", "4.1.1", "7.1.1", "8.2.1"],
+      "impact_areas": ["Patient safety", "Clinical effectiveness", "Healthcare access", "Quality improvement"]
+    },
+    "sdg_10_reduced_inequalities": {
+      "alignment": "Reduce inequality within and among countries", 
+      "haaisvs_contribution": ["C7 directly addresses health inequities through comprehensive bias mitigation"],
+      "key_requirements": ["7.1.1", "7.2.1", "7.4.1", "7.5.1"],
+      "impact_areas": ["Health equity", "Population fairness", "Vulnerable population protection", "Global accessibility"]
+    },
+    "sdg_17_partnerships": {
+      "alignment": "Strengthen implementation through global partnership",
+      "haaisvs_contribution": ["C1 international harmonization supports global regulatory cooperation"],
+      "key_requirements": ["1.5.1", "1.5.2", "1.5.4"],
+      "impact_areas": ["International cooperation", "Regulatory harmonization", "Knowledge sharing", "Technical assistance"]
+    }
+  },
+  "regional_adaptations": {
+    "africa": {
+      "priorities": ["Infectious disease AI", "Mobile health integration", "Limited infrastructure adaptation"],
+      "haaisvs_requirements": ["7.5.1", "7.5.2", "4.6.2"],
+      "adaptations": ["Resource-optimized AI systems", "Mobile-first deployment", "Community health worker integration"]
+    },
+    "asia_pacific": {
+      "priorities": ["Population scale deployment", "Cultural adaptation", "Regulatory diversity"],
+      "haaisvs_requirements": ["7.1.1", "1.5.1", "4.4.3"],
+      "adaptations": ["Multi-cultural bias assessment", "Diverse regulatory pathway support", "Language localization"]
+    },
+    "latin_america": {
+      "priorities": ["Health system strengthening", "Digital divide bridging", "Economic sustainability"],
+      "haaisvs_requirements": ["7.5.1", "4.6.1", "1.5.4"], 
+      "adaptations": ["Health system integration", "Affordability optimization", "Sustainable financing models"]
+    },
+    "europe_north_america": {
+      "priorities": ["Advanced regulatory compliance", "Aging populations", "Complex healthcare systems"],
+      "haaisvs_requirements": ["1.2.1", "7.1.5", "8.3.1"],
+      "adaptations": ["Advanced regulatory pathways", "Geriatric-focused AI", "Complex system integration"]
+    }
+  },
+  "implementation_recommendations": [
+    {
+      "principle": "Start with health equity assessment",
+      "haaisvs_requirements": ["7.1.1", "7.4.1", "7.5.1"],
+      "implementation": "Conduct comprehensive equity analysis before AI deployment",
+      "who_alignment": "Ensures AI contributes to reducing rather than exacerbating health disparities"
+    },
+    {
+      "principle": "Engage local healthcare communities",
+      "haaisvs_requirements": ["4.4.1", "4.6.1", "4.7.1"],
+      "implementation": "Include local healthcare professionals and communities in AI development",
+      "who_alignment": "Supports WHO emphasis on community engagement and local ownership"
+    },
+    {
+      "principle": "Design for resource constraints",
+      "haaisvs_requirements": ["7.5.2", "1.5.4", "4.6.2"],
+      "implementation": "Optimize AI systems for deployment in resource-limited settings",
+      "who_alignment": "Ensures AI technologies are accessible globally, not just in high-resource settings"
+    },
+    {
+      "principle": "Monitor population impact continuously",
+      "haaisvs_requirements": ["1.3.4", "7.6.1", "7.7.1"],
+      "implementation": "Implement population-level monitoring for health equity outcomes", 
+      "who_alignment": "Supports WHO focus on population health and equity monitoring"
+    }
+  ],
+  "coverage_analysis": {
+    "total_haaisvs_requirements": 279,
+    "mapped_to_who_gi_ai4h": 134,
+    "ethical_principle_alignment": 89,
+    "global_health_priorities": 45,
+    "gaps_identified": 2,
+    "who_enhancements": ["Global health equity focus", "Resource-limited setting adaptations", "Cultural competency integration", "Sustainable development alignment"]
+  },
+  "implementation_guidance": {
+    "global_deployment_checklist": [
+      "Conduct health equity impact assessment using C7 requirements",
+      "Assess resource limitations and adaptation needs per 7.5 requirements",
+      "Engage local healthcare communities following C4 guidelines", 
+      "Implement culturally appropriate transparency and explainability (C2)",
+      "Establish sustainable financing and capacity building (C4)",
+      "Monitor population-level health outcomes and equity impacts (C7)",
+      "Ensure compliance with local regulatory requirements (C1)",
+      "Document contribution to sustainable development goals"
+    ],
+    "ethical_review_process": [
+      "Apply WHO ethical principles using HAAISVS implementation guidance",
+      "Conduct multi-stakeholder ethical review including global health experts",
+      "Assess potential for both benefits and harms across diverse populations",
+      "Validate cultural appropriateness and community acceptance",
+      "Establish ongoing ethical monitoring and review processes"
+    ]
+  }
+}

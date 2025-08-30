@@ -1,0 +1,163 @@
+{
+  "mapping_info": {
+    "haaisvs_version": "1.0", 
+    "target_framework": "UK MHRA Software and AI as Medical Devices (SaMD) Guidance",
+    "target_version": "2024 AI Airlock Framework",
+    "mapping_date": "2025-01-10",
+    "mapping_status": "complete",
+    "scope": "SaMD regulation, AI Airlock sandbox testing, real-world evidence",
+    "regulatory_pathways": ["AI Airlock", "UKCA Marking", "Class I-III Medical Devices", "Innovation Pathway"]
+  },
+  "mappings": [
+    {
+      "haaisvs_requirement": "1.4.1",
+      "haaisvs_description": "Regulatory sandbox testing in controlled environments",
+      "target_requirements": ["UK MHRA AI Airlock", "Software and AI as Medical Devices Guidance"],
+      "alignment_type": "direct",
+      "notes": "HAAISVS regulatory sandbox requirements directly aligned with UK MHRA AI Airlock framework",
+      "compliance_evidence": "AI Airlock participation documentation, controlled testing protocols, real-world evidence collection"
+    },
+    {
+      "haaisvs_requirement": "1.4.2",
+      "haaisvs_description": "Real-world evidence collection for clinical effectiveness",
+      "target_requirements": ["MHRA Real-World Evidence Strategy", "Post-market surveillance requirements"],
+      "alignment_type": "direct",
+      "notes": "Real-world evidence requirements directly supported by HAAISVS evidence generation protocols",
+      "compliance_evidence": "Real-world evidence study protocols, clinical effectiveness data, post-market surveillance plan"
+    },
+    {
+      "haaisvs_requirement": "1.1.3",
+      "haaisvs_description": "SaMD risk categorization based on healthcare decision state",
+      "target_requirements": ["MHRA SaMD Classification", "Software and AI Guidance Chapter 3"],
+      "alignment_type": "direct",
+      "notes": "UK MHRA SaMD classification framework directly implemented through HAAISVS four-tier system",
+      "compliance_evidence": "SaMD classification documentation, healthcare decision analysis, risk categorization evidence"
+    },
+    {
+      "haaisvs_requirement": "1.5.1",
+      "haaisvs_description": "International regulatory harmonization across jurisdictions",
+      "target_requirements": ["MHRA International Recognition", "UKCA Conformity Assessment"],
+      "alignment_type": "direct",
+      "notes": "HAAISVS multi-jurisdictional approach supports UK MHRA international harmonization goals",
+      "compliance_evidence": "Multi-jurisdictional compliance documentation, international recognition agreements, harmonization evidence"
+    },
+    {
+      "haaisvs_requirement": "2.6.1",
+      "haaisvs_description": "Machine-interpretable documentation for automated compliance",
+      "target_requirements": ["MHRA Digital Innovation", "Automated Assessment Tools"],
+      "alignment_type": "direct",
+      "notes": "Machine-interpretable documentation supports MHRA digital transformation and automated assessment",
+      "compliance_evidence": "Automated compliance verification systems, machine-readable documentation, digital assessment tools"
+    },
+    {
+      "haaisvs_requirement": "3.3.1",
+      "haaisvs_description": "Real-time healthcare threat monitoring with clinical context",
+      "target_requirements": ["MHRA Cybersecurity Requirements", "Medical Device Security Guidance"],
+      "alignment_type": "direct",
+      "notes": "Real-time threat monitoring with clinical awareness supports MHRA security requirements",
+      "compliance_evidence": "Clinical threat monitoring systems, security incident response procedures, healthcare-specific threat intelligence"
+    },
+    {
+      "haaisvs_requirement": "4.7.1",
+      "haaisvs_description": "Quality improvement integration with clinical outcome monitoring",
+      "target_requirements": ["MHRA Clinical Evaluation", "Quality Management System Requirements"],
+      "alignment_type": "direct",
+      "notes": "Quality improvement integration supports MHRA clinical evaluation and quality management requirements",
+      "compliance_evidence": "Clinical quality improvement procedures, outcome monitoring systems, continuous improvement documentation"
+    },
+    {
+      "haaisvs_requirement": "6.2.1",
+      "haaisvs_description": "Progressive autonomy implementation with safety gates",
+      "target_requirements": ["MHRA AI Innovation Guidance", "Progressive Implementation Framework"],
+      "alignment_type": "enhanced",
+      "notes": "HAAISVS progressive autonomy extends MHRA innovation guidance with structured safety gates",
+      "compliance_evidence": "Progressive autonomy implementation plan, safety gate validation, clinical progression documentation"
+    },
+    {
+      "haaisvs_requirement": "8.5.1",
+      "haaisvs_description": "Circuit breaker patterns for system resilience",
+      "target_requirements": ["MHRA System Resilience", "Medical Device Safety Requirements"],
+      "alignment_type": "enhanced",
+      "notes": "Circuit breaker and resilience patterns extend MHRA safety requirements for tool-enabled agents",
+      "compliance_evidence": "System resilience testing, failure prevention mechanisms, cascading failure analysis"
+    }
+  ],
+  "ai_airlock_integration": {
+    "testing_phases": {
+      "phase_1_discovery": {
+        "haaisvs_requirements": ["Level 1 foundational requirements"],
+        "testing_focus": "Basic safety and effectiveness validation",
+        "duration": "3-6 months",
+        "evidence_generation": "Preliminary safety and performance data"
+      },
+      "phase_2_development": {
+        "haaisvs_requirements": ["Level 1-2 comprehensive"],
+        "testing_focus": "Clinical workflow integration and real-world performance", 
+        "duration": "6-12 months",
+        "evidence_generation": "Clinical effectiveness and workflow integration evidence"
+      },
+      "phase_3_scale": {
+        "haaisvs_requirements": ["Level 2-3 advanced"],
+        "testing_focus": "Population-scale deployment and long-term monitoring",
+        "duration": "12+ months", 
+        "evidence_generation": "Real-world evidence, population health outcomes, regulatory submission data"
+      }
+    },
+    "evidence_collection": {
+      "clinical_effectiveness": "Patient outcome improvements, workflow efficiency gains",
+      "safety_monitoring": "Adverse event tracking, error rate analysis, clinical incident reporting",
+      "usability_assessment": "Healthcare professional acceptance, human factors validation",
+      "technical_performance": "System reliability, accuracy metrics, integration success"
+    }
+  },
+  "regulatory_pathway_coverage": {
+    "ai_airlock_pathway": {
+      "applicable_requirements": ["All categories with progressive implementation"],
+      "coverage_level": "Level 1-3 progressive",
+      "notes": "AI Airlock supports progressive HAAISVS implementation with real-world validation"
+    },
+    "innovation_pathway": {
+      "applicable_requirements": ["Focus on novel capabilities - C6, C8"],
+      "coverage_level": "Level 3",
+      "notes": "Innovation pathway for novel autonomous and tool-enabled capabilities"
+    },
+    "standard_pathway": {
+      "applicable_requirements": ["Level 1-2 comprehensive"],
+      "coverage_level": "Level 2",
+      "notes": "Standard medical device pathway with HAAISVS compliance verification"
+    }
+  },
+  "coverage_analysis": {
+    "total_haaisvs_requirements": 279,
+    "mapped_to_mhra": 167,
+    "direct_alignment": 123,
+    "enhanced_alignment": 44,
+    "gaps_identified": 4,
+    "mhra_enhancements": ["AI Airlock sandbox integration", "Progressive innovation pathway", "Real-world evidence collection"]
+  },
+  "submission_guidance": {
+    "required_documentation": [
+      "SaMD classification and risk categorization",
+      "Clinical evaluation plan with real-world evidence strategy",
+      "Quality management system documentation",
+      "Post-market surveillance and vigilance plan",
+      "Risk management documentation including clinical risks",
+      "Software lifecycle processes and change control",
+      "Cybersecurity and data protection evidence",
+      "Clinical workflow integration and usability validation",
+      "AI Airlock testing results and real-world evidence (if applicable)"
+    ],
+    "ai_airlock_benefits": [
+      "Accelerated regulatory review through real-world evidence",
+      "Progressive implementation reducing regulatory risk",
+      "Direct MHRA engagement and guidance during development",
+      "Streamlined pathway to market for innovative AI technologies",
+      "Real-world validation reducing post-market surveillance requirements"
+    ],
+    "recommended_level": {
+      "class_i_samd": "Level 1 with AI Airlock Phase 1",
+      "class_iia_samd": "Level 2 with AI Airlock Phase 2", 
+      "class_iib_iii_samd": "Level 3 with AI Airlock Phase 3"
+    }
+  }
+}
