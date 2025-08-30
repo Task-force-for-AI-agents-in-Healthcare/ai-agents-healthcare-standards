@@ -1,13 +1,13 @@
-# HAAISVS: Healthcare AI Agents Security Verification Standard
+# HAARF: Healthcare AI Agents Regulatory Framework
 
-> 🏥 **The world's first comprehensive security verification standard for autonomous AI agents in healthcare environments**
+> 🏥 **The world's first comprehensive regulatory compliance framework for autonomous AI agents in healthcare environments**
 
-[![Framework Version](https://img.shields.io/badge/HAAISVS-v1.0-blue.svg)]()
+[![Framework Version](https://img.shields.io/badge/HAARF-v1.0-blue.svg)]()
 [![Categories](https://img.shields.io/badge/categories-8-green.svg)]()
 [![Requirements](https://img.shields.io/badge/requirements-279-orange.svg)]()
 [![License](https://img.shields.io/badge/license-Apache%202.0-lightgrey)](http://www.apache.org/licenses/LICENSE-2.0)
 
-## 🎯 What is HAAISVS?
+## 🎯 What is HAARF?
 
 The **Task Force for AI Agents in Healthcare** presents the world's first **unified, lifecycle-centric regulatory framework** specifically designed for autonomous AI agents in medical environments. Our framework synthesizes the most effective elements from global regulatory bodies—FDA, EU AI Act, Health Canada, UK MHRA, NIST, and WHO—into a comprehensive standard that addresses the unique risks and opportunities of agentic AI systems.
 
@@ -101,7 +101,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Regulatory Pathway Analysis**: Tool combination impact on FDA submission requirements
 - **Quality System Integration**: Manufacturing controls for tool-enabled agent development
 
-HAAISVS provides **comprehensive mappings** to major regulatory frameworks:
+HAARF provides **comprehensive mappings** to major regulatory frameworks:
 
 | Framework | Coverage | Key Benefits |
 |-----------|----------|--------------|
@@ -115,12 +115,12 @@ HAAISVS provides **comprehensive mappings** to major regulatory frameworks:
 | **[ISO/IEC 42001](https://www.iso.org/standard/42001)** | 71% | AI management system certification |
 | **[IMDRF GMLP](https://www.imdrf.org/documents/good-machine-learning-practice-medical-device-development-guiding-principles)** | 72% | International harmonization foundation |
 
-**Multi-Jurisdictional Value**: Single HAAISVS compliance supports regulatory submissions across multiple jurisdictions, reducing regulatory burden and enabling global deployment.
+**Multi-Jurisdictional Value**: Single HAARF compliance supports regulatory submissions across multiple jurisdictions, reducing regulatory burden and enabling global deployment.
 
 ## 📁 Repository Structure
 
 ```
-├── HAAISVS/
+├── HAARF/
 │   └── 1.0/
 │       ├── en/                           # Complete Framework (English)
 │       │   ├── 0x10-C01-Risk-Lifecycle-Assessment.md
@@ -151,30 +151,30 @@ HAAISVS provides **comprehensive mappings** to major regulatory frameworks:
 
 ### **For Healthcare Organizations**
 
-1. **Risk Assessment**: Start with [C1 Risk Classification](./HAAISVS/1.0/en/0x10-C01-Risk-Lifecycle-Assessment.md)
-2. **Security Foundation**: Implement [C3 Cybersecurity Framework](./HAAISVS/1.0/en/0x10-C03-Cybersecurity-Framework.md) 
-3. **Human Oversight**: Establish [C4 Clinical Integration](./HAAISVS/1.0/en/0x10-C04-Human-Oversight.md)
-4. **Tool-Enabled Agents**: Apply [C8 Tool Use Security](./HAAISVS/1.0/en/0x10-C08-Tool-Use-Integration.md) for autonomous systems
+1. **Risk Assessment**: Start with [C1 Risk Classification](./HAARF/1.0/en/0x10-C01-Risk-Lifecycle-Assessment.md)
+2. **Security Foundation**: Implement [C3 Cybersecurity Framework](./HAARF/1.0/en/0x10-C03-Cybersecurity-Framework.md) 
+3. **Human Oversight**: Establish [C4 Clinical Integration](./HAARF/1.0/en/0x10-C04-Human-Oversight.md)
+4. **Tool-Enabled Agents**: Apply [C8 Tool Use Security](./HAARF/1.0/en/0x10-C08-Tool-Use-Integration.md) for autonomous systems
 
 ### **For AI Developers**
 
-1. **Framework Overview**: Read [Categories.md](./HAAISVS/1.0/en/Categories.md)
-2. **Implementation Guide**: Follow [Using HAAISVS](./HAAISVS/1.0/en/0x03-Using-HAAISVS.md)
-3. **Regulatory Mapping**: Review [appropriate jurisdiction mapping](./HAAISVS/1.0/mappings/)
+1. **Framework Overview**: Read [Categories.md](./HAARF/1.0/en/Categories.md)
+2. **Implementation Guide**: Follow [Using HAARF](./HAARF/1.0/en/0x03-Using-HAARF.md)
+3. **Regulatory Mapping**: Review [appropriate jurisdiction mapping](./HAARF/1.0/mappings/)
 4. **Compliance Verification**: Implement verification requirements by risk level
 
 ### **For Regulatory Affairs**
 
-1. **Regulatory Mappings**: Explore comprehensive [framework mappings](./HAAISVS/1.0/mappings/)
+1. **Regulatory Mappings**: Explore comprehensive [framework mappings](./HAARF/1.0/mappings/)
 2. **Submission Guidance**: Use mapping evidence for regulatory submissions
 3. **Multi-Jurisdictional Strategy**: Leverage harmonized compliance approach
-4. **FDA Priority**: Focus on [C8 Tool Use](./HAAISVS/1.0/en/0x10-C08-Tool-Use-Integration.md) for tool-enabled agents
+4. **FDA Priority**: Focus on [C8 Tool Use](./HAARF/1.0/en/0x10-C08-Tool-Use-Integration.md) for tool-enabled agents
 
 ## 🎯 FDA Priority: Tool-Enabled Agents
 
 **C8: Tool Use & Integration Security** addresses FDA's highest priority feedback:
 
-> *"The enhanced HAAISVS framework with C8 (Tool Use) represents the most comprehensive guidance available for medical device companies developing AI agents. It directly addresses the unique regulatory challenges posed by autonomous systems that can access and control multiple healthcare tools."*
+> *"The enhanced HAARF framework with C8 (Tool Use) represents the most comprehensive guidance available for medical device companies developing AI agents. It directly addresses the unique regulatory challenges posed by autonomous systems that can access and control multiple healthcare tools."*
 
 **Regulatory Value**:
 - **Breakthrough Device Pathway**: Guidance for novel tool-enabled capabilities
@@ -184,7 +184,7 @@ HAAISVS provides **comprehensive mappings** to major regulatory frameworks:
 
 ## 📊 Implementation Levels
 
-HAAISVS provides **three implementation levels** scaled to risk:
+HAARF provides **three implementation levels** scaled to risk:
 
 - **Level 1** (85 requirements): Foundational controls for basic healthcare AI agents
 - **Level 2** (144 requirements): Standard implementation for moderate-risk agents  
@@ -211,16 +211,35 @@ We welcome contributions from healthcare professionals, AI developers, regulator
 
 This work is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0). 
 
-HAAISVS is designed for regulatory submissions and compliance across multiple jurisdictions while maintaining open source principles for global healthcare benefit.
+HAARF is designed for regulatory submissions and compliance across multiple jurisdictions while maintaining open source principles for global healthcare benefit.
+
+---
+
+## 🙏 Framework Foundation: OWASP AISVS
+
+HAARF is built upon the excellent foundational work of the **[OWASP Artificial Intelligence Security Verification Standard (AISVS)](https://github.com/OWASP/AISVS)** project, led by Jim Manico and Russ Memisyazici. 
+
+The OWASP AISVS team created a comprehensive **13-category verification structure** covering:
+- Training Data Governance & Bias Management
+- Model Lifecycle Management & Change Control  
+- Infrastructure & Deployment Security
+- **Autonomous Orchestration & Agentic Action Security**
+- Adversarial Robustness & Attack Resistance
+- Privacy Protection & Personal Data Management
+- And 7 additional critical AI security categories
+
+**HAARF's Specialized Adaptation**: We've adapted and extended the OWASP AISVS framework specifically for healthcare environments, adding regulatory compliance requirements, clinical safety protocols, and international harmonization mappings while maintaining the rigorous verification approach that makes AISVS so effective.
+
+**Credit Where Due**: The structured documentation format, categorized verification requirements, and comprehensive security focus that define HAARF all stem from the excellent foundation provided by the [OWASP AISVS](https://github.com/OWASP/AISVS) community. We encourage healthcare AI teams to implement both frameworks - OWASP AISVS for general AI security and HAARF for healthcare-specific regulatory compliance.
 
 ---
 
 ## 🌟 Recognition
 
-HAAISVS represents unprecedented collaboration between **40+ international experts** from FDA, EMA, Health Canada, UK MHRA, WHO GI-AI4H, NIST AI RMF, [OWASP AISVS](https://github.com/OWASP/AISVS), and ISO/IEC 42001 communities.
+HAARF represents unprecedented collaboration between **40+ international experts** from FDA, EMA, Health Canada, UK MHRA, WHO GI-AI4H, NIST AI RMF, [OWASP AISVS](https://github.com/OWASP/AISVS), and ISO/IEC 42001 communities.
 
-**⭐ Star this repository to support the world's first comprehensive healthcare AI agent security verification standard!**
+**⭐ Star this repository to support the world's first comprehensive healthcare AI agent regulatory framework!**
 
 ---
 
-*Building trust in the AI-augmented future of healthcare through rigorous security verification and regulatory excellence.*
+*Building trust in the AI-augmented future of healthcare through rigorous regulatory compliance and global harmonization.*

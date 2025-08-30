@@ -23,7 +23,7 @@
       "aisvs_category": "AI-01: Training Data Security",
       "haaisvs_requirements": ["2.1.1", "2.1.2", "3.2.1", "7.1.1"],
       "alignment_type": "enhanced",
-      "notes": "HAAISVS enhances AISVS training data security with SGBA+ requirements and healthcare data protection",
+      "notes": "HAARF enhances AISVS training data security with SGBA+ requirements and healthcare data protection",
       "healthcare_adaptations": ["PHI protection in training data", "HIPAA/GDPR compliance", "Clinical data lineage tracking"]
     },
     {

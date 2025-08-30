@@ -14,7 +14,7 @@
       "haaisvs_description": "Three-factor risk assessment (clinical function, autonomy, data sensitivity)",
       "target_requirements": ["Article 6 - High-Risk AI Systems", "Annex III - Healthcare Applications"],
       "alignment_type": "direct",
-      "notes": "EU AI Act requires risk classification - HAAISVS three-factor approach directly supports high-risk determination",
+      "notes": "EU AI Act requires risk classification - HAARF three-factor approach directly supports high-risk determination",
       "compliance_evidence": "Risk classification documentation demonstrating healthcare AI agent meets high-risk criteria under Annex III"
     },
     {
@@ -30,7 +30,7 @@
       "haaisvs_description": "Complete data lineage and provenance tracking",
       "target_requirements": ["Article 10 - Data and data governance", "Article 15 - Accuracy requirements"],
       "alignment_type": "direct",
-      "notes": "EU AI Act data governance requirements fully addressed by HAAISVS data lineage tracking",
+      "notes": "EU AI Act data governance requirements fully addressed by HAARF data lineage tracking",
       "compliance_evidence": "Data governance documentation, training data quality assurance, and bias monitoring systems"
     },
     {
@@ -38,7 +38,7 @@
       "haaisvs_description": "Explainable AI with clinically meaningful insights",
       "target_requirements": ["Article 13 - Transparency obligations", "Article 86 - AI literacy"],
       "alignment_type": "direct",
-      "notes": "EU transparency requirements for high-risk AI systems directly supported by HAAISVS XAI",
+      "notes": "EU transparency requirements for high-risk AI systems directly supported by HAARF XAI",
       "compliance_evidence": "AI system transparency documentation, user information provisions, and explainability validation"
     },
     {
@@ -46,7 +46,7 @@
       "haaisvs_description": "Healthcare-specific adversarial robustness testing",
       "target_requirements": ["Article 15 - Accuracy, robustness and cybersecurity", "Article 43 - Conformity assessment"],
       "alignment_type": "direct",
-      "notes": "EU robustness requirements enhanced by HAAISVS healthcare-specific adversarial testing",
+      "notes": "EU robustness requirements enhanced by HAARF healthcare-specific adversarial testing",
       "compliance_evidence": "Robustness testing protocols, adversarial attack resistance validation, cybersecurity assessment"
     },
     {
@@ -54,7 +54,7 @@
       "haaisvs_description": "Clinical accountability frameworks for healthcare professionals",
       "target_requirements": ["Article 14 - Human oversight", "Article 26 - User obligations"],
       "alignment_type": "direct",
-      "notes": "EU human oversight requirements directly implemented through HAAISVS clinical accountability",
+      "notes": "EU human oversight requirements directly implemented through HAARF clinical accountability",
       "compliance_evidence": "Human oversight procedures, clinical professional competency requirements, override capabilities"
     },
     {
@@ -62,7 +62,7 @@
       "haaisvs_description": "Training data representativeness and demographic parity",
       "target_requirements": ["Article 10 - Data governance", "Article 7 - Amendments to Annex III"],
       "alignment_type": "direct",
-      "notes": "EU data quality and bias prevention requirements enhanced by HAAISVS population equity measures",
+      "notes": "EU data quality and bias prevention requirements enhanced by HAARF population equity measures",
       "compliance_evidence": "Training data diversity analysis, demographic representation validation, bias mitigation strategies"
     },
     {
@@ -70,7 +70,7 @@
       "haaisvs_description": "Role-based tool access controls for healthcare AI agents",
       "target_requirements": ["Article 16 - Risk management system", "Article 43 - Conformity assessment"],
       "alignment_type": "partial",
-      "notes": "EU risk management covers general system risks - HAAISVS C8 adds specific tool integration controls",
+      "notes": "EU risk management covers general system risks - HAARF C8 adds specific tool integration controls",
       "compliance_evidence": "Tool access control matrix, integration risk assessment, clinical appropriateness validation"
     },
     {
@@ -86,17 +86,17 @@
     "conformity_assessment_module_a": {
       "applicable_requirements": ["Level 1 + Level 2 requirements"],
       "coverage_level": "Level 2",
-      "notes": "Internal conformity assessment supported by comprehensive HAAISVS verification"
+      "notes": "Internal conformity assessment supported by comprehensive HAARF verification"
     },
     "conformity_assessment_module_b": {
       "applicable_requirements": ["All Level 2 + Level 3"],
       "coverage_level": "Level 3",
-      "notes": "Third-party assessment requires highest level of HAAISVS verification evidence"
+      "notes": "Third-party assessment requires highest level of HAARF verification evidence"
     },
     "ce_marking": {
       "applicable_requirements": ["All applicable categories"],
       "coverage_level": "Level 2-3",
-      "notes": "CE marking requires demonstrated compliance across all relevant HAAISVS categories"
+      "notes": "CE marking requires demonstrated compliance across all relevant HAARF categories"
     }
   },
   "coverage_analysis": {

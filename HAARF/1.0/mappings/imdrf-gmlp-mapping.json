@@ -35,7 +35,7 @@
           "requirement": "1.1.1",
           "description": "Three-factor risk assessment (clinical function, autonomy, data sensitivity)",
           "alignment_type": "enhanced", 
-          "notes": "HAAISVS three-factor approach extends GMLP risk management with healthcare-specific factors",
+          "notes": "HAARF three-factor approach extends GMLP risk management with healthcare-specific factors",
           "compliance_evidence": "Comprehensive risk assessment documentation, three-factor analysis, clinical impact evaluation"
         },
         {
@@ -175,7 +175,7 @@
       }
     },
     "mutual_recognition": {
-      "approach": "HAAISVS compliance supports multiple regulatory submissions through harmonized requirements",
+      "approach": "HAARF compliance supports multiple regulatory submissions through harmonized requirements",
       "benefits": [
         "Reduced regulatory burden through common evidence requirements",
         "Streamlined approval processes across multiple jurisdictions", 
@@ -183,7 +183,7 @@
         "Enhanced regulatory predictability for international deployment"
       ],
       "implementation": [
-        "Use HAAISVS as common foundation for GMLP implementation across jurisdictions",
+        "Use HAARF as common foundation for GMLP implementation across jurisdictions",
         "Adapt jurisdiction-specific requirements while maintaining core GMLP principles",
         "Document compliance evidence supporting multiple regulatory pathways",
         "Establish ongoing harmonization through international working groups"
@@ -233,20 +233,20 @@
   },
   "implementation_guidance": {
     "medical_device_manufacturers": [
-      "Integrate HAAISVS requirements into existing GMLP compliance programs",
+      "Integrate HAARF requirements into existing GMLP compliance programs",
       "Implement three-factor risk assessment extending traditional medical device risk management",
       "Deploy tool use governance for agents with autonomous capabilities",
       "Establish population equity monitoring extending GMLP data management principles"
     ],
     "regulatory_bodies": [
-      "Adopt HAAISVS as enhancement to existing GMLP guidance",
-      "Recognize HAAISVS compliance as evidence of GMLP adherence with healthcare-specific extensions",
-      "Use HAAISVS framework for international harmonization discussions",
-      "Develop jurisdiction-specific guidance building on HAAISVS foundation"
+      "Adopt HAARF as enhancement to existing GMLP guidance",
+      "Recognize HAARF compliance as evidence of GMLP adherence with healthcare-specific extensions",
+      "Use HAARF framework for international harmonization discussions",
+      "Develop jurisdiction-specific guidance building on HAARF foundation"
     ],
     "international_harmonization": [
-      "Establish HAAISVS as common foundation for GMLP implementation globally",
-      "Use HAAISVS requirements for mutual recognition agreements",
+      "Establish HAARF as common foundation for GMLP implementation globally",
+      "Use HAARF requirements for mutual recognition agreements",
       "Develop shared evidence standards supporting multiple regulatory submissions",
       "Create international working groups for ongoing harmonization and enhancement"
     ]

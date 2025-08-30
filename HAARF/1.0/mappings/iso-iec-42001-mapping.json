@@ -55,7 +55,7 @@
           "description": "Comprehensive three-factor risk assessment methodology",
           "iso_subclauses": ["6.1.1", "6.1.2"],
           "alignment_type": "enhanced",
-          "notes": "HAAISVS risk assessment provides comprehensive foundation for ISO/IEC 42001 risk management"
+          "notes": "HAARF risk assessment provides comprehensive foundation for ISO/IEC 42001 risk management"
         },
         {
           "requirement": "1.7.1",
@@ -209,7 +209,7 @@
       "haaisvs_implementation": ["Level 1-2 requirements across all categories"],
       "key_deliverables": [
         "AI management system documentation aligned with healthcare requirements",
-        "Risk assessment using HAAISVS three-factor methodology",
+        "Risk assessment using HAARF three-factor methodology",
         "Clinical governance and accountability frameworks", 
         "Healthcare-specific AI policies and procedures"
       ]
@@ -245,7 +245,7 @@
   },
   "implementation_guidance": {
     "healthcare_organization_adoption": [
-      "Establish AI management system governance using HAAISVS clinical accountability frameworks",
+      "Establish AI management system governance using HAARF clinical accountability frameworks",
       "Implement healthcare-specific risk management using three-factor assessment methodology", 
       "Deploy continuous monitoring supporting both clinical performance and management system requirements",
       "Integrate tool use governance as extension of ISO/IEC 42001 operational controls"

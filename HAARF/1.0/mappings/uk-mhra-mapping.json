@@ -14,7 +14,7 @@
       "haaisvs_description": "Regulatory sandbox testing in controlled environments",
       "target_requirements": ["UK MHRA AI Airlock", "Software and AI as Medical Devices Guidance"],
       "alignment_type": "direct",
-      "notes": "HAAISVS regulatory sandbox requirements directly aligned with UK MHRA AI Airlock framework",
+      "notes": "HAARF regulatory sandbox requirements directly aligned with UK MHRA AI Airlock framework",
       "compliance_evidence": "AI Airlock participation documentation, controlled testing protocols, real-world evidence collection"
     },
     {
@@ -22,7 +22,7 @@
       "haaisvs_description": "Real-world evidence collection for clinical effectiveness",
       "target_requirements": ["MHRA Real-World Evidence Strategy", "Post-market surveillance requirements"],
       "alignment_type": "direct",
-      "notes": "Real-world evidence requirements directly supported by HAAISVS evidence generation protocols",
+      "notes": "Real-world evidence requirements directly supported by HAARF evidence generation protocols",
       "compliance_evidence": "Real-world evidence study protocols, clinical effectiveness data, post-market surveillance plan"
     },
     {
@@ -30,7 +30,7 @@
       "haaisvs_description": "SaMD risk categorization based on healthcare decision state",
       "target_requirements": ["MHRA SaMD Classification", "Software and AI Guidance Chapter 3"],
       "alignment_type": "direct",
-      "notes": "UK MHRA SaMD classification framework directly implemented through HAAISVS four-tier system",
+      "notes": "UK MHRA SaMD classification framework directly implemented through HAARF four-tier system",
       "compliance_evidence": "SaMD classification documentation, healthcare decision analysis, risk categorization evidence"
     },
     {
@@ -38,7 +38,7 @@
       "haaisvs_description": "International regulatory harmonization across jurisdictions",
       "target_requirements": ["MHRA International Recognition", "UKCA Conformity Assessment"],
       "alignment_type": "direct",
-      "notes": "HAAISVS multi-jurisdictional approach supports UK MHRA international harmonization goals",
+      "notes": "HAARF multi-jurisdictional approach supports UK MHRA international harmonization goals",
       "compliance_evidence": "Multi-jurisdictional compliance documentation, international recognition agreements, harmonization evidence"
     },
     {
@@ -70,7 +70,7 @@
       "haaisvs_description": "Progressive autonomy implementation with safety gates",
       "target_requirements": ["MHRA AI Innovation Guidance", "Progressive Implementation Framework"],
       "alignment_type": "enhanced",
-      "notes": "HAAISVS progressive autonomy extends MHRA innovation guidance with structured safety gates",
+      "notes": "HAARF progressive autonomy extends MHRA innovation guidance with structured safety gates",
       "compliance_evidence": "Progressive autonomy implementation plan, safety gate validation, clinical progression documentation"
     },
     {
@@ -114,7 +114,7 @@
     "ai_airlock_pathway": {
       "applicable_requirements": ["All categories with progressive implementation"],
       "coverage_level": "Level 1-3 progressive",
-      "notes": "AI Airlock supports progressive HAAISVS implementation with real-world validation"
+      "notes": "AI Airlock supports progressive HAARF implementation with real-world validation"
     },
     "innovation_pathway": {
       "applicable_requirements": ["Focus on novel capabilities - C6, C8"],
@@ -124,7 +124,7 @@
     "standard_pathway": {
       "applicable_requirements": ["Level 1-2 comprehensive"],
       "coverage_level": "Level 2",
-      "notes": "Standard medical device pathway with HAAISVS compliance verification"
+      "notes": "Standard medical device pathway with HAARF compliance verification"
     }
   },
   "coverage_analysis": {

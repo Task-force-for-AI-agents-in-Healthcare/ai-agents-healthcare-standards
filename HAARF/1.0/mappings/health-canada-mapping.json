@@ -14,7 +14,7 @@
       "haaisvs_description": "SaMD risk mapping with four-tier classification system",
       "target_requirements": ["Health Canada SaMD Guidance", "Medical Device Regulations (MDR)"],
       "alignment_type": "direct",
-      "notes": "Health Canada SaMD classification directly supported by HAAISVS four-tier risk mapping",
+      "notes": "Health Canada SaMD classification directly supported by HAARF four-tier risk mapping",
       "compliance_evidence": "SaMD classification documentation, risk categorization evidence, Health Canada pathway determination"
     },
     {
@@ -38,7 +38,7 @@
       "haaisvs_description": "Training data representativeness with comprehensive demographic coverage",
       "target_requirements": ["SGBA+ Data Requirements", "Health Canada Diversity Guidelines"],
       "alignment_type": "enhanced",
-      "notes": "HAAISVS extends Health Canada SGBA+ with enhanced intersectional analysis and global health considerations",
+      "notes": "HAARF extends Health Canada SGBA+ with enhanced intersectional analysis and global health considerations",
       "compliance_evidence": "Enhanced demographic representation analysis, intersectional bias assessment, vulnerable population coverage"
     },
     {
@@ -46,7 +46,7 @@
       "haaisvs_description": "Algorithmic bias detection with multi-metric fairness assessment",
       "target_requirements": ["SGBA+ Bias Detection", "Health Equity Framework"],
       "alignment_type": "enhanced",
-      "notes": "HAAISVS multi-metric approach provides comprehensive bias detection beyond standard SGBA+ requirements",
+      "notes": "HAARF multi-metric approach provides comprehensive bias detection beyond standard SGBA+ requirements",
       "compliance_evidence": "Multi-metric fairness evaluation, intersectional bias analysis, health equity impact assessment"
     },
     {
@@ -62,7 +62,7 @@
       "haaisvs_description": "Global health equity considerations for resource-limited settings",
       "target_requirements": ["Health Canada Global Health Strategy", "International Development Guidelines"],
       "alignment_type": "enhanced",
-      "notes": "HAAISVS extends beyond domestic SGBA+ to include global health equity considerations",
+      "notes": "HAARF extends beyond domestic SGBA+ to include global health equity considerations",
       "compliance_evidence": "Resource-limited setting analysis, global health equity assessment, international deployment considerations"
     },
     {

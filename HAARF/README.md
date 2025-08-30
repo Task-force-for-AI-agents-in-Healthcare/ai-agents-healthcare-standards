@@ -1,4 +1,4 @@
-# Healthcare AI Agents Security Verification Standard (HAAISVS)
+# Healthcare AI Agents Security Verification Standard (HAARF)
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
@@ -13,9 +13,9 @@ This work is licensed under a
 
 ## Introduction
 
-The **Healthcare AI Agents Security Verification Standard (HAAISVS)** provides healthcare organizations, AI developers, regulators, and security professionals with a structured compliance framework to evaluate and verify the safety, security, and effectiveness of autonomous AI agents in healthcare settings. 
+The **Healthcare AI Agents Security Verification Standard (HAARF)** provides healthcare organizations, AI developers, regulators, and security professionals with a structured compliance framework to evaluate and verify the safety, security, and effectiveness of autonomous AI agents in healthcare settings. 
 
-Built on the foundation of OWASP AISVS methodology and aligned with global regulatory frameworks (FDA, EU AI Act, Health Canada, UK MHRA, NIST AI RMF, WHO GI-AI4H), HAAISVS defines verification requirements across **seven comprehensive categories** developed through collaboration with the FDA industry committee working group:
+Built on the foundation of OWASP AISVS methodology and aligned with global regulatory frameworks (FDA, EU AI Act, Health Canada, UK MHRA, NIST AI RMF, WHO GI-AI4H), HAARF defines verification requirements across **seven comprehensive categories** developed through collaboration with the FDA industry committee working group:
 
 ## Core Verification Categories
 
@@ -29,7 +29,7 @@ Built on the foundation of OWASP AISVS methodology and aligned with global regul
 
 ## Healthcare-Specific Focus Areas
 
-HAAISVS extends traditional AI security verification to address the unique requirements of healthcare environments:
+HAARF extends traditional AI security verification to address the unique requirements of healthcare environments:
 
 - **Patient Safety & Clinical Workflow Integration** - Verification requirements for clinical decision support and patient care pathways
 - **Medical Device Regulatory Compliance** - Alignment with FDA 510(k), EU MDR/IVDR, and international medical device standards
@@ -39,7 +39,7 @@ HAAISVS extends traditional AI security verification to address the unique requi
 
 ## Regulatory Framework Alignment
 
-HAAISVS verification levels and requirements directly align with:
+HAARF verification levels and requirements directly align with:
 
 - **FDA**: Total Product Lifecycle approach with Predetermined Change Control Plans (PCCPs)
 - **EU AI Act**: High-risk AI system classification and compliance requirements for medical devices
@@ -52,7 +52,7 @@ HAAISVS verification levels and requirements directly align with:
 
 ## Project Leadership
 
-The HAAISVS project is led by the **Task Force for AI Agents in Healthcare** with leadership from:
+The HAARF project is led by the **Task Force for AI Agents in Healthcare** with leadership from:
 
 - **Framework Architecture**: Multi-stakeholder working groups across healthcare, regulatory, and AI security domains
 - **Clinical Integration**: Healthcare practitioners and patient safety advocates  
@@ -71,4 +71,4 @@ The entire project content is under the **[Creative Commons Attribution-Share Al
 
 ---
 
-**HAAISVS is the first healthcare-specific AI agent security verification standard, designed to ensure that autonomous AI systems in healthcare environments are safe, secure, transparent, and compliant with global regulatory requirements.**
+**HAARF is the first healthcare-specific AI agent security verification standard, designed to ensure that autonomous AI systems in healthcare environments are safe, secure, transparent, and compliant with global regulatory requirements.**

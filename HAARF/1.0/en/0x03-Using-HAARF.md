@@ -1,18 +1,18 @@
-# Using the HAAISVS
+# Using the HAARF
 
-The Healthcare AI Agents Security Verification Standard (HAAISVS) defines security and safety requirements for autonomous AI agents in healthcare environments, focusing on aspects within the control of healthcare organizations, AI developers, and clinical implementation teams.
+The Healthcare AI Agents Security Verification Standard (HAARF) defines security and safety requirements for autonomous AI agents in healthcare environments, focusing on aspects within the control of healthcare organizations, AI developers, and clinical implementation teams.
 
-The HAAISVS is intended for anyone developing, deploying, or evaluating the security and safety of healthcare AI agents, including clinical teams, AI developers, healthcare security professionals, regulatory affairs specialists, and compliance auditors. This chapter introduces the structure and use of HAAISVS, including its verification levels and healthcare-specific implementation guidance.
+The HAARF is intended for anyone developing, deploying, or evaluating the security and safety of healthcare AI agents, including clinical teams, AI developers, healthcare security professionals, regulatory affairs specialists, and compliance auditors. This chapter introduces the structure and use of HAARF, including its verification levels and healthcare-specific implementation guidance.
 
 ## Healthcare AI Agent Security Verification Levels
 
-The HAAISVS defines three ascending levels of security verification, each tailored to the risk profile and clinical impact of AI agents in healthcare environments. Each level adds depth and complexity, enabling healthcare organizations to tailor their security posture to match patient safety requirements and regulatory obligations.
+The HAARF defines three ascending levels of security verification, each tailored to the risk profile and clinical impact of AI agents in healthcare environments. Each level adds depth and complexity, enabling healthcare organizations to tailor their security posture to match patient safety requirements and regulatory obligations.
 
 Healthcare organizations should begin at Level 1 for all clinical AI agents and progressively adopt higher levels based on clinical risk, patient population, and regulatory requirements.
 
 ### Definition of the Levels
 
-Each requirement in HAAISVS v1.0 is assigned to one of the following levels:
+Each requirement in HAARF v1.0 is assigned to one of the following levels:
 
 #### Level 1: Foundation Healthcare Security (All Clinical AI Agents)
 **Target**: Every AI agent deployed in clinical or patient-facing healthcare environments  
@@ -52,7 +52,7 @@ Level 3 includes controls for the most sophisticated healthcare AI deployments. 
 
 ### Healthcare-Specific Risk Classification
 
-HAAISVS risk levels align with established healthcare risk classification frameworks:
+HAARF risk levels align with established healthcare risk classification frameworks:
 
 #### Clinical Risk Factors
 - **Patient Population**: Pediatric, elderly, critical care, emergency medicine (higher risk)
@@ -61,7 +61,7 @@ HAAISVS risk levels align with established healthcare risk classification framew
 - **Data Sensitivity**: Administrative, clinical, genomic, behavioral health (genomic/behavioral = higher risk)
 
 #### Regulatory Risk Mapping
-| HAAISVS Level | FDA Classification | EU AI Act Category | Health Canada Class |
+| HAARF Level | FDA Classification | EU AI Act Category | Health Canada Class |
 |:-------------:|:-----------------:|:-----------------:|:-------------------:|
 | **Level 1**   | Class II Medical Device | High-Risk AI System | Class II/III |
 | **Level 2**   | Class III Medical Device | High-Risk + Enhanced | Class III/IV |
@@ -69,7 +69,7 @@ HAAISVS risk levels align with established healthcare risk classification framew
 
 ### Role Designations (H/D/V/C)
 
-Each HAAISVS requirement is marked according to the primary healthcare stakeholder audience:
+Each HAARF requirement is marked according to the primary healthcare stakeholder audience:
 
 * **H** – Healthcare organization/clinical team-focused requirements
 * **D** – AI developer/technical team-focused requirements  
@@ -88,7 +88,7 @@ Phase 3: Level 3 for research and autonomous systems (24 months)
 ```
 
 #### Medical Device Manufacturers
-**Recommended Approach**: Integrate HAAISVS into medical device quality management system
+**Recommended Approach**: Integrate HAARF into medical device quality management system
 ```
 Development: Level 1 requirements in design controls
 Validation: Level 2 verification and validation testing
@@ -96,7 +96,7 @@ Submission: Level 2/3 for regulatory submissions (FDA 510k, EU CE marking)
 ```
 
 #### Healthcare AI Startups & Vendors  
-**Recommended Approach**: Build HAAISVS compliance into product development lifecycle
+**Recommended Approach**: Build HAARF compliance into product development lifecycle
 ```
 MVP: Level 1 core security and safety requirements
 Clinical Pilots: Level 2 enhanced security and traceability
@@ -104,25 +104,25 @@ Commercial Launch: Level 2 regulatory compliance + Level 3 for differentiation
 ```
 
 #### Regulatory Affairs & Compliance Teams
-**Recommended Approach**: Use HAAISVS as regulatory submission framework
+**Recommended Approach**: Use HAARF as regulatory submission framework
 ```
-Gap Analysis: Assess current AI agents against HAAISVS requirements
+Gap Analysis: Assess current AI agents against HAARF requirements
 Remediation: Address Level 1 gaps before clinical deployment
-Submission: Use HAAISVS verification as evidence for regulatory compliance
+Submission: Use HAARF verification as evidence for regulatory compliance
 ```
 
 ### Regulatory Submission Integration
 
-HAAISVS verification requirements directly support regulatory submissions:
+HAARF verification requirements directly support regulatory submissions:
 
-- **FDA 510(k)**: HAAISVS Level 2 provides predicate device equivalency evidence
-- **FDA De Novo**: HAAISVS Level 3 supports novel device classification requests  
-- **EU CE Marking**: HAAISVS aligns with AI Act conformity assessment requirements
-- **Health Canada MDPD**: HAAISVS verification supports SGBA+ bias mitigation evidence
-- **UK MHRA AI Airlock**: HAAISVS provides structured evidence for sandbox applications
+- **FDA 510(k)**: HAARF Level 2 provides predicate device equivalency evidence
+- **FDA De Novo**: HAARF Level 3 supports novel device classification requests  
+- **EU CE Marking**: HAARF aligns with AI Act conformity assessment requirements
+- **Health Canada MDPD**: HAARF verification supports SGBA+ bias mitigation evidence
+- **UK MHRA AI Airlock**: HAARF provides structured evidence for sandbox applications
 
-Healthcare organizations and AI developers can use HAAISVS compliance documentation directly in regulatory submissions, reducing time-to-market and improving approval success rates.
+Healthcare organizations and AI developers can use HAARF compliance documentation directly in regulatory submissions, reducing time-to-market and improving approval success rates.
 
 ---
 
-**HAAISVS provides healthcare-specific verification requirements that ensure AI agents are not only technically secure but also clinically safe, regulatory compliant, and aligned with the highest standards of patient care.**
+**HAARF provides healthcare-specific verification requirements that ensure AI agents are not only technically secure but also clinically safe, regulatory compliant, and aligned with the highest standards of patient care.**

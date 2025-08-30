@@ -1,6 +1,6 @@
-# HAAISVS v1.0 Regulatory Framework Mappings
+# HAARF v1.0 Regulatory Framework Mappings
 
-This directory contains comprehensive mappings between HAAISVS v1.0 and major global regulatory frameworks for healthcare AI agents.
+This directory contains comprehensive mappings between HAARF v1.0 and major global regulatory frameworks for healthcare AI agents.
 
 ## 📋 Available Mappings
 
@@ -16,20 +16,20 @@ This directory contains comprehensive mappings between HAAISVS v1.0 and major gl
 | **ISO/IEC 42001** | `iso-iec-42001-mapping.json` | 198/279 (71%) | ✅ Complete |
 | **IMDRF GMLP** | `imdrf-gmlp-mapping.json` | 201/279 (72%) | ✅ Complete |
 
-**Total HAAISVS Requirements**: 279 across 8 categories  
+**Total HAARF Requirements**: 279 across 8 categories  
 **Average Coverage**: 69% across all frameworks
 
 ## 🎯 FDA Priority Enhancement
 
 Mappings reflect FDA's highest priority feedback leading to **C8: Tool Use & Integration Security**:
 
-> *"The enhanced HAAISVS framework with C8 (Tool Use) represents the most comprehensive guidance available for medical device companies developing AI agents."*
+> *"The enhanced HAARF framework with C8 (Tool Use) represents the most comprehensive guidance available for medical device companies developing AI agents."*
 
 ## 📊 Alignment Types
 
-- **Direct**: HAAISVS directly implements regulatory requirement
-- **Enhanced**: HAAISVS extends regulatory requirement with additional capabilities  
-- **Novel**: HAAISVS addresses capabilities not covered by existing regulations
+- **Direct**: HAARF directly implements regulatory requirement
+- **Enhanced**: HAARF extends regulatory requirement with additional capabilities  
+- **Novel**: HAARF addresses capabilities not covered by existing regulations
 - **Primary Reference**: Framework serves as foundation (e.g., OWASP AISVS → C3)
 
 ## 🏛️ Key Framework Highlights
@@ -51,9 +51,9 @@ Mappings reflect FDA's highest priority feedback leading to **C8: Tool Use & Int
 
 ## 🌐 Multi-Jurisdictional Compliance
 
-HAAISVS enables simultaneous compliance across jurisdictions:
+HAARF enables simultaneous compliance across jurisdictions:
 
-1. **Foundation**: HAAISVS Level 2-3 compliance
+1. **Foundation**: HAARF Level 2-3 compliance
 2. **FDA Focus**: C1 (PCCP), C8 (Tool Use), SaMD
 3. **EU Focus**: C4 (Human Oversight), C2 (Transparency), C7 (Equity)  
 4. **Health Canada**: C7 (SGBA+), population equity
@@ -70,7 +70,7 @@ HAAISVS enables simultaneous compliance across jurisdictions:
 
 ### Regulatory Submissions
 - Use mapping evidence for multiple jurisdictions
-- Emphasize HAAISVS enhancements beyond regulatory minimums
+- Emphasize HAARF enhancements beyond regulatory minimums
 - Leverage common evidence requirements
 - Plan for international deployment
 
@@ -94,4 +94,4 @@ Each mapping includes:
 
 **Support**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
 
-**The HAAISVS mappings enable confident deployment of healthcare AI agents across global markets while maintaining highest standards of safety, effectiveness, and regulatory compliance.**
+**The HAARF mappings enable confident deployment of healthcare AI agents across global markets while maintaining highest standards of safety, effectiveness, and regulatory compliance.**

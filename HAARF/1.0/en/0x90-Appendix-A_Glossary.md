@@ -1,6 +1,6 @@
 # Appendix A: Glossary
 
-This glossary provides definitions for terms used throughout the Healthcare AI Agents Security Verification Standard (HAAISVS). Definitions align with regulatory frameworks (FDA, EU AI Act, Health Canada, UK MHRA), healthcare industry standards, and OWASP AISVS terminology.
+This glossary provides definitions for terms used throughout the Healthcare AI Agents Security Verification Standard (HAARF). Definitions align with regulatory frameworks (FDA, EU AI Act, Health Canada, UK MHRA), healthcare industry standards, and OWASP AISVS terminology.
 
 ## A
 
@@ -10,7 +10,7 @@ This glossary provides definitions for terms used throughout the Healthcare AI A
 
 **AI Model Passport**: A comprehensive, machine-interpretable documentation system that tracks the complete lifecycle of an AI model including data provenance, development process, deployment parameters, and operational history.
 
-**AISVS**: OWASP Artificial Intelligence Security Verification Standard - a framework for evaluating AI application security that HAAISVS builds upon for healthcare-specific requirements.
+**AISVS**: OWASP Artificial Intelligence Security Verification Standard - a framework for evaluating AI application security that HAARF builds upon for healthcare-specific requirements.
 
 **Autonomous Action**: AI agent capability to execute actions without human intervention, ranging from data analysis and alert generation to direct interaction with healthcare systems and clinical workflows.
 
@@ -50,7 +50,7 @@ This glossary provides definitions for terms used throughout the Healthcare AI A
 
 ## H
 
-**HAAISVS**: Healthcare AI Agents Security Verification Standard - this standard providing security and safety verification requirements specifically for AI agents in healthcare environments.
+**HAARF**: Healthcare AI Agents Security Verification Standard - this standard providing security and safety verification requirements specifically for AI agents in healthcare environments.
 
 **Healthcare AI Agent**: An autonomous AI system deployed in healthcare environments that processes clinical data, integrates with healthcare workflows, and provides clinical decision support while maintaining human oversight.
 
@@ -66,11 +66,11 @@ This glossary provides definitions for terms used throughout the Healthcare AI A
 
 **ISO/IEC 42001**: International standard for AI management systems providing framework for responsible AI development, deployment, and operation aligned with organizational governance and risk management.
 
-**ISO 13485**: Quality management standard specifically for medical devices, applicable to AI agents classified as medical devices and requiring integration with HAAISVS requirements.
+**ISO 13485**: Quality management standard specifically for medical devices, applicable to AI agents classified as medical devices and requiring integration with HAARF requirements.
 
 ## L
 
-**Level 1/2/3**: HAAISVS verification levels indicating requirement complexity and risk focus:
+**Level 1/2/3**: HAARF verification levels indicating requirement complexity and risk focus:
 - Level 1: Foundation requirements for all healthcare AI agents
 - Level 2: Advanced requirements for high-risk clinical applications  
 - Level 3: Expert requirements for complex autonomous systems and research applications
@@ -93,7 +93,7 @@ This glossary provides definitions for terms used throughout the Healthcare AI A
 
 ## P
 
-**Patient-Centered Care**: Healthcare approach prioritizing patient preferences, values, and needs in clinical decision-making, which HAAISVS ensures is preserved in AI-augmented care delivery.
+**Patient-Centered Care**: Healthcare approach prioritizing patient preferences, values, and needs in clinical decision-making, which HAARF ensures is preserved in AI-augmented care delivery.
 
 **PCCP**: See FDA PCCP above.
 
@@ -115,7 +115,7 @@ This glossary provides definitions for terms used throughout the Healthcare AI A
 
 ## T
 
-**Three-Factor Risk Assessment**: HAAISVS methodology evaluating healthcare AI agents based on clinical function, autonomy level, and data sensitivity to determine appropriate security and oversight requirements.
+**Three-Factor Risk Assessment**: HAARF methodology evaluating healthcare AI agents based on clinical function, autonomy level, and data sensitivity to determine appropriate security and oversight requirements.
 
 **Traceability**: Ability to track and document all aspects of AI agent development, deployment, and operation, enabling regulatory compliance, clinical accountability, and incident investigation.
 
@@ -127,7 +127,7 @@ This glossary provides definitions for terms used throughout the Healthcare AI A
 
 **Verification Level**: See Level 1/2/3 above.
 
-**Verification Requirement**: Specific, testable security or safety control that healthcare organizations, developers, or auditors can verify for compliance with HAAISVS standards.
+**Verification Requirement**: Specific, testable security or safety control that healthcare organizations, developers, or auditors can verify for compliance with HAARF standards.
 
 ## W
 
@@ -153,7 +153,7 @@ This glossary provides definitions for terms used throughout the Healthcare AI A
 | **FHIR** | Fast Healthcare Interoperability Resources |
 | **GDPR** | General Data Protection Regulation |
 | **GMLP** | Good Machine Learning Practice |
-| **HAAISVS** | Healthcare AI Agents Security Verification Standard |
+| **HAARF** | Healthcare AI Agents Security Verification Standard |
 | **HIPAA** | Health Insurance Portability and Accountability Act |
 | **HL7** | Health Level Seven International |
 | **IEC** | International Electrotechnical Commission |

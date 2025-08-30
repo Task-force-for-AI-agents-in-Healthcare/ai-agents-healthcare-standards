@@ -216,13 +216,13 @@
   },
   "implementation_guidance": {
     "organizational_integration": [
-      "Integrate HAAISVS categories into existing NIST AI RMF governance structures",
-      "Map healthcare-specific risks using HAAISVS three-factor assessment", 
+      "Integrate HAARF categories into existing NIST AI RMF governance structures",
+      "Map healthcare-specific risks using HAARF three-factor assessment", 
       "Implement clinical accountability frameworks within NIST governance models",
-      "Deploy continuous monitoring supporting both HAAISVS and NIST measurement functions"
+      "Deploy continuous monitoring supporting both HAARF and NIST measurement functions"
     ],
     "risk_management_enhancement": [
-      "Use HAAISVS clinical evidence requirements to enhance NIST risk context",
+      "Use HAARF clinical evidence requirements to enhance NIST risk context",
       "Implement population equity monitoring extending NIST fairness focus",
       "Deploy tool use controls as advanced NIST risk management capabilities",
       "Integrate healthcare incident response with NIST risk response procedures"

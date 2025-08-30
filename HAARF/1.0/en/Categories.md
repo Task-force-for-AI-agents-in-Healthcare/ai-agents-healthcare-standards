@@ -1,6 +1,6 @@
-# HAAISVS v1.0 Categories Overview
+# HAARF v1.0 Categories Overview
 
-The Healthcare AI Agents Security Verification Standard (HAAISVS) v1.0 defines security and safety requirements across **eight comprehensive categories**, each addressing critical aspects of healthcare AI agent deployment. These categories reflect the unique requirements of healthcare environments, align with global regulatory frameworks, and incorporate insights from the Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders.
+The Healthcare AI Agents Security Verification Standard (HAARF) v1.0 defines security and safety requirements across **eight comprehensive categories**, each addressing critical aspects of healthcare AI agent deployment. These categories reflect the unique requirements of healthcare environments, align with global regulatory frameworks, and incorporate insights from the Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders.
 
 ## License
 
@@ -193,7 +193,7 @@ C8 addresses the fundamental capability that differentiates AI agents from tradi
 
 ## Cross-Category Integration
 
-HAAISVS categories are designed for integrated implementation:
+HAARF categories are designed for integrated implementation:
 
 ### Regulatory Compliance Integration
 - **C1 + C2**: Risk assessment with complete traceability for regulatory submissions
@@ -232,7 +232,7 @@ HAAISVS categories are designed for integrated implementation:
 
 ## Working Group Integration
 
-The HAAISVS v1.0 framework incorporates key insights from the **Healthcare AI Agents Working Group** meetings with FDA industry committee stakeholders:
+The HAARF v1.0 framework incorporates key insights from the **Healthcare AI Agents Working Group** meetings with FDA industry committee stakeholders:
 
 ### **Pete Jarvis's Five Focus Areas** (Fully Integrated)
 ✅ **Clinical Risk Alignment** → C1: Unified Risk & Lifecycle Assessment  
@@ -252,4 +252,4 @@ The HAAISVS v1.0 framework incorporates key insights from the **Healthcare AI Ag
 
 ---
 
-**HAAISVS v1.0 provides the world's most comprehensive healthcare AI agent security verification standard with 279 specific requirements across eight categories, ensuring clinical safety, regulatory compliance, population equity, and human-centered care preservation for all healthcare environments.**
+**HAARF v1.0 provides the world's most comprehensive healthcare AI agent security verification standard with 279 specific requirements across eight categories, ensuring clinical safety, regulatory compliance, population equity, and human-centered care preservation for all healthcare environments.**
