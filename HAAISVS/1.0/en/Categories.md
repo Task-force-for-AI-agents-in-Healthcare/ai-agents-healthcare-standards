@@ -1,6 +1,12 @@
 # HAAISVS v1.0 Categories Overview
 
-The Healthcare AI Agents Security Verification Standard (HAAISVS) v1.0 defines security and safety requirements across **seven comprehensive categories**, each addressing critical aspects of healthcare AI agent deployment. These categories reflect the unique requirements of healthcare environments, align with global regulatory frameworks, and incorporate insights from the Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders.
+The Healthcare AI Agents Security Verification Standard (HAAISVS) v1.0 defines security and safety requirements across **eight comprehensive categories**, each addressing critical aspects of healthcare AI agent deployment. These categories reflect the unique requirements of healthcare environments, align with global regulatory frameworks, and incorporate insights from the Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders.
+
+## License
+
+This work is licensed under the **Apache 2.0 License**. You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ## Category Structure
 
@@ -159,6 +165,32 @@ Each category follows a consistent structure designed for healthcare compliance 
 - Vulnerable population protection with enhanced clinical safeguards
 - Global health equity considerations for resource-limited healthcare settings
 
+## C8: Tool Use & Integration Security ⭐ *FDA Priority Enhancement*
+
+**Total Requirements**: 42 verification requirements  
+**Regulatory Basis**: FDA medical device integration, tool combination regulatory pathways  
+**Clinical Focus**: Safe and compliant use of medical tools, APIs, and healthcare systems by AI agents
+
+### Subcategories
+- **C8.1** Tool Authorization & Access Control (6 requirements)
+- **C8.2** Tool Selection & Clinical Appropriateness (6 requirements)
+- **C8.3** Medical Device Integration & Interoperability (6 requirements)
+- **C8.4** API Security & Healthcare System Access (6 requirements)
+- **C8.5** Cascading Failure Prevention & System Resilience (5 requirements)
+- **C8.6** Tool Performance Monitoring & Optimization (5 requirements)
+- **C8.7** Regulatory Compliance for Tool-Enabled Agents (8 requirements)
+
+### Key Healthcare Innovations
+- FDA-compliant medical device integration without altering device classification
+- Role-based tool access controls with clinical appropriateness validation
+- Evidence-based tool selection with contraindication checking and safety validation
+- Circuit breaker patterns and isolation mechanisms to prevent cascading failures
+- Comprehensive regulatory pathway analysis for tool combination FDA submissions
+- Quality system integration for manufacturing controls of tool-enabled agents
+
+### FDA Priority Significance
+C8 addresses the fundamental capability that differentiates AI agents from traditional AI/ML medical devices: **the ability to autonomously select, access, and use multiple healthcare tools and systems**. This represents the most critical regulatory gap for tool-enabled healthcare AI agents and provides clear guidance for FDA submission pathways including 510(k), PMA, and breakthrough device considerations.
+
 ## Cross-Category Integration
 
 HAAISVS categories are designed for integrated implementation:
@@ -180,12 +212,12 @@ HAAISVS categories are designed for integrated implementation:
 
 ## Level Distribution Summary
 
-| Level | C1 | C2 | C3 | C4 | C5 | C6 | C7 | Total |
-|:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:-----:|
-| **1** | 9 | 8 | 12 | 14 | 12 | 8 | 10 | 73 |
-| **2** | 13 | 20 | 18 | 18 | 15 | 20 | 20 | 124 |
-| **3** | 8 | 6 | 5 | 6 | 3 | 7 | 5 | 40 |
-| **Total** | **30** | **34** | **35** | **38** | **30** | **35** | **35** | **237** |
+| Level | C1 | C2 | C3 | C4 | C5 | C6 | C7 | C8 | Total |
+|:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:-----:|
+| **1** | 9 | 8 | 12 | 14 | 12 | 8 | 10 | 12 | 85 |
+| **2** | 13 | 20 | 18 | 18 | 15 | 20 | 20 | 20 | 144 |
+| **3** | 8 | 6 | 5 | 6 | 3 | 7 | 5 | 10 | 50 |
+| **Total** | **30** | **34** | **35** | **38** | **30** | **35** | **35** | **42** | **279** |
 
 ## Role Distribution Summary
 
@@ -196,7 +228,7 @@ HAAISVS categories are designed for integrated implementation:
 | **V** | Verifier/Auditor | 70 | Compliance teams, auditors, regulatory affairs |
 | **C** | Clinical Professional | 65 | Physicians, nurses, clinical specialists |
 
-*Note: Many requirements are multi-role (H/D, D/V, H/C, etc.), so role counts reflect estimated primary responsibility distribution across the expanded 237 requirements.*
+*Note: Many requirements are multi-role (H/D, D/V, H/C, etc.), so role counts reflect estimated primary responsibility distribution across the expanded 279 requirements.*
 
 ## Working Group Integration
 
@@ -215,6 +247,9 @@ The HAAISVS v1.0 framework incorporates key insights from the **Healthcare AI Ag
 ✅ **Multi-jurisdictional Compliance** (Phil Englert) → Integrated across all categories  
 ✅ **Security & Offensive Testing** (Kyle Quest, Pete Jarvis) → C3: Proactive Cybersecurity Framework
 
+### **FDA Priority Enhancement**
+⭐ **Tool Use & Integration Security** → C8: Tool Use & Integration Security *(Added based on direct FDA feedback identifying the critical regulatory gap for tool-enabled healthcare AI agents - the fundamental capability that differentiates AI agents from traditional AI/ML medical devices)*
+
 ---
 
-**HAAISVS v1.0 provides the world's most comprehensive healthcare AI agent security verification standard with 237 specific requirements across seven categories, ensuring clinical safety, regulatory compliance, population equity, and human-centered care preservation for all healthcare environments.**
+**HAAISVS v1.0 provides the world's most comprehensive healthcare AI agent security verification standard with 279 specific requirements across eight categories, ensuring clinical safety, regulatory compliance, population equity, and human-centered care preservation for all healthcare environments.**
