@@ -96,15 +96,18 @@ Monitor agent tool usage patterns and optimize performance while maintaining cli
 
 ## C8.7 Regulatory Compliance for Tool-Enabled Agents
 
-Ensure tool-enabled AI agents meet FDA medical device regulatory requirements including classification, validation, and post-market surveillance.
+Ensure tool-enabled AI agents meet FDA medical device regulatory requirements including classification, validation, and post-market surveillance with specific focus on tool combination regulatory pathways.
 
 | # | Description | Level | Role |
 |:--------:|---------------------------------------------------------------------------------------------------------------------|:---:|:---:|
-| **8.7.1** | **Verify that** tool-enabled healthcare AI agents undergo regulatory classification analysis determining whether agent+tools combination requires new FDA submission or predicate device comparison. | 2 | V |
-| **8.7.2** | **Verify that** regulatory documentation includes comprehensive tool usage validation demonstrating safety and effectiveness for all approved tool combinations and clinical use cases. | 2 | V |
-| **8.7.3** | **Verify that** post-market surveillance includes monitoring of agent tool usage patterns, adverse events related to tool selection or usage, and real-world performance validation. | 2 | H/V |
-| **8.7.4** | **Verify that** regulatory compliance includes labeling requirements clearly communicating agent tool capabilities, limitations, and approved use cases to healthcare professionals and patients. | 3 | V |
-| **8.7.5** | **Verify that** advanced compliance includes automated regulatory reporting systems tracking agent tool usage and generating required FDA post-market surveillance reports and adverse event documentation. | 3 | V |
+| **8.7.1** | **Verify that** tool-enabled healthcare AI agents undergo comprehensive regulatory classification analysis determining whether agent+tools combination requires new FDA submission, predicate device comparison, or combination product pathway evaluation. | 1 | V |
+| **8.7.2** | **Verify that** regulatory documentation includes comprehensive tool usage validation demonstrating safety and effectiveness for all approved tool combinations, clinical use cases, and risk-based tool interaction scenarios. | 1 | V |
+| **8.7.3** | **Verify that** tool-enabled agents undergo clinical evidence generation specific to tool combinations including controlled studies validating tool selection accuracy, clinical outcome improvement, and patient safety across different tool usage patterns. | 1 | V |
+| **8.7.4** | **Verify that** post-market surveillance includes monitoring of agent tool usage patterns, adverse events related to tool selection or usage, real-world performance validation, and novel use case detection requiring regulatory assessment. | 2 | H/V |
+| **8.7.5** | **Verify that** regulatory compliance includes comprehensive labeling requirements clearly communicating agent tool capabilities, limitations, approved use cases, contraindications for specific tool combinations, and healthcare professional training requirements. | 2 | V |
+| **8.7.6** | **Verify that** quality system integration includes manufacturing controls for tool-enabled agents covering software configuration management, tool compatibility validation, and change control procedures for both agent and tool components. | 2 | D/V |
+| **8.7.7** | **Verify that** breakthrough device pathway consideration includes evaluation of novel tool-enabled agent capabilities that provide significant advantages over existing healthcare technologies for serious or life-threatening conditions. | 3 | V |
+| **8.7.8** | **Verify that** advanced compliance includes automated regulatory reporting systems tracking agent tool usage, generating required FDA post-market surveillance reports, adverse event documentation, and novel use case identification for regulatory consultation. | 3 | V |
 
 ---
 
