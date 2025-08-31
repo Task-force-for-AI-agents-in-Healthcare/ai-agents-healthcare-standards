@@ -5,7 +5,7 @@
 [![Framework Version](https://img.shields.io/badge/HAARF-v1.0-blue.svg)]()
 [![Categories](https://img.shields.io/badge/categories-8-green.svg)]()
 [![Requirements](https://img.shields.io/badge/requirements-279-orange.svg)]()
-[![License](https://img.shields.io/badge/license-Apache%202.0-lightgrey)](http://www.apache.org/licenses/LICENSE-2.0)
+[![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## 🎯 What is HAARF?
 
@@ -209,7 +209,7 @@ We welcome contributions from healthcare professionals, AI developers, regulator
 
 ## ⚖️ License
 
-This work is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0). 
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). 
 
 HAARF is designed for regulatory submissions and compliance across multiple jurisdictions while maintaining open source principles for global healthcare benefit.
 

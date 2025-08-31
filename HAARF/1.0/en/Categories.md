@@ -1,10 +1,12 @@
 # HAARF v1.0 Categories Overview
 
-The Healthcare AI Agents Security Verification Standard (HAARF) v1.0 defines security and safety requirements across **eight comprehensive categories**, each addressing critical aspects of healthcare AI agent deployment. These categories reflect the unique requirements of healthcare environments, align with global regulatory frameworks, and incorporate insights from the Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders.
+The **Healthcare AI Agents Regulatory Framework (HAARF)** v1.0 defines regulatory compliance and safety requirements across **eight comprehensive categories**, each addressing critical aspects of healthcare AI agent deployment. These categories reflect the unique requirements of healthcare environments, align with global regulatory frameworks, and incorporate insights from the Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders.
+
+**Built upon OWASP AISVS Foundation**: HAARF is adapted from the excellent [OWASP Artificial Intelligence Security Verification Standard (AISVS)](https://github.com/OWASP/AISVS) framework, specialized for healthcare regulatory compliance.
 
 ## License
 
-This work is licensed under the **Apache 2.0 License**. You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+This work is licensed under the **[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)**.
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 

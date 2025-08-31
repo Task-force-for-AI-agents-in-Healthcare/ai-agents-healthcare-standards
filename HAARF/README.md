@@ -1,15 +1,15 @@
 # Healthcare AI Agents Regulatory Framework (HAARF)
 
-[![Apache 2.0][apache-shield]][apache]
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-This work is licensed under the
-[Apache 2.0 License][apache].
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
-[![Apache 2.0][apache-image]][apache]
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-[apache]: http://www.apache.org/licenses/LICENSE-2.0
-[apache-image]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
-[apache-shield]: https://img.shields.io/badge/License-Apache%202.0-lightgrey
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg
 
 ## Introduction
 
@@ -68,7 +68,7 @@ The HAARF project is led by the **Task Force for AI Agents in Healthcare** with 
 
 ## License
 
-The entire project content is under the **[Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)** license.
+The entire project content is under the **[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)** license.
 
 ---
 
