@@ -34,7 +34,7 @@ AI agents are **autonomous, goal-directed systems** that:
 
 Based on comprehensive analysis of global regulatory approaches and insights from our Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders, our framework establishes **eight comprehensive verification categories** for AI agent governance in healthcare, with recent FDA priority enhancements addressing tool-enabled agent regulatory pathways:
 
-### 🔐 **C1: Unified Risk & Lifecycle Assessment**
+### 🔐 **[C1: Unified Risk & Lifecycle Assessment](./HAARF/1.0/en/0x10-C01-Risk-Lifecycle-Assessment.md)**
 **Enhanced FDA-EU Model with SaMD Classification & 510(k) Pathway**
 
 - **SaMD Risk Mapping**: Four-tier classification system (Class I-IV) based on healthcare decision state and situation severity
@@ -44,7 +44,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Continuous Monitoring**: Real-time surveillance for model drift and performance degradation
 - **Regulatory Sandboxes**: UK MHRA-style testing environments for real-world evidence generation
 
-### 📋 **C2: Model Passport & Traceability**
+### 📋 **[C2: Model Passport & Traceability](./HAARF/1.0/en/0x10-C02-Model-Passport-Traceability.md)**
 **Complete Lifecycle Documentation & Accountability**
 
 - **Data Lineage**: Full provenance tracking with Health Canada SGBA+ diversity analysis
@@ -52,7 +52,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Decision Lineage**: Explainable AI audit trails for every agent output
 - **Machine-Interpretable**: Automated compliance verification and regulatory reporting
 
-### 🛡️ **C3: Proactive Cybersecurity Framework**
+### 🛡️ **[C3: Proactive Cybersecurity Framework](./HAARF/1.0/en/0x10-C03-Cybersecurity-Framework.md)**
 **[OWASP AISVS](https://github.com/OWASP/AISVS)-Aligned AI-Specific Threat Protection**
 
 - **AISVS Primary Reference**: Organizations align with [OWASP Artificial Intelligence Security Verification Standard (AISVS)](https://github.com/OWASP/AISVS)
@@ -61,7 +61,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Real-Time Threat Monitoring**: Continuous anomaly detection for agent behavior
 - **Healthcare-Specific Adaptations**: AISVS requirements adapted for clinical environments
 
-### 👤 **C4: Human Oversight & Integration**
+### 👤 **[C4: Human Oversight & Integration](./HAARF/1.0/en/0x10-C04-Human-Oversight.md)**
 **Clinical Augmentation with Accountability**
 
 - **Clear Accountability**: Defined human responsibility chains throughout agent lifecycle
@@ -69,7 +69,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Human Factors Engineering**: Mandatory usability testing to prevent automation bias
 - **Transparency Requirements**: Agent capabilities and limitations clearly communicated to users
 
-### 🆔 **C5: Agent Registration & Identity**
+### 🆔 **[C5: Agent Registration & Identity](./HAARF/1.0/en/0x10-C05-Agent-Registration-Identity.md)**
 **Comprehensive Agent Visibility & Control**
 
 - **Healthcare Agent Cataloging**: Centralized registries for all AI agents in clinical environments
@@ -77,7 +77,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Lifecycle Management**: Complete tracking from deployment to decommissioning
 - **Behavioral Monitoring**: Anomaly detection and security event correlation
 
-### 🎛️ **C6: Autonomy Governance & Control**
+### 🎛️ **[C6: Autonomy Governance & Control](./HAARF/1.0/en/0x10-C06-Autonomy-Governance.md)**
 **Progressive Autonomy with Safety Boundaries**
 
 - **Autonomy Classification**: Standardized levels from co-pilot to full autonomous operation
@@ -85,7 +85,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Human-Agent Authority**: Clear decision boundaries and emergency override capabilities
 - **Multi-Agent Coordination**: Governance for coordinated autonomous agent systems
 
-### ⚖️ **C7: Bias Mitigation & Population Equity**
+### ⚖️ **[C7: Bias Mitigation & Population Equity](./HAARF/1.0/en/0x10-C07-Bias-Equity-Population.md)**
 **Fairness Across All Patient Populations**
 
 - **Demographic Representativeness**: Comprehensive training data diversity requirements
@@ -93,7 +93,7 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Vulnerable Population Protection**: Enhanced safeguards for at-risk patient groups
 - **Global Health Equity**: Considerations for resource-limited and diverse healthcare settings
 
-### 🔧 **C8: Tool Use & Integration Security** ⭐ *FDA Priority Enhancement*
+### 🔧 **[C8: Tool Use & Integration Security](./HAARF/1.0/en/0x10-C08-Tool-Use-Integration.md)** ⭐ *FDA Priority Enhancement*
 **Regulatory Compliance for Tool-Enabled Agents**
 
 - **Tool Authorization Controls**: Role-based access with clinical appropriateness validation
