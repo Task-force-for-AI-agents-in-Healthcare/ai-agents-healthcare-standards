@@ -1,6 +1,6 @@
 {
   "mapping_info": {
-    "haaisvs_version": "1.0",
+    "haarf_version": "1.0",
     "target_framework": "NIST AI Risk Management Framework (AI RMF 1.0)",
     "target_version": "AI RMF 1.0 (January 2023)",
     "mapping_date": "2025-01-10", 
@@ -11,32 +11,32 @@
   "function_mappings": {
     "GOVERN": {
       "description": "Cultivates a culture of risk management and establishes governance structures",
-      "haaisvs_categories": ["C1", "C4", "C5", "C6"],
+      "haarf_categories": ["C1", "C4", "C5", "C6"],
       "key_alignments": [
         {
-          "haaisvs_requirement": "1.6.1",
-          "haaisvs_description": "AI agent risk management integration with organizational healthcare systems", 
+          "haarf_requirement": "1.6.1",
+          "haarf_description": "AI agent risk management integration with organizational healthcare systems", 
           "target_subcategory": "GV-1.1",
           "alignment_type": "direct",
           "notes": "Senior leadership ensures AI governance is integrated into organizational risk management"
         },
         {
-          "haaisvs_requirement": "1.2.1",
-          "haaisvs_description": "FDA-style PCCP for predetermined change control",
+          "haarf_requirement": "1.2.1",
+          "haarf_description": "FDA-style PCCP for predetermined change control",
           "target_subcategory": "GV-3.1", 
           "alignment_type": "direct",
           "notes": "PCCP procedures establish clear AI governance and change management policies"
         },
         {
-          "haaisvs_requirement": "4.1.1",
-          "haaisvs_description": "Clinical accountability frameworks for healthcare professionals",
+          "haarf_requirement": "4.1.1",
+          "haarf_description": "Clinical accountability frameworks for healthcare professionals",
           "target_subcategory": "GV-6.1",
           "alignment_type": "direct",
           "notes": "Healthcare professional accountability supports workforce AI competency and responsibility"
         },
         {
-          "haaisvs_requirement": "6.3.1",
-          "haaisvs_description": "Human-agent authority boundaries and decision rights",
+          "haarf_requirement": "6.3.1",
+          "haarf_description": "Human-agent authority boundaries and decision rights",
           "target_subcategory": "GV-5.1",
           "alignment_type": "direct", 
           "notes": "Clear authority boundaries support organizational AI risk management policies"
@@ -45,32 +45,32 @@
     },
     "MAP": {
       "description": "Establishes context and identifies AI risks to individuals, groups, and society",
-      "haaisvs_categories": ["C1", "C2", "C7"],
+      "haarf_categories": ["C1", "C2", "C7"],
       "key_alignments": [
         {
-          "haaisvs_requirement": "1.1.1",
-          "haaisvs_description": "Three-factor risk assessment (clinical function, autonomy, data sensitivity)",
+          "haarf_requirement": "1.1.1",
+          "haarf_description": "Three-factor risk assessment (clinical function, autonomy, data sensitivity)",
           "target_subcategory": "MP-2.3",
           "alignment_type": "direct",
           "notes": "Comprehensive risk identification across clinical, technical, and data sensitivity dimensions"
         },
         {
-          "haaisvs_requirement": "2.1.1",
-          "haaisvs_description": "Complete data lineage and provenance tracking",
+          "haarf_requirement": "2.1.1",
+          "haarf_description": "Complete data lineage and provenance tracking",
           "target_subcategory": "MP-4.1",
           "alignment_type": "direct",
           "notes": "Data lineage tracking supports AI risk context establishment and impact identification"
         },
         {
-          "haaisvs_requirement": "7.2.1",
-          "haaisvs_description": "Algorithmic bias detection and multi-metric fairness assessment",
+          "haarf_requirement": "7.2.1",
+          "haarf_description": "Algorithmic bias detection and multi-metric fairness assessment",
           "target_subcategory": "MP-3.2",
           "alignment_type": "direct",
           "notes": "Bias detection and fairness assessment directly address AI risks to individuals and groups"
         },
         {
-          "haaisvs_requirement": "1.7.1",
-          "haaisvs_description": "Clinical evidence generation scaled to risk classification",
+          "haarf_requirement": "1.7.1",
+          "haarf_description": "Clinical evidence generation scaled to risk classification",
           "target_subcategory": "MP-2.1",
           "alignment_type": "direct",
           "notes": "Risk-scaled evidence requirements support context-appropriate risk identification"
@@ -79,32 +79,32 @@
     },
     "MEASURE": {
       "description": "Employs tools and techniques to analyze and track AI risks",
-      "haaisvs_categories": ["C1", "C2", "C3", "C7"],
+      "haarf_categories": ["C1", "C2", "C3", "C7"],
       "key_alignments": [
         {
-          "haaisvs_requirement": "1.3.1", 
-          "haaisvs_description": "Continuous clinical performance monitoring with statistical significance",
+          "haarf_requirement": "1.3.1", 
+          "haarf_description": "Continuous clinical performance monitoring with statistical significance",
           "target_subcategory": "MS-2.5",
           "alignment_type": "direct",
           "notes": "Statistical monitoring and performance tracking support AI risk measurement and analysis"
         },
         {
-          "haaisvs_requirement": "2.4.1",
-          "haaisvs_description": "Clinical decision audit trails with comprehensive logging",
+          "haarf_requirement": "2.4.1",
+          "haarf_description": "Clinical decision audit trails with comprehensive logging",
           "target_subcategory": "MS-3.3",
           "alignment_type": "direct",
           "notes": "Audit trails enable AI risk measurement through decision tracking and analysis"
         },
         {
-          "haaisvs_requirement": "3.3.1",
-          "haaisvs_description": "Real-time healthcare threat monitoring with anomaly detection",
+          "haarf_requirement": "3.3.1",
+          "haarf_description": "Real-time healthcare threat monitoring with anomaly detection",
           "target_subcategory": "MS-2.1",
           "alignment_type": "direct",
           "notes": "Real-time monitoring provides continuous AI risk measurement and threat detection"
         },
         {
-          "haaisvs_requirement": "7.6.1",
-          "haaisvs_description": "Continuous equity monitoring with population-stratified metrics",
+          "haarf_requirement": "7.6.1",
+          "haarf_description": "Continuous equity monitoring with population-stratified metrics",
           "target_subcategory": "MS-2.7",
           "alignment_type": "direct",
           "notes": "Population-stratified monitoring enables measurement of AI fairness and bias risks"
@@ -113,32 +113,32 @@
     },
     "MANAGE": {
       "description": "Prioritizes and responds to AI risks based on impact and organizational values",
-      "haaisvs_categories": ["C3", "C4", "C6", "C8"],
+      "haarf_categories": ["C3", "C4", "C6", "C8"],
       "key_alignments": [
         {
-          "haaisvs_requirement": "3.6.1",
-          "haaisvs_description": "Clinical incident response procedures for AI agent security incidents",
+          "haarf_requirement": "3.6.1",
+          "haarf_description": "Clinical incident response procedures for AI agent security incidents",
           "target_subcategory": "MG-2.1",
           "alignment_type": "direct",
           "notes": "Incident response procedures support prioritized AI risk response and management"
         },
         {
-          "haaisvs_requirement": "4.2.1", 
-          "haaisvs_description": "Clinical decision validation and override capabilities",
+          "haarf_requirement": "4.2.1", 
+          "haarf_description": "Clinical decision validation and override capabilities",
           "target_subcategory": "MG-3.1",
           "alignment_type": "direct",
           "notes": "Human override capabilities enable risk response and corrective action for AI decisions"
         },
         {
-          "haaisvs_requirement": "6.7.1",
-          "haaisvs_description": "Emergency override and manual control capabilities",
+          "haarf_requirement": "6.7.1",
+          "haarf_description": "Emergency override and manual control capabilities",
           "target_subcategory": "MG-3.2",
           "alignment_type": "direct",
           "notes": "Emergency controls enable immediate risk response for autonomous AI agent failures"
         },
         {
-          "haaisvs_requirement": "8.5.1",
-          "haaisvs_description": "Circuit breaker patterns for cascading failure prevention", 
+          "haarf_requirement": "8.5.1",
+          "haarf_description": "Circuit breaker patterns for cascading failure prevention", 
           "target_subcategory": "MG-2.3",
           "alignment_type": "enhanced",
           "notes": "Advanced failure prevention extends NIST risk response with tool-specific safeguards"
@@ -148,25 +148,25 @@
   },
   "comprehensive_mappings": [
     {
-      "haaisvs_requirement": "1.1.1",
+      "haarf_requirement": "1.1.1",
       "nist_subcategories": ["GV-2.1", "MP-2.3", "MS-1.1"],
       "cross_function_impact": "Risk assessment supports governance, mapping, and measurement functions",
       "implementation_notes": "Three-factor assessment provides comprehensive foundation for NIST AI RMF implementation"
     },
     {
-      "haaisvs_requirement": "2.3.1",
+      "haarf_requirement": "2.3.1",
       "nist_subcategories": ["GV-6.2", "MP-5.1", "MS-2.3"],
       "cross_function_impact": "XAI supports governance transparency, risk context, and performance measurement",
       "implementation_notes": "Clinical XAI requirements enhance NIST trustworthiness through healthcare-specific explanations"
     },
     {
-      "haaisvs_requirement": "4.1.1",
+      "haarf_requirement": "4.1.1",
       "nist_subcategories": ["GV-6.1", "MG-3.1", "MS-4.1"],
       "cross_function_impact": "Clinical accountability spans governance, risk management, and measurement validation", 
       "implementation_notes": "Healthcare professional responsibility framework strengthens NIST human-centered AI governance"
     },
     {
-      "haaisvs_requirement": "7.1.1",
+      "haarf_requirement": "7.1.1",
       "nist_subcategories": ["MP-4.1", "MS-2.7", "MG-2.4"],
       "cross_function_impact": "Training data equity supports risk identification, fairness measurement, and bias management",
       "implementation_notes": "Population representativeness extends NIST equity focus with healthcare-specific demographics"
@@ -174,38 +174,38 @@
   ],
   "trustworthy_ai_characteristics": {
     "valid_and_reliable": {
-      "haaisvs_support": ["C1 - Risk assessment and lifecycle management", "C2 - Model validation and traceability"],
+      "haarf_support": ["C1 - Risk assessment and lifecycle management", "C2 - Model validation and traceability"],
       "key_requirements": ["1.3.1", "2.2.1", "2.5.1"],
       "enhancement": "Clinical validation and real-world evidence collection"
     },
     "safe": {
-      "haaisvs_support": ["C1 - Clinical safety integration", "C8 - Tool use safety controls"],
+      "haarf_support": ["C1 - Clinical safety integration", "C8 - Tool use safety controls"],
       "key_requirements": ["1.6.3", "8.2.2", "8.5.1"],
       "enhancement": "Healthcare-specific safety frameworks and tool integration controls"
     },
     "fair_with_harmful_bias_managed": {
-      "haaisvs_support": ["C7 - Comprehensive bias mitigation and population equity"],
+      "haarf_support": ["C7 - Comprehensive bias mitigation and population equity"],
       "key_requirements": ["7.1.1", "7.2.1", "7.4.1"],
       "enhancement": "Intersectional analysis and vulnerable population protection"
     },
     "explainable_and_interpretable": {
-      "haaisvs_support": ["C2 - XAI and decision transparency", "C4 - Clinical decision validation"],
+      "haarf_support": ["C2 - XAI and decision transparency", "C4 - Clinical decision validation"],
       "key_requirements": ["2.3.1", "4.2.2", "2.4.1"],
       "enhancement": "Clinically meaningful explanations and decision audit trails"
     },
     "privacy_enhanced": {
-      "haaisvs_support": ["C3 - Healthcare data protection and privacy security"],
+      "haarf_support": ["C3 - Healthcare data protection and privacy security"],
       "key_requirements": ["3.5.1", "3.5.2", "3.5.3"],
       "enhancement": "HIPAA/GDPR compliance with healthcare-specific privacy controls"
     },
     "accountable_and_transparent": {
-      "haaisvs_support": ["C4 - Clinical accountability", "C5 - Agent registration and identity"],
+      "haarf_support": ["C4 - Clinical accountability", "C5 - Agent registration and identity"],
       "key_requirements": ["4.1.1", "5.1.1", "5.3.1"],
       "enhancement": "Healthcare professional responsibility and agent lifecycle accountability"
     }
   },
   "coverage_analysis": {
-    "total_haaisvs_requirements": 279,
+    "total_haarf_requirements": 279,
     "mapped_to_nist_rmf": 245,
     "govern_function": 67,
     "map_function": 71,

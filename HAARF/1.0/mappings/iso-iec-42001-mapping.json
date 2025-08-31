@@ -1,6 +1,6 @@
 {
   "mapping_info": {
-    "haaisvs_version": "1.0",
+    "haarf_version": "1.0",
     "target_framework": "ISO/IEC 42001:2023 - Artificial Intelligence Management System",
     "target_version": "ISO/IEC 42001:2023",
     "mapping_date": "2025-01-10",
@@ -11,7 +11,7 @@
   "management_system_clauses": {
     "clause_4_context": {
       "description": "Understanding organization and its context, interested parties, scope of AI management system",
-      "haaisvs_alignment": [
+      "haarf_alignment": [
         {
           "requirement": "1.6.1",
           "description": "AI agent risk management integration with organizational healthcare systems",
@@ -30,7 +30,7 @@
     },
     "clause_5_leadership": {
       "description": "Leadership and commitment, AI policy, organizational roles and responsibilities",
-      "haaisvs_alignment": [
+      "haarf_alignment": [
         {
           "requirement": "4.1.1",
           "description": "Clinical accountability frameworks for healthcare professionals",
@@ -49,7 +49,7 @@
     },
     "clause_6_planning": {
       "description": "Risk management, AI objectives and planning to achieve them",
-      "haaisvs_alignment": [
+      "haarf_alignment": [
         {
           "requirement": "1.1.1",
           "description": "Comprehensive three-factor risk assessment methodology",
@@ -68,7 +68,7 @@
     },
     "clause_7_support": {
       "description": "Resources, competence, awareness, communication, documented information",
-      "haaisvs_alignment": [
+      "haarf_alignment": [
         {
           "requirement": "4.4.1",
           "description": "Clinical competency and training requirements",
@@ -87,7 +87,7 @@
     },
     "clause_8_operation": {
       "description": "AI system lifecycle processes, impact assessment, risk treatment",
-      "haaisvs_alignment": [
+      "haarf_alignment": [
         {
           "requirement": "1.3.1",
           "description": "Continuous clinical performance monitoring",
@@ -106,7 +106,7 @@
     },
     "clause_9_performance_evaluation": {
       "description": "Monitoring, measurement, analysis, evaluation, internal audit, management review",
-      "haaisvs_alignment": [
+      "haarf_alignment": [
         {
           "requirement": "1.3.1",
           "description": "Statistical significance testing and performance degradation detection",
@@ -125,7 +125,7 @@
     },
     "clause_10_improvement": {
       "description": "Nonconformity and corrective action, continual improvement", 
-      "haaisvs_alignment": [
+      "haarf_alignment": [
         {
           "requirement": "3.6.1",
           "description": "Healthcare incident response and corrective action procedures",
@@ -146,37 +146,37 @@
   "ai_lifecycle_integration": {
     "design_and_development": {
       "iso_requirement": "8.2.1 - AI system design and development",
-      "haaisvs_support": ["C1", "C2", "C7"],
+      "haarf_support": ["C1", "C2", "C7"],
       "key_requirements": ["1.1.1", "2.1.1", "7.1.1"],
       "enhancement": "Healthcare-specific design requirements including clinical workflow integration and population equity"
     },
     "verification_and_validation": {
       "iso_requirement": "8.2.2 - AI system verification and validation",
-      "haaisvs_support": ["C1", "C4", "C8"],
+      "haarf_support": ["C1", "C4", "C8"],
       "key_requirements": ["1.7.1", "4.2.1", "8.7.1"],
       "enhancement": "Clinical validation requirements and tool integration verification extend ISO validation"
     },
     "deployment": {
       "iso_requirement": "8.2.3 - AI system deployment",
-      "haaisvs_support": ["C4", "C5", "C6"],
+      "haarf_support": ["C4", "C5", "C6"],
       "key_requirements": ["4.6.1", "5.1.1", "6.2.1"],
       "enhancement": "Clinical workflow integration and progressive autonomy deployment extend ISO deployment controls"
     },
     "operation_and_monitoring": {
       "iso_requirement": "8.2.4 - AI system operation and monitoring",
-      "haaisvs_support": ["C1", "C3", "C8"],
+      "haarf_support": ["C1", "C3", "C8"],
       "key_requirements": ["1.3.1", "3.3.1", "8.6.1"],
       "enhancement": "Healthcare-specific monitoring including clinical performance, security threats, and tool usage patterns"
     },
     "maintenance": {
       "iso_requirement": "8.2.5 - AI system maintenance",
-      "haaisvs_support": ["C1", "C2"],
+      "haarf_support": ["C1", "C2"],
       "key_requirements": ["1.2.1", "2.2.1"], 
       "enhancement": "PCCP change control and model versioning support systematic AI maintenance"
     },
     "decommissioning": {
       "iso_requirement": "8.2.6 - AI system decommissioning",
-      "haaisvs_support": ["C5"],
+      "haarf_support": ["C5"],
       "key_requirements": ["5.3.1", "5.3.2"],
       "enhancement": "Agent lifecycle management provides structured decommissioning for healthcare AI systems"
     }
@@ -184,29 +184,29 @@
   "risk_management_enhancement": {
     "risk_identification": {
       "iso_requirement": "6.1.2.1 - AI risk identification",
-      "haaisvs_enhancement": "1.1.1 - Three-factor risk assessment provides comprehensive healthcare-specific risk identification",
+      "haarf_enhancement": "1.1.1 - Three-factor risk assessment provides comprehensive healthcare-specific risk identification",
       "added_value": "Clinical function, autonomy, and data sensitivity factors extend standard ISO risk identification"
     },
     "risk_analysis": {
       "iso_requirement": "6.1.2.2 - AI risk analysis", 
-      "haaisvs_enhancement": "1.1.5 - Healthcare-specific threat modeling and impact analysis",
+      "haarf_enhancement": "1.1.5 - Healthcare-specific threat modeling and impact analysis",
       "added_value": "Clinical workflow disruption and patient safety impact analysis enhance standard risk analysis"
     },
     "risk_evaluation": {
       "iso_requirement": "6.1.2.3 - AI risk evaluation",
-      "haaisvs_enhancement": "1.1.2 - Automatic high-risk classification for diagnostic/therapeutic functions",
+      "haarf_enhancement": "1.1.2 - Automatic high-risk classification for diagnostic/therapeutic functions",
       "added_value": "Healthcare-specific risk criteria ensure appropriate risk evaluation for clinical applications"
     },
     "risk_treatment": {
       "iso_requirement": "6.1.3 - AI risk treatment",
-      "haaisvs_enhancement": "Multiple categories provide comprehensive risk treatment options",
+      "haarf_enhancement": "Multiple categories provide comprehensive risk treatment options",
       "added_value": "Clinical safeguards, human oversight, and population equity measures provide healthcare-specific treatment"
     }
   },
   "certification_pathway": {
     "preparation_phase": {
       "duration": "6-12 months",
-      "haaisvs_implementation": ["Level 1-2 requirements across all categories"],
+      "haarf_implementation": ["Level 1-2 requirements across all categories"],
       "key_deliverables": [
         "AI management system documentation aligned with healthcare requirements",
         "Risk assessment using HAARF three-factor methodology",
@@ -216,7 +216,7 @@
     },
     "assessment_phase": {
       "duration": "3-6 months", 
-      "haaisvs_evidence": ["Comprehensive compliance verification across all categories"],
+      "haarf_evidence": ["Comprehensive compliance verification across all categories"],
       "audit_focus": [
         "Healthcare risk management effectiveness",
         "Clinical workflow integration",
@@ -226,7 +226,7 @@
     },
     "certification_maintenance": {
       "duration": "Ongoing",
-      "haaisvs_monitoring": ["Continuous monitoring per C1.3 requirements"],
+      "haarf_monitoring": ["Continuous monitoring per C1.3 requirements"],
       "surveillance_audits": [
         "Annual clinical performance review",
         "Population equity monitoring verification",
@@ -236,7 +236,7 @@
     }
   },
   "coverage_analysis": {
-    "total_haaisvs_requirements": 279,
+    "total_haarf_requirements": 279,
     "mapped_to_iso_42001": 198,
     "direct_alignment": 145,
     "enhanced_alignment": 53,

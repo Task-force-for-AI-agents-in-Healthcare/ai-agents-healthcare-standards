@@ -1,6 +1,6 @@
 {
   "mapping_info": {
-    "haaisvs_version": "1.0",
+    "haarf_version": "1.0",
     "target_framework": "Health Canada Sex- and Gender-Based Analysis Plus (SGBA+) & Medical Device Regulations",
     "target_version": "2024 AI/ML Guidance",
     "mapping_date": "2025-01-10",
@@ -10,72 +10,72 @@
   },
   "mappings": [
     {
-      "haaisvs_requirement": "1.1.4",
-      "haaisvs_description": "SaMD risk mapping with four-tier classification system",
+      "haarf_requirement": "1.1.4",
+      "haarf_description": "SaMD risk mapping with four-tier classification system",
       "target_requirements": ["Health Canada SaMD Guidance", "Medical Device Regulations (MDR)"],
       "alignment_type": "direct",
       "notes": "Health Canada SaMD classification directly supported by HAARF four-tier risk mapping",
       "compliance_evidence": "SaMD classification documentation, risk categorization evidence, Health Canada pathway determination"
     },
     {
-      "haaisvs_requirement": "2.1.2",
-      "haaisvs_description": "Health Canada SGBA+ documentation and bias assessment",
+      "haarf_requirement": "2.1.2",
+      "haarf_description": "Health Canada SGBA+ documentation and bias assessment",
       "target_requirements": ["SGBA+ Framework", "Health Canada Guidance Document on AI/ML"],
       "alignment_type": "direct",
       "notes": "Direct implementation of Health Canada SGBA+ requirements with enhanced intersectional analysis",
       "compliance_evidence": "SGBA+ analysis documentation, demographic diversity assessment, intersectional bias evaluation"
     },
     {
-      "haaisvs_requirement": "1.3.4",
-      "haaisvs_description": "Clinical performance monitoring with Health Canada SGBA+ compliance",
+      "haarf_requirement": "1.3.4",
+      "haarf_description": "Clinical performance monitoring with Health Canada SGBA+ compliance",
       "target_requirements": ["Post-market surveillance requirements", "SGBA+ monitoring obligations"],
       "alignment_type": "direct",
       "notes": "Continuous SGBA+ compliance monitoring ensures maintained performance across diverse populations",
       "compliance_evidence": "Population-stratified performance monitoring, SGBA+ compliance tracking, demographic outcome analysis"
     },
     {
-      "haaisvs_requirement": "7.1.1",
-      "haaisvs_description": "Training data representativeness with comprehensive demographic coverage",
+      "haarf_requirement": "7.1.1",
+      "haarf_description": "Training data representativeness with comprehensive demographic coverage",
       "target_requirements": ["SGBA+ Data Requirements", "Health Canada Diversity Guidelines"],
       "alignment_type": "enhanced",
       "notes": "HAARF extends Health Canada SGBA+ with enhanced intersectional analysis and global health considerations",
       "compliance_evidence": "Enhanced demographic representation analysis, intersectional bias assessment, vulnerable population coverage"
     },
     {
-      "haaisvs_requirement": "7.2.1",
-      "haaisvs_description": "Algorithmic bias detection with multi-metric fairness assessment",
+      "haarf_requirement": "7.2.1",
+      "haarf_description": "Algorithmic bias detection with multi-metric fairness assessment",
       "target_requirements": ["SGBA+ Bias Detection", "Health Equity Framework"],
       "alignment_type": "enhanced",
       "notes": "HAARF multi-metric approach provides comprehensive bias detection beyond standard SGBA+ requirements",
       "compliance_evidence": "Multi-metric fairness evaluation, intersectional bias analysis, health equity impact assessment"
     },
     {
-      "haaisvs_requirement": "7.4.1",
-      "haaisvs_description": "Vulnerable population protection with enhanced clinical safeguards",
+      "haarf_requirement": "7.4.1",
+      "haarf_description": "Vulnerable population protection with enhanced clinical safeguards",
       "target_requirements": ["SGBA+ Vulnerable Population Guidelines", "Health Equity Standards"],
       "alignment_type": "direct",
       "notes": "Vulnerable population protection directly addresses Health Canada SGBA+ equity requirements",
       "compliance_evidence": "Vulnerable population risk assessment, enhanced safety protocols, equity outcome monitoring"
     },
     {
-      "haaisvs_requirement": "7.5.1", 
-      "haaisvs_description": "Global health equity considerations for resource-limited settings",
+      "haarf_requirement": "7.5.1", 
+      "haarf_description": "Global health equity considerations for resource-limited settings",
       "target_requirements": ["Health Canada Global Health Strategy", "International Development Guidelines"],
       "alignment_type": "enhanced",
       "notes": "HAARF extends beyond domestic SGBA+ to include global health equity considerations",
       "compliance_evidence": "Resource-limited setting analysis, global health equity assessment, international deployment considerations"
     },
     {
-      "haaisvs_requirement": "4.6.1",
-      "haaisvs_description": "Clinical workflow integration with change management",
+      "haarf_requirement": "4.6.1",
+      "haarf_description": "Clinical workflow integration with change management",
       "target_requirements": ["Health Canada Implementation Guidance", "Clinical Integration Standards"],
       "alignment_type": "direct",
       "notes": "Clinical workflow integration supports Health Canada requirements for healthcare system implementation",
       "compliance_evidence": "Clinical workflow analysis, change management procedures, healthcare professional training documentation"
     },
     {
-      "haaisvs_requirement": "8.2.2",
-      "haaisvs_description": "Tool selection safety validation for patient populations",
+      "haarf_requirement": "8.2.2",
+      "haarf_description": "Tool selection safety validation for patient populations",
       "target_requirements": ["Health Canada Safety Requirements", "Population-Specific Guidelines"],
       "alignment_type": "direct",
       "notes": "Tool selection validation ensures patient population safety aligned with Health Canada requirements",
@@ -120,7 +120,7 @@
     }
   },
   "coverage_analysis": {
-    "total_haaisvs_requirements": 279,
+    "total_haarf_requirements": 279,
     "mapped_to_health_canada": 187,
     "direct_alignment": 134,
     "enhanced_alignment": 53,

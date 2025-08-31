@@ -1,6 +1,6 @@
 {
   "mapping_info": {
-    "haaisvs_version": "1.0", 
+    "haarf_version": "1.0", 
     "target_framework": "UK MHRA Software and AI as Medical Devices (SaMD) Guidance",
     "target_version": "2024 AI Airlock Framework",
     "mapping_date": "2025-01-10",
@@ -10,72 +10,72 @@
   },
   "mappings": [
     {
-      "haaisvs_requirement": "1.4.1",
-      "haaisvs_description": "Regulatory sandbox testing in controlled environments",
+      "haarf_requirement": "1.4.1",
+      "haarf_description": "Regulatory sandbox testing in controlled environments",
       "target_requirements": ["UK MHRA AI Airlock", "Software and AI as Medical Devices Guidance"],
       "alignment_type": "direct",
       "notes": "HAARF regulatory sandbox requirements directly aligned with UK MHRA AI Airlock framework",
       "compliance_evidence": "AI Airlock participation documentation, controlled testing protocols, real-world evidence collection"
     },
     {
-      "haaisvs_requirement": "1.4.2",
-      "haaisvs_description": "Real-world evidence collection for clinical effectiveness",
+      "haarf_requirement": "1.4.2",
+      "haarf_description": "Real-world evidence collection for clinical effectiveness",
       "target_requirements": ["MHRA Real-World Evidence Strategy", "Post-market surveillance requirements"],
       "alignment_type": "direct",
       "notes": "Real-world evidence requirements directly supported by HAARF evidence generation protocols",
       "compliance_evidence": "Real-world evidence study protocols, clinical effectiveness data, post-market surveillance plan"
     },
     {
-      "haaisvs_requirement": "1.1.3",
-      "haaisvs_description": "SaMD risk categorization based on healthcare decision state",
+      "haarf_requirement": "1.1.3",
+      "haarf_description": "SaMD risk categorization based on healthcare decision state",
       "target_requirements": ["MHRA SaMD Classification", "Software and AI Guidance Chapter 3"],
       "alignment_type": "direct",
       "notes": "UK MHRA SaMD classification framework directly implemented through HAARF four-tier system",
       "compliance_evidence": "SaMD classification documentation, healthcare decision analysis, risk categorization evidence"
     },
     {
-      "haaisvs_requirement": "1.5.1",
-      "haaisvs_description": "International regulatory harmonization across jurisdictions",
+      "haarf_requirement": "1.5.1",
+      "haarf_description": "International regulatory harmonization across jurisdictions",
       "target_requirements": ["MHRA International Recognition", "UKCA Conformity Assessment"],
       "alignment_type": "direct",
       "notes": "HAARF multi-jurisdictional approach supports UK MHRA international harmonization goals",
       "compliance_evidence": "Multi-jurisdictional compliance documentation, international recognition agreements, harmonization evidence"
     },
     {
-      "haaisvs_requirement": "2.6.1",
-      "haaisvs_description": "Machine-interpretable documentation for automated compliance",
+      "haarf_requirement": "2.6.1",
+      "haarf_description": "Machine-interpretable documentation for automated compliance",
       "target_requirements": ["MHRA Digital Innovation", "Automated Assessment Tools"],
       "alignment_type": "direct",
       "notes": "Machine-interpretable documentation supports MHRA digital transformation and automated assessment",
       "compliance_evidence": "Automated compliance verification systems, machine-readable documentation, digital assessment tools"
     },
     {
-      "haaisvs_requirement": "3.3.1",
-      "haaisvs_description": "Real-time healthcare threat monitoring with clinical context",
+      "haarf_requirement": "3.3.1",
+      "haarf_description": "Real-time healthcare threat monitoring with clinical context",
       "target_requirements": ["MHRA Cybersecurity Requirements", "Medical Device Security Guidance"],
       "alignment_type": "direct",
       "notes": "Real-time threat monitoring with clinical awareness supports MHRA security requirements",
       "compliance_evidence": "Clinical threat monitoring systems, security incident response procedures, healthcare-specific threat intelligence"
     },
     {
-      "haaisvs_requirement": "4.7.1",
-      "haaisvs_description": "Quality improvement integration with clinical outcome monitoring",
+      "haarf_requirement": "4.7.1",
+      "haarf_description": "Quality improvement integration with clinical outcome monitoring",
       "target_requirements": ["MHRA Clinical Evaluation", "Quality Management System Requirements"],
       "alignment_type": "direct",
       "notes": "Quality improvement integration supports MHRA clinical evaluation and quality management requirements",
       "compliance_evidence": "Clinical quality improvement procedures, outcome monitoring systems, continuous improvement documentation"
     },
     {
-      "haaisvs_requirement": "6.2.1",
-      "haaisvs_description": "Progressive autonomy implementation with safety gates",
+      "haarf_requirement": "6.2.1",
+      "haarf_description": "Progressive autonomy implementation with safety gates",
       "target_requirements": ["MHRA AI Innovation Guidance", "Progressive Implementation Framework"],
       "alignment_type": "enhanced",
       "notes": "HAARF progressive autonomy extends MHRA innovation guidance with structured safety gates",
       "compliance_evidence": "Progressive autonomy implementation plan, safety gate validation, clinical progression documentation"
     },
     {
-      "haaisvs_requirement": "8.5.1",
-      "haaisvs_description": "Circuit breaker patterns for system resilience",
+      "haarf_requirement": "8.5.1",
+      "haarf_description": "Circuit breaker patterns for system resilience",
       "target_requirements": ["MHRA System Resilience", "Medical Device Safety Requirements"],
       "alignment_type": "enhanced",
       "notes": "Circuit breaker and resilience patterns extend MHRA safety requirements for tool-enabled agents",
@@ -85,19 +85,19 @@
   "ai_airlock_integration": {
     "testing_phases": {
       "phase_1_discovery": {
-        "haaisvs_requirements": ["Level 1 foundational requirements"],
+        "haarf_requirements": ["Level 1 foundational requirements"],
         "testing_focus": "Basic safety and effectiveness validation",
         "duration": "3-6 months",
         "evidence_generation": "Preliminary safety and performance data"
       },
       "phase_2_development": {
-        "haaisvs_requirements": ["Level 1-2 comprehensive"],
+        "haarf_requirements": ["Level 1-2 comprehensive"],
         "testing_focus": "Clinical workflow integration and real-world performance", 
         "duration": "6-12 months",
         "evidence_generation": "Clinical effectiveness and workflow integration evidence"
       },
       "phase_3_scale": {
-        "haaisvs_requirements": ["Level 2-3 advanced"],
+        "haarf_requirements": ["Level 2-3 advanced"],
         "testing_focus": "Population-scale deployment and long-term monitoring",
         "duration": "12+ months", 
         "evidence_generation": "Real-world evidence, population health outcomes, regulatory submission data"
@@ -128,7 +128,7 @@
     }
   },
   "coverage_analysis": {
-    "total_haaisvs_requirements": 279,
+    "total_haarf_requirements": 279,
     "mapped_to_mhra": 167,
     "direct_alignment": 123,
     "enhanced_alignment": 44,
