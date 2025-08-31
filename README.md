@@ -28,6 +28,32 @@ AI agents are **autonomous, goal-directed systems** that:
 **Traditional AI**: Input → Prediction → Human Decision  
 **AI Agents**: Input → Autonomous Planning → Direct Action → Continuous Learning
 
+```mermaid
+graph LR
+    subgraph "Traditional AI Pipeline"
+        T1["📥 Input Data"] --> T2["🧠 AI Model"]
+        T2 --> T3["📊 Prediction/Analysis"]
+        T3 --> T4["👨‍⚕️ Human Decision"]
+        T4 --> T5["🎯 Action Taken"]
+    end
+    
+    subgraph "AI Agent Pipeline"
+        A1["📥 Input Data"] --> A2["🤖 AI Agent"]
+        A2 --> A3["📋 Autonomous Planning"]
+        A3 --> A4["🎯 Direct Action"]
+        A4 --> A5["🔄 Continuous Learning"]
+        A5 -.->|"Feedback Loop"| A2
+        
+        A4 --> A6["👨‍⚕️ Human Oversight"]
+        A6 -.->|"Intervention if needed"| A2
+    end
+    
+    style T4 fill:#4caf50,stroke:#2e7d32
+    style A4 fill:#ff5722,stroke:#d84315
+    style A5 fill:#2196f3,stroke:#1565c0
+    style A6 fill:#ff9800,stroke:#f57c00
+```
+
 ## 🏛️ Eight Core Verification Categories
 
 Based on comprehensive analysis of global regulatory approaches and insights from our Healthcare AI Agents Working Group meetings with FDA industry committee stakeholders, our framework establishes **eight comprehensive verification categories** for AI agent governance in healthcare, with recent FDA priority enhancements addressing tool-enabled agent regulatory pathways:
@@ -101,6 +127,46 @@ Based on comprehensive analysis of global regulatory approaches and insights fro
 - **Regulatory Pathway Analysis**: Tool combination impact on FDA submission requirements
 - **Quality System Integration**: Manufacturing controls for tool-enabled agent development
 
+## 🎨 Framework Architecture
+
+```mermaid
+graph TB
+    subgraph "HAARF Framework Overview"
+        C1["🔐 C1: Risk & Lifecycle<br/>Assessment"]
+        C2["📋 C2: Model Passport &<br/>Traceability"]
+        C3["🛡️ C3: Cybersecurity<br/>Framework"]
+        C4["👤 C4: Human Oversight &<br/>Integration"]
+        C5["🆔 C5: Agent Registration &<br/>Identity"]
+        C6["🎛️ C6: Autonomy Governance<br/>& Control"]
+        C7["⚖️ C7: Bias Mitigation &<br/>Population Equity"]
+        C8["🔧 C8: Tool Use &<br/>Integration Security"]
+        
+        C1 --> C2
+        C1 --> C3
+        C3 --> C5
+        C4 --> C6
+        C2 --> C7
+        C5 --> C8
+        
+        style C8 fill:#ffeb3b,stroke:#f57f17,color:#000
+        style C1 fill:#e3f2fd,stroke:#1976d2
+        style C3 fill:#f3e5f5,stroke:#7b1fa2
+    end
+    
+    subgraph "Risk Levels"
+        L1["Level 1<br/>85 Requirements<br/>Foundational"]
+        L2["Level 2<br/>144 Requirements<br/>Standard"]
+        L3["Level 3<br/>50 Requirements<br/>Advanced"]
+        
+        L1 --> L2
+        L2 --> L3
+    end
+    
+    C1 -.->|"Risk Classification"| L1
+```
+
+## 🌍 Regulatory Framework Mappings
+
 HAARF provides **comprehensive mappings** to major regulatory frameworks:
 
 | Framework | Coverage | Key Benefits |
@@ -116,6 +182,40 @@ HAARF provides **comprehensive mappings** to major regulatory frameworks:
 | **[IMDRF GMLP](https://www.imdrf.org/documents/good-machine-learning-practice-medical-device-development-guiding-principles)** | 72% | International harmonization foundation |
 
 **Multi-Jurisdictional Value**: Single HAARF compliance supports regulatory submissions across multiple jurisdictions, reducing regulatory burden and enabling global deployment.
+
+```mermaid
+graph TD
+    subgraph "HAARF Framework"
+        H["🏥 HAARF<br/>Healthcare AI Agents<br/>Regulatory Framework"]
+    end
+    
+    subgraph "Regulatory Mappings"
+        FDA["🇺🇸 FDA Digital Health<br/>84% Coverage<br/>510(k) Pathway"]
+        EU["🇪🇺 EU AI Act<br/>71% Coverage<br/>High-Risk Classification"]
+        NIST["📊 NIST AI RMF<br/>88% Coverage<br/>4-Function Mapping"]
+        HC["🇨🇦 Health Canada<br/>67% Coverage<br/>SGBA+ Analysis"]
+        MHRA["🇬🇧 UK MHRA<br/>60% Coverage<br/>AI Airlock"]
+        OWASP["🔒 OWASP AISVS<br/>56% Coverage<br/>Security Standards"]
+        WHO["🌍 WHO GI-AI4H<br/>48% Coverage<br/>Global Health Equity"]
+        ISO["📋 ISO/IEC 42001<br/>71% Coverage<br/>Management System"]
+        IMDRF["🔧 IMDRF GMLP<br/>72% Coverage<br/>International Harmonization"]
+    end
+    
+    H --> FDA
+    H --> EU
+    H --> NIST
+    H --> HC
+    H --> MHRA
+    H --> OWASP
+    H --> WHO
+    H --> ISO
+    H --> IMDRF
+    
+    style H fill:#2196f3,stroke:#1565c0,color:#fff
+    style FDA fill:#4caf50,stroke:#2e7d32,color:#fff
+    style NIST fill:#4caf50,stroke:#2e7d32,color:#fff
+    style IMDRF fill:#4caf50,stroke:#2e7d32,color:#fff
+```
 
 ## 📁 Repository Structure
 
@@ -148,6 +248,47 @@ HAARF provides **comprehensive mappings** to major regulatory frameworks:
 ```
 
 ## 🚀 Getting Started
+
+```mermaid
+graph TD
+    Start["🚀 Getting Started with HAARF"]
+    
+    subgraph "User Types"
+        HO["🏥 Healthcare Organizations"]
+        DEV["💻 AI Developers"]
+        REG["📋 Regulatory Affairs"]
+    end
+    
+    Start --> HO
+    Start --> DEV
+    Start --> REG
+    
+    subgraph "Healthcare Organization Path"
+        HO --> H1["1️⃣ Risk Assessment<br/>(C1 Risk Classification)"]
+        H1 --> H2["2️⃣ Security Foundation<br/>(C3 Cybersecurity)"]
+        H2 --> H3["3️⃣ Human Oversight<br/>(C4 Clinical Integration)"]
+        H3 --> H4["4️⃣ Tool-Enabled Agents<br/>(C8 Tool Use Security)"]
+    end
+    
+    subgraph "AI Developer Path"
+        DEV --> D1["1️⃣ Framework Overview<br/>(Categories.md)"]
+        D1 --> D2["2️⃣ Implementation Guide<br/>(Using HAARF)"]
+        D2 --> D3["3️⃣ Regulatory Mapping<br/>(Jurisdiction Selection)"]
+        D3 --> D4["4️⃣ Compliance Verification<br/>(Risk Level Requirements)"]
+    end
+    
+    subgraph "Regulatory Affairs Path"
+        REG --> R1["1️⃣ Regulatory Mappings<br/>(Framework Analysis)"]
+        R1 --> R2["2️⃣ Submission Guidance<br/>(Evidence Collection)"]
+        R2 --> R3["3️⃣ Multi-Jurisdictional Strategy<br/>(Harmonized Approach)"]
+        R3 --> R4["4️⃣ FDA Priority Focus<br/>(C8 Tool Use)"]
+    end
+    
+    style HO fill:#4caf50,stroke:#2e7d32,color:#fff
+    style DEV fill:#2196f3,stroke:#1565c0,color:#fff
+    style REG fill:#ff9800,stroke:#f57c00,color:#fff
+    style Start fill:#9c27b0,stroke:#6a1b9a,color:#fff
+```
 
 ### **For Healthcare Organizations**
 
@@ -189,6 +330,44 @@ HAARF provides **three implementation levels** scaled to risk:
 - **Level 1** (85 requirements): Foundational controls for basic healthcare AI agents
 - **Level 2** (144 requirements): Standard implementation for moderate-risk agents  
 - **Level 3** (50 requirements): Advanced controls for high-risk autonomous agents
+
+```mermaid
+graph TD
+    subgraph "HAARF Implementation Levels"
+        subgraph "Level 1: Foundational"
+            L1_1["85 Requirements"]
+            L1_2["Basic Healthcare AI Agents"]
+            L1_3["Low Risk Classification"]
+            L1_4["Core Security Controls"]
+        end
+        
+        subgraph "Level 2: Standard"
+            L2_1["144 Requirements"]
+            L2_2["Moderate-Risk Agents"]
+            L2_3["Enhanced Oversight"]
+            L2_4["Comprehensive Testing"]
+        end
+        
+        subgraph "Level 3: Advanced"
+            L3_1["50 Requirements"]
+            L3_2["High-Risk Autonomous Agents"]
+            L3_3["Maximum Human Oversight"]
+            L3_4["Continuous Monitoring"]
+        end
+        
+        Risk["🎯 Risk Assessment"] --> L1_1
+        L1_1 --> L2_1
+        L2_1 --> L3_1
+        
+        L1_4 --> L2_3
+        L2_4 --> L3_3
+        
+        style L1_1 fill:#4caf50,stroke:#2e7d32,color:#fff
+        style L2_1 fill:#ff9800,stroke:#f57c00,color:#fff
+        style L3_1 fill:#f44336,stroke:#c62828,color:#fff
+        style Risk fill:#2196f3,stroke:#1565c0,color:#fff
+    end
+```
 
 **Risk-Based Approach**: Higher risk agents require higher verification levels, optimizing regulatory burden while ensuring safety.
 
