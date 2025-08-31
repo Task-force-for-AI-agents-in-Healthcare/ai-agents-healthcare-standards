@@ -92,6 +92,6 @@ Each mapping includes:
 
 ---
 
-**Support**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
+**Support**: [haarf@quome.site](mailto:haarf@quome.site)
 
 **The HAARF mappings enable confident deployment of healthcare AI agents across global markets while maintaining highest standards of safety, effectiveness, and regulatory compliance.**

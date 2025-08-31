@@ -203,7 +203,7 @@ We welcome contributions from healthcare professionals, AI developers, regulator
 
 ## 📞 Support & Contact
 
-**All Inquiries**: [haaisvs@quome.site](mailto:haaisvs@quome.site)
+**All Inquiries**: [haarf@quome.site](mailto:haarf@quome.site)
 
 *Technical support, regulatory guidance, security issues, and partnership inquiries*
 
